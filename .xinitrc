@@ -8,6 +8,10 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
+xset s 0 &
+xset b 0 &
+xset -dpms  &
+setterm -blank 0 &
 #export LC_CTYPE="zh_CN.UTF-8"
 # volumeicon &
 # fcitx &
