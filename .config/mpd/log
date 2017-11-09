@@ -1,0 +1,312 @@
+Nov 02 14:36 : exception: Failed to open /home/zero/.config/mpd/state: No such file or directory
+Nov 02 14:36 : update: added /伤痛.mp3
+Nov 02 14:49 : exception: Failed to open /home/zero/.config/mpd/state: No such file or directory
+Nov 02 14:50 : exception: Failed to open /home/zero/.config/mpd/state: No such file or directory
+Nov 02 15:20 : client: [0] opened from 127.0.0.1:52062
+Nov 02 15:20 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Nov 02 15:20 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Nov 02 15:21 : client: [0] closed
+Nov 02 15:21 : client: [1] opened from 127.0.0.1:52120
+Nov 02 15:22 : client: [1] closed
+Nov 02 15:22 : client: [2] opened from 127.0.0.1:52136
+Nov 02 15:22 : player: played "伤痛.mp3"
+Nov 02 15:23 : client: [2] closed
+Nov 02 15:24 : client: [3] opened from 127.0.0.1:52228
+Nov 02 15:24 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Nov 02 15:25 : client: [3] closed
+Nov 02 15:25 : client: [4] opened from 127.0.0.1:52268
+Nov 02 15:25 : player: played "伤痛.mp3"
+Nov 02 15:25 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Nov 02 15:25 : player: played "伤痛.mp3"
+Nov 02 15:26 : client: [4] closed
+Nov 02 15:44 : client: [5] opened from 127.0.0.1:53734
+Nov 02 15:45 : client: [5] closed
+Nov 02 15:46 : client: [6] opened from 127.0.0.1:53812
+Nov 02 15:46 : client: [6] closed
+Nov 02 15:47 : client: [7] opened from 127.0.0.1:53844
+Nov 02 15:47 : client: [7] closed
+Nov 02 15:48 : client: [8] opened from 127.0.0.1:53886
+Nov 02 15:48 : client: [8] closed
+Nov 03 10:35 : client: [0] opened from 127.0.0.1:55306
+Nov 03 10:35 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : player: problems opening audio device while playing "伤痛.mp3"
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:35 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:35 : player: played "伤痛.mp3"
+Nov 03 10:36 : client: [0] closed
+Nov 03 10:36 : client: [1] opened from 127.0.0.1:55360
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : player: problems opening audio device while playing "伤痛.mp3"
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : player: played "伤痛.mp3"
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : player: problems opening audio device while playing "伤痛.mp3"
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : player: played "伤痛.mp3"
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : player: problems opening audio device while playing "伤痛.mp3"
+Nov 03 10:36 : client: [1] closed
+Nov 03 10:36 : client: [2] opened from 127.0.0.1:55384
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:36 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:36 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:37 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:37 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:37 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:37 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:37 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:37 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:37 : exception: Failed to open "My ALSA Device" [alsa]
+Nov 03 10:37 : exception: nested: Failed to open ALSA device "hw:0,0": No such file or directory
+Nov 03 10:37 : player: played "伤痛.mp3"
+Nov 03 10:37 : client: [2] closed
+Nov 03 17:39 : exception: Failed to commit /home/zero/.config/mpd/state: File exists
+Nov 03 17:39 : exception: Failed to commit /home/zero/.config/mpd/state: File exists
+Nov 09 15:55 : avahi: Initializing interface
+Nov 09 15:55 : avahi: Client changed to state 101
+Nov 09 15:55 : avahi: Client is CONNECTING
+Nov 09 15:55 : state_file: Loading state file /home/zero/.config/mpd/state
+Nov 09 15:57 : avahi: Initializing interface
+Nov 09 15:57 : avahi: Client changed to state 101
+Nov 09 15:57 : avahi: Client is CONNECTING
+Nov 09 15:57 : state_file: Loading state file /home/zero/.config/mpd/state
+Nov 09 16:04 : client: [0] opened from 127.0.0.1:45488
+Nov 09 16:04 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:05 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:05 : player: played "伤痛.mp3"
+Nov 09 16:06 : client: [0] closed
+Nov 09 16:07 : client: [1] opened from local
+Nov 09 16:07 : exception: No such song
+Nov 09 16:07 : exception: No such song
+Nov 09 16:07 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:07 : exception: No such song
+Nov 09 16:07 : exception: No such song
+Nov 09 16:07 : exception: No such song
+Nov 09 16:07 : client: [1] closed
+Nov 09 16:07 : client: [2] opened from local
+Nov 09 16:07 : player: played "伤痛.mp3"
+Nov 09 16:07 : client: [2] closed
+Nov 09 16:13 : client: [3] opened from 127.0.0.1:47694
+Nov 09 16:13 : client: [3] closed
+Nov 09 16:13 : client: [4] opened from local
+Nov 09 16:13 : exception: No such song
+Nov 09 16:13 : exception: No such song
+Nov 09 16:13 : exception: No such song
+Nov 09 16:13 : exception: No such song
+Nov 09 16:13 : exception: No such song
+Nov 09 16:14 : exception: No such song
+Nov 09 16:14 : exception: No such song
+Nov 09 16:14 : exception: No such song
+Nov 09 16:14 : exception: No such song
+Nov 09 16:14 : exception: No such song
+Nov 09 16:14 : client: [4] closed
+Nov 09 16:14 : client: [5] opened from local
+Nov 09 16:15 : exception: No such song
+Nov 09 16:15 : exception: No such song
+Nov 09 16:15 : exception: No such song
+Nov 09 16:15 : exception: No such song
+Nov 09 16:15 : exception: No such song
+Nov 09 16:15 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:15 : client: [5] closed
+Nov 09 16:15 : client: [6] opened from local
+Nov 09 16:15 : player: played "伤痛.mp3"
+Nov 09 16:15 : client: [6] closed
+Nov 09 16:15 : client: [7] opened from local
+Nov 09 16:15 : exception: No such song
+Nov 09 16:15 : exception: No such song
+Nov 09 16:16 : exception: No such song
+Nov 09 16:16 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:16 : player: played "伤痛.mp3"
+Nov 09 16:16 : client: [7] closed
+Nov 09 16:23 : client: [0] opened from local
+Nov 09 16:23 : exception: Failed to read mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:23 : exception: No such song
+Nov 09 16:23 : exception: No such song
+Nov 09 16:23 : exception: No such song
+Nov 09 16:23 : exception: No such song
+Nov 09 16:23 : exception: No such song
+Nov 09 16:23 : exception: No such song
+Nov 09 16:23 : client: [0] closed
+Nov 09 16:37 : client: [1] opened from 127.0.0.1:54596
+Nov 09 16:37 : client: [1] closed
+Nov 09 16:38 : client: [2] opened from local
+Nov 09 16:38 : exception: No such song
+Nov 09 16:38 : exception: No such song
+Nov 09 16:38 : exception: No such song
+Nov 09 16:38 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:38 : player: played "伤痛.mp3"
+Nov 09 16:38 : client: [2] closed
+Nov 09 16:43 : client: [3] opened from 127.0.0.1:56258
+Nov 09 16:43 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:43 : client: [3] closed
+Nov 09 16:43 : client: [4] opened from 127.0.0.1:56440
+Nov 09 16:43 : client: [4] closed
+Nov 09 16:43 : client: [5] opened from 127.0.0.1:56452
+Nov 09 16:43 : player: played "伤痛.mp3"
+Nov 09 16:43 : client: [5] closed
+Nov 09 16:44 : client: [6] opened from local
+Nov 09 16:44 : exception: No such song
+Nov 09 16:44 : exception: No such song
+Nov 09 16:44 : exception: No such song
+Nov 09 16:46 : client: [7] opened from 127.0.0.1:56994
+Nov 09 16:46 : client: [7] closed
+Nov 09 16:47 : client: [8] opened from 127.0.0.1:57312
+Nov 09 16:48 : client: [8] closed
+Nov 09 16:50 : client: [9] opened from 127.0.0.1:58056
+Nov 09 16:51 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:52 : player: played "伤痛.mp3"
+Nov 09 16:52 : client: [9] closed
+Nov 09 16:52 : client: [6] closed
+Nov 09 16:52 : client: [10] opened from local
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:52 : exception: No such song
+Nov 09 16:53 : client: [10] closed
+Nov 09 16:53 : client: [11] opened from local
+Nov 09 16:53 : exception: Failed to open mixer for 'My ALSA Device': no such mixer control: PCM
+Nov 09 16:53 : player: played "伤痛.mp3"
+Nov 09 16:53 : client: [11] closed
+Nov 09 16:55 : client: [0] opened from 127.0.0.1:59346
+Nov 09 16:55 : player: played "伤痛.mp3"
+Nov 09 16:55 : client: [0] closed
+Nov 09 16:56 : client: [1] opened from local
+Nov 09 16:56 : exception: No such song
+Nov 09 16:56 : exception: No such song
+Nov 09 16:56 : exception: No such song
+Nov 09 16:56 : client: [1] closed
+Nov 09 16:56 : update: added /dreamitpossible.mp3
+Nov 09 16:56 : update: added /you.mp3
+Nov 09 16:59 : state_file: Saving state file /home/zero/.config/mpd/state
+Nov 09 16:59 : avahi: Shutting down interface
+Nov 09 16:59 : listen: listen_global_finish called
+Nov 09 16:59 : state_file: Saving state file /home/zero/.config/mpd/state
+Nov 09 16:59 : avahi: Shutting down interface
+Nov 09 16:59 : listen: listen_global_finish called
+Nov 09 16:59 : client: [0] opened from local
+Nov 09 17:05 : player: played "you.mp3"

@@ -21,6 +21,7 @@ syntax on
 set history=2000
 set wrap
 " filetype
+"execute pathogen#infect()
 filetype on
 set nocompatible
 " Enable filetype plugins
@@ -37,6 +38,32 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vimwiki/vimwiki'
 Plugin 'vim-latex/vim-latex'
+"Plugin 'ying17zi/vim-live-latex-preview'
+"LaTeX Keybinds
+"autocmd FileType tex inoremap ;lat {\LaTeX}
+"autocmd FileType tex inoremap ;ul \begin{itemize}<Enter><Enter>\end{itemize}<Esc>kA\item
+"autocmd FileType tex inoremap ;li <Enter>\item
+"autocmd FileType tex inoremap ;adj \begin{adjustwidth}{2.5em}{0pt}<Enter><enter>\end{adjustwidth}<Esc>kA
+"autocmd FileType tex inoremap ;prb \begin{proofbox}<Enter><Enter>\end{proofbox}<Esc>kA\lbl{}\:<++><Esc>F}i
+"autocmd FileType tex inoremap ;sec \section*{}<++><Esc>F}i
+"autocmd FileType tex inoremap ;sub \subsection*{}<++><Esc>F}i
+"autocmd FileType tex inoremap ;fr \frac{}{<++>}<++><Esc>2F}i
+"autocmd FileType tex inoremap ;dfr \dfrac{}{<++>}<++><Esc>2F}i
+"autocmd FileType tex inoremap ;dot \cdot
+"autocmd FileType tex inoremap ;eq $$<++><Esc>F$i
+"autocmd FileType tex inoremap ;lbl <Enter>\lbl{}\:<++><Esc>F}i
+"autocmd FileType tex inoremap ;col \begin{multicols}{}<Enter><++><Enter>\end{multicols}<Esc>kkf{a
+"autocmd FileType tex inoremap ;quo ``"<++><Esc>F"i
+"autocmd FileType tex inoremap ;sqrt \sqrt{}<++><Esc>F}i
+"autocmd FileType tex inoremap ;bf \textbf{}<++><Esc>F}i
+"autocmd FileType tex inoremap ;it \textit{}<++><Esc>F}i
+"autocmd FileType tex inoremap ;ul \underline{}<++><Esc>F}i
+"autocmd FileType tex inoremap ;sum \sum_{}^<++><Esc>F}i
+"Plugin 'majutsushi/tagbar'
+Plugin 'taglist.vim'
+Plugin 'AutoComplPop'
+Plugin 'TxtBrowser'
+au BufEnter *.txt setlocal ft=txt
 call vundle#end()
 
 " base
