@@ -1,8 +1,6 @@
-sw_volume: 84
+sw_volume: 80
 audio_device_state:1:My ALSA Device
-state: play
-current: 1
-time: 4.574000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -13,4 +11,11 @@ mixrampdelay: -1.000000
 playlist_begin
 0:you.mp3
 1:dreamitpossible.mp3
+2:茜さす.mp3
+3:never to late.mp3
+4:victory.mp3
+5:伤痛.mp3
+6:96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
+7:before the night end.mp3
+8:浅醉一生.mp3
 playlist_end

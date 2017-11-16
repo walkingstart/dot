@@ -22,6 +22,7 @@
 #------------------------------------------------------
 # set display
 export DISPLAY=:0
+export MPD_HOST=$HOME/.config/mpd/socket
 
 # set 256color support (doesnt work with older apps like abook)
 #export TERM="screen-256color"
@@ -1446,6 +1447,7 @@ unmount-archive() {
  alias ff="find . |grep "
  alias pp="ps aux |grep "
  alias oo="xdg-open "
+ alias emacs="emacs -nw"
 
 #alias xclipin='xclip -sel c -in <'
 #alias xclipout='xclip -sel c -out >'

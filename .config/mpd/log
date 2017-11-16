@@ -310,3 +310,58 @@ Nov 09 16:59 : avahi: Shutting down interface
 Nov 09 16:59 : listen: listen_global_finish called
 Nov 09 16:59 : client: [0] opened from local
 Nov 09 17:05 : player: played "you.mp3"
+Nov 09 17:09 : player: played "dreamitpossible.mp3"
+Nov 09 17:23 : update: added /victory.mp3
+Nov 09 17:31 : update: added /茜さす.mp3
+Nov 09 17:33 : update: added /never to late.mp3
+Nov 09 17:34 : update: added /never too late.mp3
+Nov 09 17:35 : client: [0] closed
+Nov 09 17:35 : client: [1] opened from local
+Nov 09 17:35 : client: [1] closed
+Nov 09 17:35 : client: [2] opened from local
+Nov 09 17:35 : player: played "茜さす.mp3"
+Nov 09 17:35 : client: [2] closed
+Nov 10 08:30 : client: [0] opened from 127.0.0.1:40142
+Nov 10 08:32 : player: played "you.mp3"
+Nov 10 08:53 : client: [0] closed
+Nov 10 17:21 : client: [0] opened from 127.0.0.1:53970
+Nov 10 17:24 : player: played "dreamitpossible.mp3"
+Nov 10 17:30 : player: played "茜さす.mp3"
+Nov 10 17:35 : player: played "never to late.mp3"
+Nov 10 17:42 : player: played "victory.mp3"
+Nov 11 09:07 : client: [0] opened from 127.0.0.1:34080
+Nov 11 09:13 : player: played "茜さす.mp3"
+Nov 11 09:18 : player: played "never to late.mp3"
+Nov 11 09:23 : player: played "victory.mp3"
+Nov 11 10:45 : client: [0] closed
+Nov 14 13:28 : client: [0] opened from 127.0.0.1:39594
+Nov 14 13:34 : player: played "茜さす.mp3"
+Nov 14 13:39 : player: played "never to late.mp3"
+Nov 14 13:44 : player: played "victory.mp3"
+Nov 14 13:50 : player: played "you.mp3"
+Nov 14 13:52 : player: played "dreamitpossible.mp3"
+Nov 14 14:26 : update: added /take my hand.mp3
+Nov 14 14:26 : update: added /96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
+Nov 14 14:26 : update: added /before the night end.mp3
+Nov 14 14:26 : update: added /rember.mp3
+Nov 14 14:26 : update: added /it's not to say gool-bye.mp3
+Nov 14 14:26 : update: added /through the arobr.mp3
+Nov 14 14:26 : update: added /gates of dawn.mp3
+Nov 14 14:26 : update: added /numb.mp3
+Nov 14 14:26 : update: added /back to the moon and back.mp3
+Nov 14 14:26 : update: updating /you.mp3
+Nov 14 14:26 : update: added /浅醉一生.mp3
+Nov 14 14:35 : player: played "dreamitpossible.mp3"
+Nov 14 14:40 : player: played "茜さす.mp3"
+Nov 14 14:45 : player: played "never to late.mp3"
+Nov 14 14:51 : player: played "victory.mp3"
+Nov 14 14:55 : player: played "伤痛.mp3"
+Nov 14 14:59 : player: played "96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3"
+Nov 14 14:59 : client: [0] closed
+Nov 15 16:38 : client: [0] opened from local
+Nov 15 16:43 : player: played "茜さす.mp3"
+Nov 15 17:31 : client: [0] closed
+Nov 15 17:31 : avahi: Client Disconnected, will reconnect shortly
+Nov 15 17:31 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 16 16:51 : client: [0] opened from local
+Nov 16 16:54 : player: played "浅醉一生.mp3"

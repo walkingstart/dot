@@ -13,6 +13,7 @@ xset s 0 &
 xset b 0 &
 xset -dpms  &
 setterm -blank 0 &
+xblacklight -set 10 &
 #export LC_CTYPE="zh_CN.UTF-8"
 # volumeicon &
 # fcitx &

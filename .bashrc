@@ -10,3 +10,5 @@ PS1='[\u@\h \W]\$ '
 if [ -f ~/.aliasrc ]; then
     . ~/.aliasrc
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

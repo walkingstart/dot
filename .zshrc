@@ -86,3 +86,5 @@ source $ZSH/oh-my-zsh.sh
 if [[ -f ~/.aliasrc ]]; then
     source ~/.aliasrc
 fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
