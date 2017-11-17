@@ -9,12 +9,21 @@ gaps inner 10
 gaps outer 0 
 smart_gaps on 
 
+# Colors
+set $black #010101
+set $gray #585756
+set $accent #c6ff00
+set $urgent #DF6418
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+
 # Custom KeyBinds
  set $mode_system System (l) lock, (e) exit, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) Shutdown
  mode "$mode_system" {
@@ -184,32 +193,53 @@ bindsym $mod+a focus parent
 
 
 # switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
-bindsym $mod+plus workspace 
-bindsym $mod+minus workspace 
+#bindsym $mod+1 workspace 1
+#bindsym $mod+2 workspace 2
+#bindsym $mod+3 workspace 3
+#bindsym $mod+4 workspace 4
+#bindsym $mod+5 workspace 5
+#bindsym $mod+6 workspace 6
+#bindsym $mod+7 workspace 7
+#bindsym $mod+8 workspace 8
+#bindsym $mod+9 workspace 9
+#bindsym $mod+0 workspace 10
+#bindsym $mod+plus workspace 
+#bindsym $mod+minus workspace 
+bindsym $mod+1 workspace  
+bindsym $mod+2 workspace  
+bindsym $mod+3 workspace  
+bindsym $mod+4 workspace  
+bindsym $mod+5 workspace  
+bindsym $mod+6 workspace  
+bindsym $mod+7 workspace  
+bindsym $mod+8 workspace  
+bindsym $mod+9 workspace  
+bindsym $mod+0 workspace  
+
+bindsym $mod+Shift+1 move container to workspace  ; workspace  
+bindsym $mod+Shift+2 move container to workspace  ; workspace  
+bindsym $mod+Shift+3 move container to workspace  ; workspace  
+bindsym $mod+Shift+4 move container to workspace  ; workspace  
+bindsym $mod+Shift+5 move container to workspace  ; workspace  
+bindsym $mod+Shift+6 move container to workspace  ; workspace  
+bindsym $mod+Shift+7 move container to workspace  ; workspace  
+bindsym $mod+Shift+8 move container to workspace  ; workspace  
+bindsym $mod+Shift+9 move container to workspace  ; workspace  
+bindsym $mod+Shift+0 move container to workspace  ; workspace  
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1; workspace 1
-bindsym $mod+Shift+2 move container to workspace 2; workspace 2
-bindsym $mod+Shift+3 move container to workspace 3; workspace 3
-bindsym $mod+Shift+4 move container to workspace 4; workspace 4
-bindsym $mod+Shift+5 move container to workspace 5; workspace 5
-bindsym $mod+Shift+6 move container to workspace 6; workspace 6
-bindsym $mod+Shift+7 move container to workspace 7; workspace 7
-bindsym $mod+Shift+8 move container to workspace 8; workspace 8
-bindsym $mod+Shift+9 move container to workspace 9; workspace 9
-bindsym $mod+Shift+0 move container to workspace 10; workspace 10
-bindsym $mod+Shift+plus move container to workspace ; workspace 
-bindsym $mod+Shift+minus move container to workspace ; workspace 
+#bindsym $mod+Shift+1 move container to workspace 1; workspace 1
+#bindsym $mod+Shift+2 move container to workspace 2; workspace 2
+#bindsym $mod+Shift+3 move container to workspace 3; workspace 3
+#bindsym $mod+Shift+4 move container to workspace 4; workspace 4
+#bindsym $mod+Shift+5 move container to workspace 5; workspace 5
+#bindsym $mod+Shift+6 move container to workspace 6; workspace 6
+#bindsym $mod+Shift+7 move container to workspace 7; workspace 7
+#bindsym $mod+Shift+8 move container to workspace 8; workspace 8
+#bindsym $mod+Shift+9 move container to workspace 9; workspace 9
+#bindsym $mod+Shift+0 move container to workspace 10; workspace 10
+#bindsym $mod+Shift+plus move container to workspace ; workspace 
+#bindsym $mod+Shift+minus move container to workspace ; workspace 
 
 bindsym $mod+n workspace next
 #bindsym $mod+Control+Left workspace prev
@@ -219,13 +249,14 @@ bindsym $mod+n workspace next
 #bindsym Mod1+Tab workspace back_and_forth
 #bindsym $mod+Shift+Tab move container to workspace back_and_forth
 
+assign [class="(?i)firefox"] workspace 
 
 #exec --no-startup-id spotify
 # exec --no-startup-id steam-native
 for_window [class="(?i)mplayer"] move container to workspace 
 # for_window [class="(?i)thunar"] move container to workspace 8:
-for_window [class="(?i)Steam"] move container to workspace 
-exec --no-startup-id i3-msg workspace 1
+#for_window [class="(?i)Steam"] move container to workspace 
+exec --no-startup-id i3-msg workspace 
 
 
 
@@ -287,13 +318,23 @@ bar {
   colors {
     separator #268bd2
    # separator $transparent
-    statusline #839496
+   # statusline #839496
     background #002b36
+   # background $black
+	statusline $accent
+	separator $accent
    # background $transparent
-    focused_workspace #fdf6e3 #6c71c4 #fdf6e3
-    active_workspace #fdf6e3 #6c71c4 #fdf6e3
-    inactive_workspace #002b36 #586e75 #002b36
-    urgent_workspace #d33682 #d33682 #fdf6e3
+   # ---| border | bg | fg |---
+		focused_workspace $accent $accent $black
+	#	active_workspace $black $black $accent
+#		inactive_workspace $black $black $accent
+		urgent_workspace $urgent $urgent $black
+   # focused_workspace #fdf6e3 #6c71c4 #fdf6e3
+   # active_workspace #fdf6e3 #6c71c4 #fdf6e3
+     active_workspace #fdf6e3 #6c71c4 $accent
+   # inactive_workspace #002b36 #586e75 #002b36
+     inactive_workspace #002b36 #586e75 $accent
+   # urgent_workspace #d33682 #d33682 #fdf6e3
   }
 }
 ################################################################################

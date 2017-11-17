@@ -1,6 +1,7 @@
-sw_volume: 80
+sw_volume: 76
 audio_device_state:1:My ALSA Device
 state: stop
+current: 28
 random: 0
 repeat: 0
 single: 0
@@ -18,4 +19,36 @@ playlist_begin
 6:96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
 7:before the night end.mp3
 8:浅醉一生.mp3
+9:伤痛.mp3
+10:茜さす.mp3
+11:dreamitpossible.mp3
+12:never to late.mp3
+13:victory.mp3
+14:you.mp3
+15:96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
+16:浅醉一生.mp3
+17:back to the moon and back.mp3
+18:before the night end.mp3
+19:gates of dawn.mp3
+20:it's not to say gool-bye.mp3
+21:numb.mp3
+22:rember.mp3
+23:take my hand.mp3
+24:through the arobr.mp3
+25:伤痛.mp3
+26:茜さす.mp3
+27:dreamitpossible.mp3
+28:never to late.mp3
+29:victory.mp3
+30:you.mp3
+31:96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
+32:浅醉一生.mp3
+33:back to the moon and back.mp3
+34:before the night end.mp3
+35:gates of dawn.mp3
+36:it's not to say gool-bye.mp3
+37:numb.mp3
+38:rember.mp3
+39:take my hand.mp3
+40:through the arobr.mp3
 playlist_end

@@ -365,3 +365,19 @@ Nov 15 17:31 : avahi: Client Disconnected, will reconnect shortly
 Nov 15 17:31 : avahi: Could not reconnect: An unexpected D-Bus error occurred
 Nov 16 16:51 : client: [0] opened from local
 Nov 16 16:54 : player: played "浅醉一生.mp3"
+Nov 16 16:59 : player: played "伤痛.mp3"
+Nov 16 17:05 : client: [0] closed
+Nov 16 17:05 : player: played "茜さす.mp3"
+Nov 16 17:08 : player: played "dreamitpossible.mp3"
+Nov 16 17:13 : player: played "never to late.mp3"
+Nov 16 17:19 : player: played "victory.mp3"
+Nov 16 17:23 : client: [1] opened from local
+Nov 16 17:23 : player: played "you.mp3"
+Nov 16 17:23 : client: [1] closed
+Nov 17 12:31 : client: [0] opened from local
+Nov 17 12:37 : player: played "through the arobr.mp3"
+Nov 17 12:41 : player: played "伤痛.mp3"
+Nov 17 12:47 : player: played "茜さす.mp3"
+Nov 17 12:50 : player: played "dreamitpossible.mp3"
+Nov 17 12:52 : player: played "never to late.mp3"
+Nov 17 12:52 : client: [0] closed
