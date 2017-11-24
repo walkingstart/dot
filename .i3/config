@@ -319,13 +319,16 @@ bar {
     separator #268bd2
    # separator $transparent
    # statusline #839496
-    background #002b36
-   # background $black
+   # background #002b36
+   #  background #0F2540
+    background #001A26
 	statusline $accent
 	separator $accent
    # background $transparent
    # ---| border | bg | fg |---
 		focused_workspace $accent $accent $black
+       # focused_workspace #0E376F #0E376F $black
+
 	#	active_workspace $black $black $accent
 #		inactive_workspace $black $black $accent
 		urgent_workspace $urgent $urgent $black
