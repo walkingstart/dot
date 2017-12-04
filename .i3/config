@@ -1,13 +1,24 @@
 # Windows button
 set $mod Mod4
 
+# Font
+#font pango:System San Francisco Display 11
+font pango:Monospace,FontAwesome 12
+
+# Polybar
+#exec_always --no-startup-id ~/.config/polybar/launch.sh
+#exec_always pkill -9 polybar ; polybar top
+
+# Wallpaper
+#exec_always sh ~/.config/i3/SetWallpaper.sh ~/Downloads/rocky_coastline.png &
+
 # (No) Title Bars
 for_window [class="^.*"] border pixel 0
 
 # Gaps
 gaps inner 10
-gaps outer 0 
-smart_gaps on 
+gaps outer 0
+smart_gaps on
 
 # Colors
 set $black #010101
@@ -42,17 +53,6 @@ bindsym $mod+space focus mode_toggle
 
 
 #bindsym Mod1+Control+Delete exec --no-startup-id xfce4-taskmanager
-
-# Font
-#font pango:System San Francisco Display 11
-font pango:Monospace,FontAwesome 12
-
-# Polybar
-#exec_always --no-startup-id ~/.config/polybar/launch.sh
-#exec_always pkill -9 polybar ; polybar top
-
-# Wallpaper
-#exec_always sh ~/.config/i3/SetWallpaper.sh ~/Downloads/rocky_coastline.png &
 
 
 
@@ -127,10 +127,10 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -display-drun "" -fuzzy -
 # TILING
 ################################################################################
 
-set $up k
-set $down j
-set $left h
-set $right l
+set $up l
+set $down k
+set $left j
+set $right semicolon
 
 # change focus
 bindsym $mod+$left focus left
@@ -157,10 +157,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-# bindsym $mod+h split h
+bindsym $mod+h split h
 
 # split in vertical orientation
-# bindsym $mod+v split v
+bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -168,7 +168,7 @@ bindsym $mod+f fullscreen toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-# bindsym $mod+e layout toggle split
+bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+t floating toggle
@@ -289,17 +289,33 @@ bindsym $mod+r mode "resize"
 # COLOURS
 ################################################################################
 
-set $bg-colour              #2f343f
-set $inactive-bg-colour     #2f343f
-set $text-colour            #f3f4f5
-set $inactive-text-colour   #676e7d
-set $urgent-bg-colour       #e53935
+# Colors from Xresources
+set_from_resource $bg  i3wm.color0  #f0f0f0
+set_from_resource $fg  i3wm.color15 #f0f0f0
+set_from_resource $bg2 i3wm.color4  #f0f0f0
+set_from_resource $fg2 i3wm.color7  #f0f0f0
+set_from_resource $bg3 i3wm.color3  #f0f0f0
+set_from_resource $bg4 i3wm.color1  #f0f0f0
 
-# Window Colours            Border                  Background                  Text                    Indicator
-client.focused              $bg-colour              $bg-colour                  $text-colour            #00ff00
-client.focused_inactive     $inactive-bg-colour     $inactive-bg-colour         $inactive-text-colour   #00ff00
-client.unfocused            $inactive-bg-colour     $inactive-bg-colour         $inactive-text-colour   #00ff00
-client.urgent               $urgent-bg-colour       $urgent-bg-colour           $text-colour            #00ff00
+# class                 border  backgr. text indicator child_border
+client.focused          $bg      $bg    $fg  $bg   $bg
+client.focused_inactive $bg      $bg    $fg  $bg   $bg
+client.unfocused        $bg      $bg    $fg  $bg   $bg
+client.urgent           $bg      $bg    $fg  $bg   $bg
+client.placeholder      $bg      $bg    $fg  $bg   $bg
+client.background $bg
+
+#set $bg-colour              #2f343f
+#set $inactive-bg-colour     #2f343f
+#set $text-colour            #f3f4f5
+#set $inactive-text-colour   #676e7d
+#set $urgent-bg-colour       #e53935
+#
+## Window Colours            Border                  Background                  Text                    Indicator
+#client.focused              $bg-colour              $bg-colour                  $text-colour            #00ff00
+#client.focused_inactive     $inactive-bg-colour     $inactive-bg-colour         $inactive-text-colour   #00ff00
+#client.unfocused            $inactive-bg-colour     $inactive-bg-colour         $inactive-text-colour   #00ff00
+#client.urgent               $urgent-bg-colour       $urgent-bg-colour           $text-colour            #00ff00
 
 ##################
 #bar
@@ -337,6 +353,7 @@ bar {
      active_workspace #fdf6e3 #6c71c4 $accent
    # inactive_workspace #002b36 #586e75 #002b36
      inactive_workspace #002b36 #586e75 $accent
+  # inactive_workspace $bg $bg $fg
    # urgent_workspace #d33682 #d33682 #fdf6e3
   }
 }
@@ -397,7 +414,7 @@ for_window [title="Terminator Preferences"] floating enable
 
 # Compton
 exec_always pkill -9 compton ; compton -cCFb --config ~/.compton.conf 
-exec --no-startup-id feh --bg-fill ~/picture/9.png
+exec --no-startup-id feh --bg-fill ~/picture/green.jpg
 exec --no-startup-id fcitx&
 exec --no-startup-id volumeicon&
 #exec --no-startup-id compton -b # --config ~/.config/compton.conf

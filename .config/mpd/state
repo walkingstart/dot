@@ -1,7 +1,8 @@
-sw_volume: 56
+sw_volume: 40
 audio_device_state:1:My ALSA Device
-state: stop
-current: 24
+state: pause
+current: 67
+time: 239.281000
 random: 0
 repeat: 0
 single: 0
@@ -83,4 +84,20 @@ playlist_begin
 70:rember.mp3
 71:take my hand.mp3
 72:through the arobr.mp3
+73:伤痛.mp3
+74:茜さす.mp3
+75:dreamitpossible.mp3
+76:never to late.mp3
+77:victory.mp3
+78:you.mp3
+79:96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
+80:浅醉一生.mp3
+81:back to the moon and back.mp3
+82:before the night end.mp3
+83:gates of dawn.mp3
+84:it's not to say gool-bye.mp3
+85:numb.mp3
+86:rember.mp3
+87:take my hand.mp3
+88:through the arobr.mp3
 playlist_end
