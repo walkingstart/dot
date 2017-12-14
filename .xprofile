@@ -1,0 +1,50 @@
+#!/bin/sh
+#
+# ~/.xinitrc
+#
+# Executed by startx (run your window manager from here)
+
+if [ -d /etc/X11/xinit/xinitrc.d ]; then
+  for f in /etc/X11/xinit/xinitrc.d/*; do
+    [ -x "$f" ] && . "$f"
+  done
+  unset f
+fi
+#volumeicon &
+#fcitx &
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export LC_CTYPE="zh_CN.UTF-8"
+# exec gnome-session
+# exec startkde
+# exec startxfce4
+# ...or the Window Manager of your choice
+#exec openbox-session 
+xset s 0 &
+  xset b 0 &
+  xset -dpms  &
+  setterm -blank 0 &
+ #上几行，关闭屏保与系统的嘀嘀声等；
+#    start-pulseaudio-x11 &
+    #上行，启用音量控制，dwm环境下需要，其它窗口管理器下不必要；
+    #以下，是两个循环，一个用于在状态栏显示简单的状态消息，
+    #另一个用于生成桌面背景轮换效果；
+#    cd ~/picture
+#    files=()
+#    for i in *.jpg; do
+#        [[ -f $i ]] && files+=("$i")
+#    done
+#       range=${
+#  #files[@]}
+#      ((range)) && feh --bg-scale "${
+#       files[RANDOM % range]}"
+#    #上面几行，用feh随机播放tu23下的某张图片为桌面背景。
+#    #上行，生成一个简单的状态栏，含音量与日期时间显示
+##要在状态栏显示更多内容，请自行设置。
+#    sleep 10
+#    #上行，每间隔十秒循环一次；
+#    done &
+#    #下行，启动dwm窗口管理器
+exec i3
+#exec awesome
