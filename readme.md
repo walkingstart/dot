@@ -93,7 +93,7 @@
 
 14、pacman -Syu
 
-15、pacman -S  xorg-server xorg-xinit lightdm i3  wqy-zenhei xf86-video-显卡 tar  gvfs gvfs-mtp  vim git zsh volumeicon xorg-xrandr ttf-dejavu alsa-utils ctags adobe-source-han-sans-cn-fonts
+15、pacman -S  xorg-server xorg-xinit lightdm i3  wqy-zenhei xf86-video-显卡 tar  gvfs gvfs-mtp  vim git zsh volumeicon xorg-xrandr ttf-dejavu alsa-utils ctags adobe-source-han-sans-cn-fonts rofi ranger ttf-hack compton transmission-cli aria2
 
 16、  useradd -m 新用户
       passwd 新用户

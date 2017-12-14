@@ -25,7 +25,7 @@ set $black #010101
 set $gray #585756
 set $accent #c6ff00
 set $urgent #DF6418
-
+set $bla    #282828
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -182,6 +182,8 @@ floating_modifier $mod
 # focus the parent container
 bindsym $mod+a focus parent
 
+bindsym $mod+n workspace next
+bindsym $mod+p workspace prev
 # focus the child container
 #bindsym $mod+d focus child
 
@@ -191,20 +193,6 @@ bindsym $mod+a focus parent
 
 # http://fontawesome.io/cheatsheet/
 
-
-# switch to workspace
-#bindsym $mod+1 workspace 1
-#bindsym $mod+2 workspace 2
-#bindsym $mod+3 workspace 3
-#bindsym $mod+4 workspace 4
-#bindsym $mod+5 workspace 5
-#bindsym $mod+6 workspace 6
-#bindsym $mod+7 workspace 7
-#bindsym $mod+8 workspace 8
-#bindsym $mod+9 workspace 9
-#bindsym $mod+0 workspace 10
-#bindsym $mod+plus workspace 
-#bindsym $mod+minus workspace 
 bindsym $mod+1 workspace  
 bindsym $mod+2 workspace  
 bindsym $mod+3 workspace  
@@ -227,35 +215,14 @@ bindsym $mod+Shift+8 move container to workspace  ; workspace  
 bindsym $mod+Shift+9 move container to workspace  ; workspace  
 bindsym $mod+Shift+0 move container to workspace  ; workspace  
 
-# move focused container to workspace
-#bindsym $mod+Shift+1 move container to workspace 1; workspace 1
-#bindsym $mod+Shift+2 move container to workspace 2; workspace 2
-#bindsym $mod+Shift+3 move container to workspace 3; workspace 3
-#bindsym $mod+Shift+4 move container to workspace 4; workspace 4
-#bindsym $mod+Shift+5 move container to workspace 5; workspace 5
-#bindsym $mod+Shift+6 move container to workspace 6; workspace 6
-#bindsym $mod+Shift+7 move container to workspace 7; workspace 7
-#bindsym $mod+Shift+8 move container to workspace 8; workspace 8
-#bindsym $mod+Shift+9 move container to workspace 9; workspace 9
-#bindsym $mod+Shift+0 move container to workspace 10; workspace 10
-#bindsym $mod+Shift+plus move container to workspace ; workspace 
-#bindsym $mod+Shift+minus move container to workspace ; workspace 
-
-bindsym $mod+n workspace next
-#bindsym $mod+Control+Left workspace prev
-#bindsym $mod+Control+Shift+Right move container to workspace next
-#bindsym $mod+Control+Shift+Left move container to workspace prev
-
-#bindsym Mod1+Tab workspace back_and_forth
-#bindsym $mod+Shift+Tab move container to workspace back_and_forth
-
 assign [class="(?i)firefox"] workspace 
 
 #exec --no-startup-id spotify
 # exec --no-startup-id steam-native
 for_window [class="(?i)mplayer"] move container to workspace 
-# for_window [class="(?i)thunar"] move container to workspace 8:
-#for_window [class="(?i)Steam"] move container to workspace 
+for_window [class="(?i)qtox"] move container to workspace 
+for_window [class="(?i)QQ"] move container to workspace 
+for_window [class="(?i)libreoffice"] move container to workspace 
 exec --no-startup-id i3-msg workspace 
 
 
@@ -298,12 +265,13 @@ set_from_resource $bg3 i3wm.color3  #f0f0f0
 set_from_resource $bg4 i3wm.color1  #f0f0f0
 
 # class                 border  backgr. text indicator child_border
-client.focused          $bg      $bg    $fg  $bg   $bg
-client.focused_inactive $bg      $bg    $fg  $bg   $bg
-client.unfocused        $bg      $bg    $fg  $bg   $bg
+client.focused          $bg      $bla    $fg  $bg   $bg
+client.focused_inactive $bg      $bla    $fg  $bg   $bg
+client.unfocused        $bg      $bla    $fg  $bg   $bg
 client.urgent           $bg      $bg    $fg  $bg   $bg
 client.placeholder      $bg      $bg    $fg  $bg   $bg
-client.background $bg
+#client.background $bg
+client.background $bla
 
 #set $bg-colour              #2f343f
 #set $inactive-bg-colour     #2f343f
@@ -414,7 +382,7 @@ for_window [title="Terminator Preferences"] floating enable
 
 # Compton
 exec_always pkill -9 compton ; compton -cCFb --config ~/.compton.conf 
-exec --no-startup-id feh --bg-fill ~/picture/green.jpg
+exec --no-startup-id feh --bg-fill ~/picture/w2.jpg
 exec --no-startup-id fcitx&
 exec --no-startup-id volumeicon&
 #exec --no-startup-id compton -b # --config ~/.config/compton.conf

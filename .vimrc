@@ -74,6 +74,7 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 "Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-latex/vim-latex'
 Plugin 'itchyny/lightline.vim'
+let g:lightline = {'colorscheme':'PaperColor',}
 "Plugin 'ying17zi/vim-live-latex-preview'
 "LaTeX Keybinds
 "autocmd FileType tex inoremap ;lat {\LaTeX}

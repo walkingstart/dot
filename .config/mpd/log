@@ -665,3 +665,94 @@ Dec 09 14:24 : player: played "伤痛.mp3"
 Dec 09 14:29 : player: played "茜さす.mp3"
 Dec 09 14:32 : player: played "dreamitpossible.mp3"
 Dec 09 14:37 : player: played "never to late.mp3"
+Dec 13 17:23 : exception: Failed to decode /home/zero/music/victory.mp3
+Dec 13 17:23 : exception: nested: Failed to open /home/zero/music/victory.mp3: No such file or directory
+Dec 13 17:23 : player: played "victory.mp3"
+Dec 13 17:23 : exception: Failed to decode /home/zero/music/you.mp3
+Dec 13 17:23 : exception: nested: Failed to open /home/zero/music/you.mp3: No such file or directory
+Dec 13 17:23 : player: played "you.mp3"
+Dec 13 17:23 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 13 17:42 : client: [0] opened from local
+Dec 13 17:42 : exception: Failed to decode /home/zero/music/茜さす.mp3
+Dec 13 17:42 : exception: nested: Failed to open /home/zero/music/茜さす.mp3: No such file or directory
+Dec 13 17:42 : player: played "茜さす.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 13 17:42 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:42 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:42 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:42 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:42 : player: problems opening audio device while playing "never to late.mp3"
+Dec 13 17:43 : exception: Failed to decode /home/zero/music/茜さす.mp3
+Dec 13 17:43 : exception: nested: Failed to open /home/zero/music/茜さす.mp3: No such file or directory
+Dec 13 17:43 : player: played "茜さす.mp3"
+Dec 13 17:43 : exception: Failed to decode /home/zero/music/茜さす.mp3
+Dec 13 17:43 : exception: nested: Failed to open /home/zero/music/茜さす.mp3: No such file or directory
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:43 : player: problems opening audio device while playing "never to late.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:43 : exception: Failed to decode /home/zero/music/浅醉一生.mp3
+Dec 13 17:43 : exception: nested: Failed to open /home/zero/music/浅醉一生.mp3: No such file or directory
+Dec 13 17:43 : player: played "浅醉一生.mp3"
+Dec 13 17:43 : exception: Failed to decode /home/zero/music/浅醉一生.mp3
+Dec 13 17:43 : exception: nested: Failed to open /home/zero/music/浅醉一生.mp3: No such file or directory
+Dec 13 17:43 : exception: Failed to decode /home/zero/music/伤痛.mp3
+Dec 13 17:43 : exception: nested: Failed to open /home/zero/music/伤痛.mp3: No such file or directory
+Dec 13 17:43 : player: played "伤痛.mp3"
+Dec 13 17:43 : exception: Failed to decode /home/zero/music/茜さす.mp3
+Dec 13 17:43 : exception: nested: Failed to open /home/zero/music/茜さす.mp3: No such file or directory
+Dec 13 17:43 : player: played "茜さす.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:43 : exception: Failed to open "My ALSA Device" [alsa]
+Dec 13 17:43 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Dec 13 17:43 : player: problems opening audio device while playing "dreamitpossible.mp3"
+Dec 13 17:43 : client: [0] closed
+Dec 13 17:49 : avahi: Client Disconnected, will reconnect shortly
+Dec 13 17:49 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Dec 13 17:49 : player: played "dreamitpossible.mp3"
+Dec 14 10:06 : client: [0] opened from local
+Dec 14 10:06 : update: updating /it's not to say gool-bye.mp3
+Dec 14 10:06 : update: removing 浅醉一生.mp3
+Dec 14 10:06 : update: removing 伤痛.mp3
+Dec 14 10:06 : update: removing 茜さす.mp3
+Dec 14 10:06 : update: updating /you.mp3
+Dec 14 10:06 : update: updating /through the arobr.mp3
+Dec 14 10:06 : update: updating /never to late.mp3
+Dec 14 10:06 : update: updating /dreamitpossible.mp3
+Dec 14 10:06 : update: updating /gates of dawn.mp3
+Dec 14 10:06 : update: updating /numb.mp3
+Dec 14 10:06 : update: updating /take my hand.mp3
+Dec 14 10:06 : update: updating /rember.mp3
+Dec 14 10:06 : update: updating /back to the moon and back.mp3
+Dec 14 10:06 : update: updating /before the night end.mp3
+Dec 14 10:06 : update: updating /never too late.mp3
+Dec 14 10:06 : update: updating /96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
+Dec 14 10:06 : update: updating /victory.mp3
+Dec 14 10:07 : exception: No such directory
+Dec 14 10:07 : exception: No such directory
+Dec 14 10:07 : exception: No such directory
+Dec 14 10:08 : client: [0] closed
+Dec 14 10:08 : client: [1] opened from local
+Dec 14 10:08 : client: [1] closed
+Dec 14 10:08 : update: removing 96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
+Dec 14 10:08 : update: added /蔡文姬.mp3
+Dec 14 17:02 : player: played "96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3"
