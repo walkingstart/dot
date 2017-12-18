@@ -1,7 +1,7 @@
 # dot
 一、分区及安装基本系统
 
-检测uefi 
+#检测uefi 
  ls /sys/firmware/efi/efivars
 没有输出就是bios启动
 1、Cfdisk  
@@ -16,9 +16,9 @@
 
   swapon /dev/sda12    
 
- "EF00" in gdisk, "1 - EFI System" in modern fdisk, "esp" in parted/GParted,
   添加uefi分区
   大小512M 
+ "EF00" in gdisk, "1 - EFI System" in modern fdisk, "esp" in parted/GParted,
   mkfs.vfat /dev/sdax
   mount /dev/sdax /mnt/boot/efi
 
@@ -33,7 +33,7 @@
 4、dhcpcd   
 
 5、pacstrap /mnt base base-devel
-也可以pacstrap /mnt bash filesystem grub-bios linux pacman procps-ng syslog-ng glibc systemd-sysvcompat shawd dhcpcd vim sed(netctl dialog wpa_supplicant  无线)
+也可以pacstrap /mnt bash filesystem grub linux pacman procps-ng syslog-ng glibc systemd-sysvcompat shawd dhcpcd vim sed(netctl dialog wpa_supplicant  无线)
 
 6、  genfstab -p /mnt >>/mnt/etc/fstab
 
@@ -68,13 +68,13 @@
  grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=arch_grub --recheck 
  grub-mkconfig -o /boot/grub/grub.cfg
     
- 单系统      
+# 单系统      
    pacman -S grub-bios
    
    grub-install /dev/sda
    
    grub-mkconfig -o /boot/grub/grub.cfg
-  BIOS系统
+#  BIOS系统
    pacman -S grub os-prober
   grub-install --target=i386-pc /dev/<目标磁盘>
   grub-mkconfig -o /boot/grub/grub.cfg
@@ -99,8 +99,13 @@
       passwd 新用户
       usermod –a –G video,audio,lp,log,wheel,optical,scanner,games,users,storage,power 新用户
 
-17、 一些必备的软件 firefox firefox-i18n-zh-cn flashplugin pcmanfm  gpicview wqy-microhei ttf-arphic-ukai ttf-arphic-uming file-roller unrar zip unzip p8zip  feh lxappearance  ntfs-3g fcitx termite ttf-hack  
+17、 一些必备的软件 
+     firefox firefox-i18n-zh-cn flashplugin pcmanfm  gpicview wqy-microhei ttf-arphic-ukai ttf-arphic-uming file-roller unrar zip unzip p8zip  feh lxappearance  ntfs-3g fcitx termite ttf-hack  arc-gtk-theme 
 
 18、  ttf-font-awesome ttf-font-icons (i3-gaps 状态栏显示图标）
+      yaourt:/etc/pacman.d/ 
+      [archlinuxfr]
+      Server = http://reop.archlinux.fr/x86_64
+      SigLevel = Optional TrustedOnly
 
-19、　la-capitaine-icon-theme arc-gtk-theme
+19、　la-capitaine-icon-theme 

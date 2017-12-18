@@ -1,8 +1,8 @@
-sw_volume: 36
+sw_volume: 100
 audio_device_state:1:My ALSA Device
 state: pause
-current: 65
-time: 110.933000
+current: 18
+time: 67.070000
 random: 0
 repeat: 0
 single: 0
@@ -76,5 +76,4 @@ playlist_begin
 62:rember.mp3
 63:take my hand.mp3
 64:through the arobr.mp3
-65:96ba%2F8b2c%2Fa57a%2Fd8409af2ae105e58304247c37901e7a3.mp3
 playlist_end

@@ -339,7 +339,7 @@
  rofi.hide-scrollbar: true
  !rofi.bw: 6
  rofi.width: 700
- rofi.lines: 8
+ rofi.lines: 11
  rofi.position:center
  rofi.font: Hack-regular 14
  rofi.color-enabled: true
