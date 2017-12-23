@@ -1,7 +1,11 @@
-
 open_with mplayer
 open_with 
 open_with vim
 deletey
 open_with jj
+
+rename 18.docx
+md 拆迁工程
+mkdir 拆迁
 delete
+mkdir 文件归档

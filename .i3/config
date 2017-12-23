@@ -384,6 +384,7 @@ for_window [title="Terminator Preferences"] floating enable
 exec_always pkill -9 compton ; compton -cCFb --config ~/.compton.conf 
 exec --no-startup-id feh --bg-fill ~/picture/w2.jpg
 exec --no-startup-id fcitx&
+exec --no-startup-id dunst&
 exec --no-startup-id volumeicon&
 #exec --no-startup-id compton -b # --config ~/.config/compton.conf
 exec --no-startup-id termite -e tmux 
