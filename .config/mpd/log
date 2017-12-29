@@ -773,3 +773,14 @@ Dec 18 10:27 : client: [0] closed
 Dec 18 14:30 : client: [0] opened from local
 Dec 18 14:30 : client: [0] closed
 Dec 18 17:50 : player: played "never to late.mp3"
+Dec 26 13:07 : avahi: Service 'Music Player' successfully established.
+Dec 26 13:07 : client: [0] opened from local
+Dec 26 13:07 : exception: No such song
+Dec 26 13:07 : exception: No such song
+Dec 26 13:07 : exception: No such song
+Dec 26 13:07 : exception: No such song
+Dec 26 13:10 : player: played "dreamitpossible.mp3"
+Dec 26 13:12 : client: [0] closed
+Dec 26 17:40 : avahi: Client Disconnected, will reconnect shortly
+Dec 26 17:40 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Dec 26 17:40 : player: played "never to late.mp3"

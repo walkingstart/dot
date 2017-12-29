@@ -1,8 +1,8 @@
-sw_volume: 100
+sw_volume: 74
 audio_device_state:1:My ALSA Device
 state: pause
-current: 18
-time: 67.070000
+current: 66
+time: 91.370000
 random: 0
 repeat: 0
 single: 0
@@ -76,4 +76,16 @@ playlist_begin
 62:rember.mp3
 63:take my hand.mp3
 64:through the arobr.mp3
+65:dreamitpossible.mp3
+66:never to late.mp3
+67:victory.mp3
+68:you.mp3
+69:back to the moon and back.mp3
+70:before the night end.mp3
+71:gates of dawn.mp3
+72:it's not to say gool-bye.mp3
+73:numb.mp3
+74:rember.mp3
+75:take my hand.mp3
+76:through the arobr.mp3
 playlist_end
