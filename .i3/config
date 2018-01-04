@@ -300,6 +300,7 @@ bar {
    # workspace_buttons yes
     i3bar_command i3bar -t
 	status_command i3blocks -c ~/.i3/i3blocks.conf
+   # status_command i3status -c ~/.i3/istatus.conf
     position top 
   colors {
     separator #268bd2
