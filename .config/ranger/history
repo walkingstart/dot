@@ -8,8 +8,30 @@ mkdir 文件归档
 paste 
 mkdir latex
 open_with k
-
 search 
 open_with mplayer
 deletey
+
+rename [SUBPIG][99.9 SEASON II EP07]V2.mp4
+rename tamioboy.mp4
+rename berfor.mp4
+rename 孤独的美食家.mp4
+mkdir 
+rename lonely fooder.mp4
+rename confidenceamn02.mp4
+rename kodokus703.mp4
+rename kodoukus04.mp4
+rename kodoku05.mp4
+rename kodoku06.mp4
+rename blackpean03.mpr
+rename blackpean03.mp4
+rename kodokus704.mp4
+cd 
+c
+rename kodoku708.mp4
+rename kodokus709.mp4
+rename kodokus710.mp4
+rename kodoukus7ep11.mp4
+rename kodous7ep12.mp4
+rename gibotomusume.mp4
 delete

@@ -1,91 +1,388 @@
-sw_volume: 74
+sw_volume: 78
 audio_device_state:1:My ALSA Device
-state: pause
-current: 66
-time: 91.370000
+state: stop
 random: 0
 repeat: 0
 single: 0
 consume: 0
-crossfade: 5
+crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:you.mp3
-1:dreamitpossible.mp3
-2:never to late.mp3
-3:victory.mp3
-4:before the night end.mp3
-5:dreamitpossible.mp3
-6:never to late.mp3
-7:victory.mp3
-8:you.mp3
-9:back to the moon and back.mp3
-10:before the night end.mp3
-11:gates of dawn.mp3
-12:it's not to say gool-bye.mp3
-13:numb.mp3
-14:rember.mp3
-15:take my hand.mp3
-16:through the arobr.mp3
-17:dreamitpossible.mp3
-18:never to late.mp3
-19:victory.mp3
-20:you.mp3
-21:back to the moon and back.mp3
-22:before the night end.mp3
-23:gates of dawn.mp3
-24:it's not to say gool-bye.mp3
+0:孤独的巡礼.mp3
+1:浅醉一生.mp3
+2:茜さす.mp3
+3:月光水岸.mp3
+4:张三的歌.mp3
+5:back to the moon and back.mp3
+6:before the night end.mp3
+7:Don't Walk Alone.mp3
+8:gates of dawn.mp3
+9:it's not to say gool-bye.mp3
+10:never to late.mp3
+11:never too late.mp3
+12:numb.mp3
+13:rember.mp3
+14:take my hand.mp3
+15:through the arobr.mp3
+16:victory.mp3
+17:x-ray dog - Hope Always Extended Version by M4 United.mp3
+18:you.mp3
+19:back to the moon and back.mp3
+20:before the night end.mp3
+21:gates of dawn.mp3
+22:it's not to say gool-bye.mp3
+23:never to late.mp3
+24:never too late.mp3
 25:numb.mp3
 26:rember.mp3
 27:take my hand.mp3
 28:through the arobr.mp3
-29:dreamitpossible.mp3
-30:never to late.mp3
-31:victory.mp3
-32:you.mp3
-33:back to the moon and back.mp3
+29:victory.mp3
+30:you.mp3
+31:you.mp3
+32:never to late.mp3
+33:victory.mp3
 34:before the night end.mp3
-35:gates of dawn.mp3
-36:it's not to say gool-bye.mp3
-37:numb.mp3
-38:rember.mp3
-39:take my hand.mp3
-40:through the arobr.mp3
-41:dreamitpossible.mp3
-42:never to late.mp3
-43:victory.mp3
-44:you.mp3
-45:back to the moon and back.mp3
-46:before the night end.mp3
-47:gates of dawn.mp3
-48:it's not to say gool-bye.mp3
-49:numb.mp3
-50:rember.mp3
-51:take my hand.mp3
-52:through the arobr.mp3
-53:dreamitpossible.mp3
-54:never to late.mp3
-55:victory.mp3
-56:you.mp3
-57:back to the moon and back.mp3
-58:before the night end.mp3
-59:gates of dawn.mp3
-60:it's not to say gool-bye.mp3
-61:numb.mp3
-62:rember.mp3
-63:take my hand.mp3
-64:through the arobr.mp3
-65:dreamitpossible.mp3
-66:never to late.mp3
-67:victory.mp3
-68:you.mp3
-69:back to the moon and back.mp3
-70:before the night end.mp3
-71:gates of dawn.mp3
-72:it's not to say gool-bye.mp3
-73:numb.mp3
-74:rember.mp3
-75:take my hand.mp3
-76:through the arobr.mp3
+35:never to late.mp3
+36:victory.mp3
+37:you.mp3
+38:back to the moon and back.mp3
+39:before the night end.mp3
+40:gates of dawn.mp3
+41:it's not to say gool-bye.mp3
+42:numb.mp3
+43:rember.mp3
+44:take my hand.mp3
+45:through the arobr.mp3
+46:never to late.mp3
+47:victory.mp3
+48:you.mp3
+49:back to the moon and back.mp3
+50:before the night end.mp3
+51:gates of dawn.mp3
+52:it's not to say gool-bye.mp3
+53:numb.mp3
+54:rember.mp3
+55:take my hand.mp3
+56:through the arobr.mp3
+57:never to late.mp3
+58:victory.mp3
+59:you.mp3
+60:back to the moon and back.mp3
+61:before the night end.mp3
+62:gates of dawn.mp3
+63:it's not to say gool-bye.mp3
+64:numb.mp3
+65:rember.mp3
+66:take my hand.mp3
+67:through the arobr.mp3
+68:never to late.mp3
+69:victory.mp3
+70:you.mp3
+71:back to the moon and back.mp3
+72:before the night end.mp3
+73:gates of dawn.mp3
+74:it's not to say gool-bye.mp3
+75:numb.mp3
+76:rember.mp3
+77:take my hand.mp3
+78:through the arobr.mp3
+79:never to late.mp3
+80:victory.mp3
+81:you.mp3
+82:back to the moon and back.mp3
+83:before the night end.mp3
+84:gates of dawn.mp3
+85:it's not to say gool-bye.mp3
+86:numb.mp3
+87:rember.mp3
+88:take my hand.mp3
+89:through the arobr.mp3
+90:never to late.mp3
+91:victory.mp3
+92:you.mp3
+93:back to the moon and back.mp3
+94:before the night end.mp3
+95:gates of dawn.mp3
+96:it's not to say gool-bye.mp3
+97:numb.mp3
+98:rember.mp3
+99:take my hand.mp3
+100:through the arobr.mp3
+101:Don't Walk Alone.mp3
+102:back to the moon and back.mp3
+103:before the night end.mp3
+104:Don't Walk Alone.mp3
+105:gates of dawn.mp3
+106:it's not to say gool-bye.mp3
+107:never to late.mp3
+108:never too late.mp3
+109:numb.mp3
+110:rember.mp3
+111:take my hand.mp3
+112:through the arobr.mp3
+113:victory.mp3
+114:x-ray dog - Hope Always Extended Version by M4 United.mp3
+115:you.mp3
+116:月光水岸.mp3
+117:victory.mp3
+118:numb.mp3
+119:rember.mp3
+120:take my hand.mp3
+121:x-ray dog - Hope Always Extended Version by M4 United.mp3
+122:you.mp3
+123:月光水岸.mp3
+124:through the arobr.mp3
+125:never to late.mp3
+126:孤独的巡礼.mp3
+127:月光水岸.mp3
+128:Don't Walk Alone.mp3
+129:victory.mp3
+130:x-ray dog - Hope Always Extended Version by M4 United.mp3
+131:孤独的巡礼.mp3
+132:月光水岸.mp3
+133:孤独的巡礼.mp3
+134:浅醉一生.mp3
+135:茜さす.mp3
+136:月光水岸.mp3
+137:张三的歌.mp3
+138:茜さす.mp3
+139:never to late.mp3
+140:victory.mp3
+141:you.mp3
+142:浅醉一生.mp3
+143:back to the moon and back.mp3
+144:before the night end.mp3
+145:gates of dawn.mp3
+146:it's not to say gool-bye.mp3
+147:numb.mp3
+148:rember.mp3
+149:take my hand.mp3
+150:through the arobr.mp3
+151:孤独的巡礼.mp3
+152:浅醉一生.mp3
+153:茜さす.mp3
+154:月光水岸.mp3
+155:张三的歌.mp3
+156:back to the moon and back.mp3
+157:before the night end.mp3
+158:Don't Walk Alone.mp3
+159:gates of dawn.mp3
+160:it's not to say gool-bye.mp3
+161:never to late.mp3
+162:never too late.mp3
+163:numb.mp3
+164:rember.mp3
+165:take my hand.mp3
+166:through the arobr.mp3
+167:victory.mp3
+168:x-ray dog - Hope Always Extended Version by M4 United.mp3
+169:you.mp3
+170:孤独的巡礼.mp3
+171:Don't Walk Alone.mp3
+172:夜的钢琴曲.mp3
+173:夜的钢琴曲.mp3
+174:茜さす.mp3
+175:never to late.mp3
+176:victory.mp3
+177:you.mp3
+178:浅醉一生.mp3
+179:back to the moon and back.mp3
+180:before the night end.mp3
+181:gates of dawn.mp3
+182:it's not to say gool-bye.mp3
+183:numb.mp3
+184:rember.mp3
+185:take my hand.mp3
+186:through the arobr.mp3
+187:numb.mp3
+188:rember.mp3
+189:孤独的巡礼.mp3
+190:孤独的巡礼.mp3
+191:浅醉一生.mp3
+192:茜さす.mp3
+193:夜的钢琴曲.mp3
+194:月光水岸.mp3
+195:张三的歌.mp3
+196:back to the moon and back.mp3
+197:before the night end.mp3
+198:Don't Walk Alone.mp3
+199:gates of dawn.mp3
+200:it's not to say gool-bye.mp3
+201:never to late.mp3
+202:never too late.mp3
+203:numb.mp3
+204:rember.mp3
+205:take my hand.mp3
+206:through the arobr.mp3
+207:victory.mp3
+208:x-ray dog - Hope Always Extended Version by M4 United.mp3
+209:you.mp3
+210:茜さす.mp3
+211:never to late.mp3
+212:victory.mp3
+213:you.mp3
+214:浅醉一生.mp3
+215:back to the moon and back.mp3
+216:before the night end.mp3
+217:gates of dawn.mp3
+218:it's not to say gool-bye.mp3
+219:numb.mp3
+220:rember.mp3
+221:take my hand.mp3
+222:through the arobr.mp3
+223:茜さす.mp3
+224:never to late.mp3
+225:victory.mp3
+226:you.mp3
+227:浅醉一生.mp3
+228:back to the moon and back.mp3
+229:before the night end.mp3
+230:gates of dawn.mp3
+231:it's not to say gool-bye.mp3
+232:numb.mp3
+233:rember.mp3
+234:take my hand.mp3
+235:through the arobr.mp3
+236:茜さす.mp3
+237:never to late.mp3
+238:victory.mp3
+239:you.mp3
+240:浅醉一生.mp3
+241:back to the moon and back.mp3
+242:before the night end.mp3
+243:gates of dawn.mp3
+244:it's not to say gool-bye.mp3
+245:numb.mp3
+246:rember.mp3
+247:take my hand.mp3
+248:through the arobr.mp3
+249:你不是真正的快乐.mp3
+250:你不是真正的快乐.mp3
+251:你不是真正的快乐.mp3
+252:蔡文姬.mp3
+253:茜さす.mp3
+254:never to late.mp3
+255:victory.mp3
+256:you.mp3
+257:浅醉一生.mp3
+258:back to the moon and back.mp3
+259:before the night end.mp3
+260:gates of dawn.mp3
+261:it's not to say gool-bye.mp3
+262:numb.mp3
+263:rember.mp3
+264:take my hand.mp3
+265:through the arobr.mp3
+266:你不是真正的快乐.mp3
+267:夜的钢琴曲.mp3
+268:张三的歌.mp3
+269:take my hand.mp3
+270:before the night end.mp3
+271:Don't Walk Alone.mp3
+272:victory.mp3
+273:x-ray dog - Hope Always Extended Version by M4 United.mp3
+274:孤独的巡礼.mp3
+275:月光水岸.mp3
+276:茜さす.mp3
+277:蔡文姬.mp3
+278:浅醉一生.mp3
+279:it's not to say gool-bye.mp3
+280:gates of dawn.mp3
+281:take my hand.mp3
+282:before the night end.mp3
+283:Don't Walk Alone.mp3
+284:victory.mp3
+285:x-ray dog - Hope Always Extended Version by M4 United.mp3
+286:孤独的巡礼.mp3
+287:月光水岸.mp3
+288:茜さす.mp3
+289:蔡文姬.mp3
+290:浅醉一生.mp3
+291:it's not to say gool-bye.mp3
+292:gates of dawn.mp3
+293:take my hand.mp3
+294:before the night end.mp3
+295:Don't Walk Alone.mp3
+296:victory.mp3
+297:x-ray dog - Hope Always Extended Version by M4 United.mp3
+298:孤独的巡礼.mp3
+299:月光水岸.mp3
+300:茜さす.mp3
+301:蔡文姬.mp3
+302:浅醉一生.mp3
+303:it's not to say gool-bye.mp3
+304:gates of dawn.mp3
+305:take my hand.mp3
+306:before the night end.mp3
+307:Don't Walk Alone.mp3
+308:victory.mp3
+309:x-ray dog - Hope Always Extended Version by M4 United.mp3
+310:孤独的巡礼.mp3
+311:月光水岸.mp3
+312:茜さす.mp3
+313:蔡文姬.mp3
+314:浅醉一生.mp3
+315:it's not to say gool-bye.mp3
+316:gates of dawn.mp3
+317:浅醉一生.mp3
+318:浅醉一生.mp3
+319:夜的钢琴曲.mp3
+320:夜的钢琴曲.mp3
+321:月光水岸.mp3
+322:月光水岸.mp3
+323:肖邦/Chopin- Four Scherzi/04 Scherzo for piano No. 4 in E major, Op. 54, B. 148.mp3
+324:肖邦/Chopin- Four Scherzi/04 Scherzo for piano No. 4 in E major, Op. 54, B. 148.mp3
+325:肖邦/Chopin- Four Scherzi/01 Scherzo for piano No. 1 in B minor ('La banquet infernal') Op. 20, B. 65.mp3
+326:肖邦/Anda Waltz/Chopin - Complete waltzes (G��za Anda).mp3
+327:肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/01. 12 ETUDES. OP.10 NO.1 C-DUR ALLEGRO.mp3
+328:肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/02. NO.2 A-MOLL ALLEGRO.mp3
+329:肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/04. NO.4 CIS-MOLL PRESTO.mp3
+330:肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/05. NO.5 GES-DUR VIVACE.mp3
+331:梦一场.mp3
+332:梦一场.mp3
+333:你不是真正的快乐.mp3
+334:一天到晚游泳的鱼.mp3
+335:一天到晚游泳的鱼.mp3
+336:茜さす.mp3
+337:never to late.mp3
+338:victory.mp3
+339:you.mp3
+340:浅醉一生.mp3
+341:back to the moon and back.mp3
+342:before the night end.mp3
+343:gates of dawn.mp3
+344:it's not to say gool-bye.mp3
+345:numb.mp3
+346:rember.mp3
+347:take my hand.mp3
+348:through the arobr.mp3
+349:一天到晚游泳的鱼.mp3
+350:人生何处不相逢.mp3
+351:茜さす.mp3
+352:never to late.mp3
+353:victory.mp3
+354:you.mp3
+355:浅醉一生.mp3
+356:back to the moon and back.mp3
+357:before the night end.mp3
+358:gates of dawn.mp3
+359:it's not to say gool-bye.mp3
+360:numb.mp3
+361:rember.mp3
+362:take my hand.mp3
+363:through the arobr.mp3
+364:你不是真正的快乐.mp3
+365:张三的歌.mp3
+366:一天到晚游泳的鱼.mp3
+367:夜的钢琴曲.mp3
+368:梦一场.mp3
+369:人生何处不相逢.mp3
+370:rember.mp3
+371:numb.mp3
+372:浅醉一生.mp3
+373:浅醉一生.mp3
+374:夜的钢琴曲.mp3
+375:月光水岸.mp3
 playlist_end

@@ -784,3 +784,1066 @@ Dec 26 13:12 : client: [0] closed
 Dec 26 17:40 : avahi: Client Disconnected, will reconnect shortly
 Dec 26 17:40 : avahi: Could not reconnect: An unexpected D-Bus error occurred
 Dec 26 17:40 : player: played "never to late.mp3"
+Jan 04 10:51 : avahi: Service 'Music Player' successfully established.
+Jan 04 11:15 : player: played "never to late.mp3"
+Jan 04 15:56 : avahi: Service 'Music Player' successfully established.
+Jan 04 15:56 : client: [0] opened from 127.0.0.1:40572
+Jan 04 15:56 : client: [1] opened from local
+Jan 04 15:57 : client: [0] closed
+Jan 04 15:57 : client: [2] opened from 127.0.0.1:40578
+Jan 04 15:57 : client: [2] closed
+Jan 04 15:58 : client: [1] closed
+Jan 04 17:05 : player: played "victory.mp3"
+Jan 15 12:30 : avahi: Service 'Music Player' successfully established.
+Jan 15 12:41 : avahi: Service 'Music Player' successfully established.
+Jan 15 12:41 : client: [0] opened from local
+Jan 15 12:41 : exception: No such song
+Jan 15 12:47 : player: played "蔡文姬.mp3"
+Jan 15 12:48 : client: [0] closed
+Jan 15 12:48 : client: [1] opened from local
+Jan 15 12:48 : exception: No such song
+Jan 15 12:54 : player: played "victory.mp3"
+Jan 15 12:59 : player: played "you.mp3"
+Jan 15 13:05 : player: played "you.mp3"
+Jan 15 13:08 : player: played "dreamitpossible.mp3"
+Jan 15 13:13 : player: played "never to late.mp3"
+Jan 15 13:19 : player: played "victory.mp3"
+Jan 15 13:22 : player: played "before the night end.mp3"
+Jan 15 13:26 : player: played "dreamitpossible.mp3"
+Jan 15 13:31 : player: played "never to late.mp3"
+Jan 15 13:36 : player: played "victory.mp3"
+Jan 15 13:42 : player: played "you.mp3"
+Jan 15 13:47 : player: played "back to the moon and back.mp3"
+Jan 15 13:51 : player: played "before the night end.mp3"
+Jan 15 13:56 : player: played "gates of dawn.mp3"
+Jan 15 14:00 : player: played "it's not to say gool-bye.mp3"
+Jan 15 14:03 : player: played "numb.mp3"
+Jan 15 14:09 : player: played "rember.mp3"
+Jan 15 14:14 : player: played "take my hand.mp3"
+Jan 15 14:15 : player: played "through the arobr.mp3"
+Jan 15 14:15 : client: [1] closed
+Jan 15 19:46 : avahi: Service 'Music Player' successfully established.
+Jan 15 19:46 : client: [0] opened from local
+Jan 15 19:50 : player: played "through the arobr.mp3"
+Jan 15 19:53 : player: played "dreamitpossible.mp3"
+Jan 15 19:58 : player: played "never to late.mp3"
+Jan 15 20:03 : player: played "victory.mp3"
+Jan 15 20:09 : player: played "you.mp3"
+Jan 15 20:15 : player: played "back to the moon and back.mp3"
+Jan 15 20:18 : player: played "before the night end.mp3"
+Jan 15 20:23 : player: played "gates of dawn.mp3"
+Jan 15 20:27 : player: played "it's not to say gool-bye.mp3"
+Jan 15 20:30 : player: played "numb.mp3"
+Jan 15 20:36 : player: played "rember.mp3"
+Jan 15 20:40 : client: [0] closed
+Jan 15 20:40 : client: [1] opened from local
+Jan 15 20:41 : player: played "take my hand.mp3"
+Jan 15 20:41 : client: [1] closed
+Jan 16 12:24 : avahi: Service 'Music Player' successfully established.
+Jan 16 12:24 : client: [0] opened from local
+Jan 16 12:29 : player: played "take my hand.mp3"
+Jan 16 12:33 : player: played "through the arobr.mp3"
+Jan 16 12:36 : player: played "dreamitpossible.mp3"
+Jan 16 12:41 : player: played "never to late.mp3"
+Jan 16 12:46 : player: played "victory.mp3"
+Jan 16 12:52 : player: played "you.mp3"
+Jan 16 12:58 : player: played "back to the moon and back.mp3"
+Jan 16 13:02 : player: played "before the night end.mp3"
+Jan 16 13:06 : player: played "gates of dawn.mp3"
+Jan 16 13:11 : player: played "it's not to say gool-bye.mp3"
+Jan 16 13:14 : player: played "numb.mp3"
+Jan 16 13:19 : player: played "rember.mp3"
+Jan 16 13:21 : player: played "take my hand.mp3"
+Jan 16 13:21 : client: [0] closed
+Jan 19 12:44 : avahi: Service 'Music Player' successfully established.
+Jan 19 12:44 : client: [0] opened from local
+Jan 19 12:49 : player: played "take my hand.mp3"
+Jan 19 12:53 : player: played "through the arobr.mp3"
+Jan 19 12:56 : player: played "dreamitpossible.mp3"
+Jan 19 13:01 : player: played "never to late.mp3"
+Jan 19 13:06 : player: played "victory.mp3"
+Jan 19 13:12 : player: played "you.mp3"
+Jan 19 13:18 : player: played "back to the moon and back.mp3"
+Jan 19 13:22 : player: played "before the night end.mp3"
+Jan 19 13:26 : player: played "gates of dawn.mp3"
+Jan 19 13:31 : player: played "it's not to say gool-bye.mp3"
+Jan 19 13:34 : player: played "numb.mp3"
+Jan 19 13:39 : player: played "rember.mp3"
+Jan 19 13:44 : player: played "take my hand.mp3"
+Jan 19 13:48 : player: played "through the arobr.mp3"
+Jan 19 13:51 : player: played "dreamitpossible.mp3"
+Jan 19 13:56 : player: played "never to late.mp3"
+Jan 19 14:01 : player: played "victory.mp3"
+Jan 19 14:07 : player: played "you.mp3"
+Jan 19 14:13 : player: played "back to the moon and back.mp3"
+Jan 19 14:16 : player: played "before the night end.mp3"
+Jan 19 14:21 : player: played "gates of dawn.mp3"
+Jan 19 14:23 : player: played "it's not to say gool-bye.mp3"
+Jan 19 14:23 : client: [0] closed
+Jan 20 12:24 : avahi: Service 'Music Player' successfully established.
+Jan 20 12:24 : client: [0] opened from local
+Jan 20 12:29 : player: played "it's not to say gool-bye.mp3"
+Jan 20 12:32 : player: played "numb.mp3"
+Jan 20 12:38 : player: played "rember.mp3"
+Jan 20 12:43 : player: played "take my hand.mp3"
+Jan 20 12:46 : player: played "through the arobr.mp3"
+Jan 20 12:50 : player: played "dreamitpossible.mp3"
+Jan 20 12:54 : player: played "never to late.mp3"
+Jan 20 13:00 : player: played "victory.mp3"
+Jan 20 13:01 : player: played "you.mp3"
+Jan 20 13:01 : client: [0] closed
+Jan 20 13:46 : client: [1] opened from local
+Jan 20 13:51 : player: played "you.mp3"
+Jan 20 13:53 : player: played "back to the moon and back.mp3"
+Jan 20 16:16 : client: [1] closed
+Jan 20 16:39 : update: added /x-ray dog - Hope Always Extended Version by M4 United.mp3
+Jan 20 16:41 : update: added /Don't Walk Alone.mp3
+Jan 26 12:20 : avahi: Service 'Music Player' successfully established.
+Jan 26 12:20 : client: [0] opened from local
+Jan 26 12:21 : update: added /月光水岸.mp3
+Jan 26 12:24 : player: played "dreamitpossible.mp3"
+Jan 26 12:30 : player: played "back to the moon and back.mp3"
+Jan 26 12:33 : player: played "before the night end.mp3"
+Jan 26 12:35 : player: played "Don't Walk Alone.mp3"
+Jan 26 12:41 : player: played "victory.mp3"
+Jan 26 12:59 : player: played "numb.mp3"
+Jan 26 13:05 : player: played "rember.mp3"
+Jan 26 13:11 : player: played "take my hand.mp3"
+Jan 26 13:15 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Jan 26 13:16 : player: played "月光水岸.mp3"
+Jan 26 13:22 : player: played "蔡文姬.mp3"
+Jan 26 13:56 : player: played "through the arobr.mp3"
+Jan 26 13:59 : player: played "never to late.mp3"
+Jan 26 14:15 : client: [0] closed
+Jan 31 12:27 : avahi: Service 'Music Player' successfully established.
+Jan 31 12:27 : client: [0] opened from local
+Jan 31 12:29 : player: played "never to late.mp3"
+Feb 01 12:51 : avahi: Service 'Music Player' successfully established.
+Feb 01 12:51 : client: [0] opened from local
+Feb 01 12:55 : player: played "before the night end.mp3"
+Feb 01 12:58 : player: played "dreamitpossible.mp3"
+Feb 01 13:02 : player: played "gates of dawn.mp3"
+Feb 01 13:07 : player: played "it's not to say gool-bye.mp3"
+Feb 01 13:12 : player: played "never to late.mp3"
+Feb 01 13:17 : player: played "never too late.mp3"
+Feb 01 13:20 : player: played "numb.mp3"
+Feb 01 13:26 : player: played "rember.mp3"
+Feb 01 13:30 : player: played "take my hand.mp3"
+Feb 01 13:34 : player: played "through the arobr.mp3"
+Feb 01 13:39 : player: played "victory.mp3"
+Feb 02 12:29 : avahi: Service 'Music Player' successfully established.
+Feb 02 12:29 : client: [0] opened from local
+Feb 02 12:30 : player: played "victory.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Feb 02 13:19 : exception: Failed to open "My ALSA Device" [alsa]
+Feb 02 13:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Feb 02 13:19 : exception: Failed to open "My ALSA Device" [alsa]
+Feb 02 13:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Feb 02 13:19 : player: problems opening audio device while playing "you.mp3"
+Feb 02 17:45 : client: [0] closed
+Feb 02 17:46 : player: played "you.mp3"
+Feb 03 14:28 : avahi: Service 'Music Player' successfully established.
+Feb 03 14:28 : client: [0] opened from local
+Feb 03 14:33 : player: played "you.mp3"
+Feb 03 16:56 : client: [0] closed
+Feb 05 12:44 : avahi: Service 'Music Player' successfully established.
+Feb 05 12:44 : client: [0] opened from local
+Feb 05 12:50 : player: played "you.mp3"
+Feb 05 12:56 : player: played "you.mp3"
+Feb 05 12:59 : player: played "dreamitpossible.mp3"
+Feb 05 13:04 : player: played "never to late.mp3"
+Feb 05 13:09 : player: played "victory.mp3"
+Feb 05 13:13 : player: played "before the night end.mp3"
+Feb 05 13:14 : player: played "dreamitpossible.mp3"
+Feb 05 13:20 : update: added /孤独的巡礼.mp3
+Feb 05 13:32 : update: added /茜さす.mp3
+Feb 05 13:34 : update: added /浅醉一生.mp3
+Feb 05 13:34 : update: added /张三的歌.mp3
+Feb 05 14:23 : player: played "孤独的巡礼.mp3"
+Feb 05 14:24 : player: played "月光水岸.mp3"
+Feb 05 14:51 : client: [0] closed
+Feb 07 12:27 : avahi: Service 'Music Player' successfully established.
+Feb 07 12:28 : client: [0] opened from local
+Feb 07 12:30 : player: played "孤独的巡礼.mp3"
+Feb 07 12:33 : player: played "浅醉一生.mp3"
+Feb 07 12:42 : player: played "茜さす.mp3"
+Feb 07 12:43 : player: played "月光水岸.mp3"
+Feb 07 12:51 : player: played "茜さす.mp3"
+Feb 07 12:54 : player: played "dreamitpossible.mp3"
+Feb 07 12:59 : player: played "never to late.mp3"
+Feb 07 13:04 : player: played "victory.mp3"
+Feb 07 13:10 : player: played "you.mp3"
+Feb 07 13:13 : player: played "浅醉一生.mp3"
+Feb 07 13:19 : player: played "back to the moon and back.mp3"
+Feb 07 13:23 : player: played "before the night end.mp3"
+Feb 07 13:27 : player: played "gates of dawn.mp3"
+Feb 07 13:32 : player: played "it's not to say gool-bye.mp3"
+Feb 07 13:35 : player: played "numb.mp3"
+Feb 07 13:41 : player: played "rember.mp3"
+Feb 07 13:46 : player: played "take my hand.mp3"
+Feb 07 13:50 : player: played "through the arobr.mp3"
+Feb 07 13:56 : player: played "蔡文姬.mp3"
+Feb 07 13:58 : player: played "孤独的巡礼.mp3"
+Feb 07 14:01 : player: played "浅醉一生.mp3"
+Feb 07 14:06 : player: played "茜さす.mp3"
+Feb 07 14:07 : player: played "月光水岸.mp3"
+Feb 07 14:11 : player: played "张三的歌.mp3"
+Feb 07 14:17 : player: played "back to the moon and back.mp3"
+Feb 07 14:21 : player: played "before the night end.mp3"
+Feb 07 14:23 : player: played "Don't Walk Alone.mp3"
+Feb 07 14:25 : update: added /夜的钢琴曲.mp3
+Feb 07 14:27 : player: played "夜的钢琴曲.mp3"
+Feb 07 14:28 : update: removing dreamitpossible.mp3
+Feb 07 14:28 : exception: No such song
+Feb 07 14:30 : player: played "take my hand.mp3"
+Feb 07 14:30 : client: [0] closed
+Feb 10 12:17 : avahi: Service 'Music Player' successfully established.
+Feb 10 12:17 : client: [0] opened from local
+Feb 10 12:17 : exception: No such song
+Feb 10 12:17 : exception: No such song
+Feb 10 12:17 : exception: No such song
+Feb 10 12:23 : player: played "茜さす.mp3"
+Feb 10 12:28 : player: played "never to late.mp3"
+Feb 10 12:33 : player: played "victory.mp3"
+Feb 10 12:39 : player: played "you.mp3"
+Feb 10 12:42 : player: played "浅醉一生.mp3"
+Feb 10 12:48 : player: played "back to the moon and back.mp3"
+Feb 10 12:52 : player: played "before the night end.mp3"
+Feb 10 12:56 : player: played "gates of dawn.mp3"
+Feb 10 13:01 : player: played "it's not to say gool-bye.mp3"
+Feb 10 13:04 : player: played "numb.mp3"
+Feb 10 13:10 : player: played "rember.mp3"
+Feb 10 13:15 : player: played "take my hand.mp3"
+Feb 10 13:19 : player: played "through the arobr.mp3"
+Feb 10 14:48 : client: [0] closed
+Feb 10 17:21 : avahi: Client Disconnected, will reconnect shortly
+Feb 10 17:21 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Feb 12 12:24 : avahi: Service 'Music Player' successfully established.
+Feb 12 12:24 : client: [0] opened from local
+Feb 12 12:30 : player: played "蔡文姬.mp3"
+Feb 12 12:32 : player: played "孤独的巡礼.mp3"
+Feb 12 12:35 : player: played "浅醉一生.mp3"
+Feb 12 12:41 : player: played "茜さす.mp3"
+Feb 12 12:42 : player: played "月光水岸.mp3"
+Feb 12 12:46 : player: played "张三的歌.mp3"
+Feb 12 12:52 : player: played "back to the moon and back.mp3"
+Feb 12 12:56 : player: played "before the night end.mp3"
+Feb 12 12:58 : player: played "Don't Walk Alone.mp3"
+Feb 12 13:02 : player: played "gates of dawn.mp3"
+Feb 12 13:07 : player: played "it's not to say gool-bye.mp3"
+Feb 12 13:07 : player: played "never to late.mp3"
+Feb 12 15:15 : client: [0] closed
+Feb 12 17:27 : avahi: Client Disconnected, will reconnect shortly
+Feb 12 17:27 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Feb 23 12:37 : avahi: Service 'Music Player' successfully established.
+Feb 23 12:37 : client: [0] opened from local
+Feb 23 12:40 : player: played "孤独的巡礼.mp3"
+Feb 23 12:43 : player: played "浅醉一生.mp3"
+Feb 23 12:48 : player: played "茜さす.mp3"
+Feb 23 12:49 : player: played "月光水岸.mp3"
+Feb 23 12:53 : player: played "张三的歌.mp3"
+Feb 23 12:59 : player: played "back to the moon and back.mp3"
+Feb 23 13:03 : player: played "before the night end.mp3"
+Feb 23 13:05 : player: played "Don't Walk Alone.mp3"
+Feb 23 13:09 : player: played "gates of dawn.mp3"
+Feb 23 13:14 : player: played "it's not to say gool-bye.mp3"
+Feb 23 13:19 : player: played "never to late.mp3"
+Feb 23 13:24 : player: played "never too late.mp3"
+Feb 23 13:27 : player: played "numb.mp3"
+Feb 23 13:33 : player: played "rember.mp3"
+Feb 23 13:38 : player: played "take my hand.mp3"
+Feb 23 13:42 : player: played "through the arobr.mp3"
+Feb 23 13:47 : player: played "victory.mp3"
+Feb 23 13:50 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Feb 23 13:56 : player: played "you.mp3"
+Feb 23 14:02 : player: played "蔡文姬.mp3"
+Feb 23 14:08 : player: played "back to the moon and back.mp3"
+Feb 23 14:12 : player: played "before the night end.mp3"
+Feb 23 14:16 : player: played "gates of dawn.mp3"
+Feb 23 14:21 : player: played "it's not to say gool-bye.mp3"
+Feb 23 14:24 : player: played "never to late.mp3"
+Feb 23 14:24 : client: [0] closed
+Feb 26 13:06 : avahi: Service 'Music Player' successfully established.
+Feb 26 13:06 : client: [0] opened from local
+Feb 26 13:11 : player: played "never to late.mp3"
+Feb 26 13:16 : player: played "never too late.mp3"
+Feb 26 13:20 : player: played "numb.mp3"
+Feb 26 13:25 : player: played "rember.mp3"
+Feb 26 13:30 : player: played "take my hand.mp3"
+Feb 26 13:34 : player: played "through the arobr.mp3"
+Feb 26 13:39 : player: played "victory.mp3"
+Feb 26 13:45 : player: played "you.mp3"
+Feb 26 13:51 : player: played "you.mp3"
+Feb 26 13:56 : player: played "never to late.mp3"
+Feb 26 14:01 : player: played "victory.mp3"
+Feb 26 14:05 : player: played "before the night end.mp3"
+Feb 26 14:10 : player: played "never to late.mp3"
+Feb 26 14:15 : player: played "victory.mp3"
+Feb 26 14:21 : player: played "you.mp3"
+Feb 26 14:25 : player: played "back to the moon and back.mp3"
+Feb 26 14:25 : client: [0] closed
+Feb 28 12:16 : avahi: Service 'Music Player' successfully established.
+Feb 28 12:16 : client: [0] opened from local
+Feb 28 12:18 : player: played "蔡文姬.mp3"
+Feb 28 15:28 : client: [0] closed
+Mar 02 12:15 : avahi: Service 'Music Player' successfully established.
+Mar 02 12:15 : client: [0] opened from local
+Mar 02 12:16 : exception: No such directory
+Mar 02 12:22 : player: played "take my hand.mp3"
+Mar 02 12:25 : player: played "through the arobr.mp3"
+Mar 02 12:25 : client: [0] closed
+Mar 08 12:13 : avahi: Service 'Music Player' successfully established.
+Mar 08 12:13 : client: [0] opened from local
+Mar 08 12:13 : exception: No such song
+Mar 08 12:13 : exception: No such song
+Mar 08 12:13 : exception: No such song
+Mar 08 12:17 : player: played "茜さす.mp3"
+Mar 08 13:28 : client: [0] closed
+Mar 13 12:14 : avahi: Service 'Music Player' successfully established.
+Mar 13 12:14 : client: [0] opened from local
+Mar 13 12:14 : exception: No such song
+Mar 13 12:14 : exception: No such song
+Mar 13 12:14 : exception: No such song
+Mar 13 12:20 : player: played "茜さす.mp3"
+Mar 13 12:25 : player: played "never to late.mp3"
+Mar 13 12:30 : player: played "victory.mp3"
+Mar 13 12:36 : player: played "you.mp3"
+Mar 13 12:39 : player: played "浅醉一生.mp3"
+Mar 13 12:45 : player: played "back to the moon and back.mp3"
+Mar 13 12:49 : player: played "before the night end.mp3"
+Mar 13 12:53 : player: played "gates of dawn.mp3"
+Mar 13 04:57 : player: played "it's not to say gool-bye.mp3"
+Mar 13 04:57 : player: played "numb.mp3"
+Mar 13 04:57 : client: [0] closed
+Mar 13 05:08 : avahi: Service 'Music Player' successfully established.
+Mar 13 05:08 : client: [0] opened from local
+Mar 13 05:14 : player: played "back to the moon and back.mp3"
+Mar 13 05:18 : player: played "before the night end.mp3"
+Mar 13 05:20 : player: played "Don't Walk Alone.mp3"
+Mar 13 05:25 : player: played "gates of dawn.mp3"
+Mar 13 05:29 : player: played "it's not to say gool-bye.mp3"
+Mar 13 05:34 : player: played "never to late.mp3"
+Mar 13 05:39 : player: played "never too late.mp3"
+Mar 13 05:43 : player: played "numb.mp3"
+Mar 13 05:48 : player: played "rember.mp3"
+Mar 13 05:53 : player: played "take my hand.mp3"
+Mar 13 05:57 : player: played "through the arobr.mp3"
+Mar 13 06:02 : player: played "victory.mp3"
+Mar 13 06:05 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Mar 13 06:11 : player: played "you.mp3"
+Mar 13 06:11 : client: [0] closed
+Mar 17 08:34 : avahi: Service 'Music Player' successfully established.
+Mar 17 08:34 : client: [0] opened from local
+Mar 17 08:34 : exception: No such song
+Mar 17 08:34 : exception: No such song
+Mar 17 08:34 : exception: No such song
+Mar 17 08:37 : player: played "浅醉一生.mp3"
+Mar 17 08:43 : player: played "茜さす.mp3"
+Mar 17 08:44 : player: played "月光水岸.mp3"
+Mar 17 08:47 : player: played "张三的歌.mp3"
+Mar 17 08:47 : client: [0] closed
+Mar 17 10:43 : client: [1] opened from local
+Mar 17 10:45 : player: played "孤独的巡礼.mp3"
+Mar 17 10:49 : player: played "浅醉一生.mp3"
+Mar 17 10:54 : player: played "茜さす.mp3"
+Mar 17 10:55 : player: played "月光水岸.mp3"
+Mar 17 10:59 : player: played "张三的歌.mp3"
+Mar 17 11:05 : player: played "back to the moon and back.mp3"
+Mar 17 11:09 : player: played "before the night end.mp3"
+Mar 17 11:11 : player: played "Don't Walk Alone.mp3"
+Mar 17 11:15 : player: played "gates of dawn.mp3"
+Mar 17 11:20 : player: played "it's not to say gool-bye.mp3"
+Mar 17 11:25 : player: played "never to late.mp3"
+Mar 17 11:30 : player: played "never too late.mp3"
+Mar 17 11:33 : player: played "numb.mp3"
+Mar 17 11:39 : player: played "rember.mp3"
+Mar 17 11:44 : player: played "take my hand.mp3"
+Mar 17 11:47 : player: played "through the arobr.mp3"
+Mar 17 11:53 : player: played "victory.mp3"
+Mar 17 11:56 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Mar 17 12:02 : player: played "you.mp3"
+Mar 17 12:08 : player: played "蔡文姬.mp3"
+Mar 17 12:08 : player: played "back to the moon and back.mp3"
+Mar 17 12:08 : client: [1] closed
+Mar 19 10:54 : avahi: Service 'Music Player' successfully established.
+Mar 19 10:54 : client: [0] opened from local
+Mar 19 10:56 : player: played "孤独的巡礼.mp3"
+Mar 19 10:59 : player: played "浅醉一生.mp3"
+Mar 19 11:05 : player: played "茜さす.mp3"
+Mar 19 11:06 : player: played "月光水岸.mp3"
+Mar 19 11:10 : player: played "张三的歌.mp3"
+Mar 19 11:15 : player: played "back to the moon and back.mp3"
+Mar 19 11:19 : player: played "before the night end.mp3"
+Mar 19 11:21 : update: added /你不是真正的快乐.mp3
+Mar 19 11:26 : player: played "你不是真正的快乐.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 19 11:26 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 19 11:26 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 19 11:26 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 19 11:26 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 19 11:26 : player: problems opening audio device while playing "张三的歌.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 19 11:26 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 19 11:26 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 19 11:26 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 19 11:26 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 19 11:31 : player: played "张三的歌.mp3"
+Mar 19 11:36 : player: played "back to the moon and back.mp3"
+Mar 19 11:40 : player: played "before the night end.mp3"
+Mar 19 11:42 : player: played "Don't Walk Alone.mp3"
+Mar 19 11:47 : player: played "gates of dawn.mp3"
+Mar 19 11:51 : player: played "it's not to say gool-bye.mp3"
+Mar 19 11:56 : player: played "never to late.mp3"
+Mar 19 11:57 : player: played "never too late.mp3"
+Mar 19 11:57 : client: [0] closed
+Mar 19 11:57 : avahi: Client Disconnected, will reconnect shortly
+Mar 19 11:57 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Mar 20 04:21 : avahi: Service 'Music Player' successfully established.
+Mar 20 04:21 : client: [0] opened from local
+Mar 20 04:21 : client: [0] closed
+Mar 20 05:18 : avahi: Service 'Music Player' successfully established.
+Mar 20 05:18 : client: [0] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:18 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:18 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:18 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:18 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:18 : player: problems opening audio device while playing "你不是真正的快乐.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : player: played "蔡文姬.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : player: problems opening audio device while playing "蔡文姬.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : player: played "蔡文姬.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : player: problems opening audio device while playing "蔡文姬.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : player: played "蔡文姬.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : player: problems opening audio device while playing "蔡文姬.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:19 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:19 : player: played "蔡文姬.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:20 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:20 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:20 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:20 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:20 : player: problems opening audio device while playing "张三的歌.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:20 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:20 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:20 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:20 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:21 : update: updating /你不是真正的快乐.mp3
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:21 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:21 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:21 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:21 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:21 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:21 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:21 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:21 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:21 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:21 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:21 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:21 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:21 : exception: No such song
+Mar 20 05:21 : exception: No such song
+Mar 20 05:21 : exception: No such song
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:21 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:21 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:21 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:21 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:22 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:22 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:22 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:22 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:22 : exception: No such song
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:22 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:22 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:22 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:22 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:22 : player: played "victory.mp3"
+Mar 20 05:22 : client: [0] closed
+Mar 20 05:22 : client: [1] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:22 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:22 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:22 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:22 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:22 : player: problems opening audio device while playing "take my hand.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:23 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:23 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:23 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:23 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:23 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:23 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:23 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:23 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:23 : player: played "it's not to say gool-bye.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:24 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:24 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:24 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:24 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:24 : player: problems opening audio device while playing "你不是真正的快乐.mp3"
+Mar 20 05:24 : client: [1] closed
+Mar 20 05:24 : avahi: Service 'Music Player' successfully established.
+Mar 20 05:24 : client: [0] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:24 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:24 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:24 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:24 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:25 : avahi: Service 'Music Player' successfully established.
+Mar 20 05:25 : client: [0] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:25 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:25 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:25 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:25 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:25 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:25 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:25 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:25 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:25 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:26 : exception: Bad playlist name
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:27 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:27 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:27 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:27 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: No such song
+Mar 20 05:29 : exception: No such song
+Mar 20 05:29 : exception: No such song
+Mar 20 05:29 : exception: No such song
+Mar 20 05:29 : exception: No such song
+Mar 20 05:29 : exception: No such song
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:29 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:29 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:30 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:30 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:30 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:30 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:30 : exception: All audio outputs are disabled
+Mar 20 05:30 : exception: All audio outputs are disabled
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:30 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:30 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:30 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:30 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:30 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:30 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:30 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:30 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 20 05:30 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:30 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:30 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 20 05:30 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 20 05:32 : client: [0] closed
+Mar 21 05:30 : avahi: Service 'Music Player' successfully established.
+Mar 21 05:30 : client: [0] opened from local
+Mar 21 05:36 : player: played "back to the moon and back.mp3"
+Mar 21 05:39 : player: played "before the night end.mp3"
+Mar 21 05:42 : player: played "Don't Walk Alone.mp3"
+Mar 21 05:46 : player: played "gates of dawn.mp3"
+Mar 21 05:51 : player: played "it's not to say gool-bye.mp3"
+Mar 21 05:56 : player: played "never to late.mp3"
+Mar 21 06:01 : player: played "never too late.mp3"
+Mar 21 06:04 : player: played "numb.mp3"
+Mar 21 06:09 : player: played "rember.mp3"
+Mar 21 06:09 : client: [0] closed
+Mar 22 04:55 : avahi: Service 'Music Player' successfully established.
+Mar 22 04:55 : client: [0] opened from local
+Mar 22 04:59 : player: played "through the arobr.mp3"
+Mar 22 05:04 : player: played "victory.mp3"
+Mar 22 05:07 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Mar 22 05:13 : player: played "you.mp3"
+Mar 22 05:15 : player: played "back to the moon and back.mp3"
+Mar 22 05:15 : client: [0] closed
+Mar 22 05:33 : client: [1] opened from local
+Mar 22 05:33 : client: [1] closed
+Mar 22 09:58 : avahi: Client Disconnected, will reconnect shortly
+Mar 22 09:58 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Mar 24 00:49 : avahi: Service 'Music Player' successfully established.
+Mar 24 00:49 : client: [0] opened from local
+Mar 24 00:51 : player: played "孤独的巡礼.mp3"
+Mar 24 00:54 : player: played "浅醉一生.mp3"
+Mar 24 00:54 : player: played "茜さす.mp3"
+Mar 26 04:33 : avahi: Service 'Music Player' successfully established.
+Mar 26 04:33 : client: [0] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : player: problems opening audio device while playing "蔡文姬.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : exception: Failed to open "My ALSA Device" [alsa]
+Mar 26 04:33 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Mar 26 04:33 : client: [0] closed
+Mar 26 09:51 : avahi: Client Disconnected, will reconnect shortly
+Mar 26 09:51 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Mar 26 09:51 : player: played "浅醉一生.mp3"
+Mar 27 04:25 : avahi: Service 'Music Player' successfully established.
+Mar 27 04:25 : client: [0] opened from local
+Mar 27 04:28 : player: played "浅醉一生.mp3"
+Mar 27 04:33 : player: played "茜さす.mp3"
+Mar 27 04:34 : player: played "月光水岸.mp3"
+Mar 27 04:38 : player: played "张三的歌.mp3"
+Mar 27 04:44 : player: played "back to the moon and back.mp3"
+Mar 27 04:48 : player: played "before the night end.mp3"
+Mar 27 04:50 : player: played "Don't Walk Alone.mp3"
+Mar 27 04:55 : player: played "gates of dawn.mp3"
+Mar 27 04:59 : player: played "it's not to say gool-bye.mp3"
+Mar 27 05:04 : player: played "never to late.mp3"
+Mar 27 05:09 : player: played "never too late.mp3"
+Mar 27 05:12 : player: played "numb.mp3"
+Mar 27 05:18 : player: played "rember.mp3"
+Mar 27 05:23 : player: played "take my hand.mp3"
+Mar 27 05:27 : player: played "through the arobr.mp3"
+Mar 27 05:32 : player: played "victory.mp3"
+Mar 27 05:35 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Mar 27 05:41 : player: played "you.mp3"
+Mar 27 05:47 : player: played "back to the moon and back.mp3"
+Mar 27 05:51 : player: played "before the night end.mp3"
+Mar 27 05:55 : player: played "gates of dawn.mp3"
+Mar 27 05:58 : player: played "it's not to say gool-bye.mp3"
+Mar 27 06:33 : client: [0] closed
+Apr 04 04:21 : avahi: Service 'Music Player' successfully established.
+Apr 04 04:21 : client: [0] opened from local
+Apr 04 04:27 : player: played "蔡文姬.mp3"
+Apr 04 04:32 : player: played "茜さす.mp3"
+Apr 04 04:37 : player: played "never to late.mp3"
+Apr 04 04:43 : player: played "victory.mp3"
+Apr 04 04:48 : player: played "you.mp3"
+Apr 04 04:52 : player: played "浅醉一生.mp3"
+Apr 04 04:57 : player: played "back to the moon and back.mp3"
+Apr 04 05:01 : player: played "before the night end.mp3"
+Apr 04 05:06 : player: played "gates of dawn.mp3"
+Apr 04 05:10 : player: played "it's not to say gool-bye.mp3"
+Apr 04 05:13 : player: played "numb.mp3"
+Apr 04 05:19 : player: played "rember.mp3"
+Apr 04 05:24 : player: played "take my hand.mp3"
+Apr 04 05:28 : player: played "through the arobr.mp3"
+Apr 04 05:33 : player: played "你不是真正的快乐.mp3"
+Apr 04 05:35 : player: played "夜的钢琴曲.mp3"
+Apr 04 05:39 : player: played "张三的歌.mp3"
+Apr 04 05:43 : player: played "take my hand.mp3"
+Apr 04 07:50 : client: [0] closed
+Apr 08 05:11 : avahi: Service 'Music Player' successfully established.
+Apr 08 05:11 : client: [0] opened from local
+Apr 08 05:11 : client: [0] closed
+Apr 08 05:40 : client: [1] opened from local
+Apr 08 05:42 : player: played "孤独的巡礼.mp3"
+Apr 08 05:45 : player: played "浅醉一生.mp3"
+Apr 08 05:51 : player: played "茜さす.mp3"
+Apr 08 05:52 : player: played "月光水岸.mp3"
+Apr 08 05:56 : player: played "张三的歌.mp3"
+Apr 08 06:02 : player: played "back to the moon and back.mp3"
+Apr 08 06:06 : player: played "before the night end.mp3"
+Apr 08 06:07 : player: played "Don't Walk Alone.mp3"
+Apr 08 06:24 : client: [1] closed
+Apr 08 09:47 : avahi: Client Disconnected, will reconnect shortly
+Apr 08 09:47 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Apr 16 13:35 : avahi: Service 'Music Player' successfully established.
+Apr 16 13:35 : client: [0] opened from local
+Apr 16 13:37 : player: played "孤独的巡礼.mp3"
+Apr 16 13:40 : player: played "浅醉一生.mp3"
+Apr 16 13:45 : player: played "茜さす.mp3"
+Apr 16 13:45 : client: [0] closed
+May 08 10:59 : avahi: Service 'Music Player' successfully established.
+May 08 10:59 : client: [0] opened from local
+May 08 11:00 : exception: No such song
+May 08 11:00 : update: added 肖邦/Anda Waltz/Chopin - Complete waltzes (G��za Anda).mp3
+May 08 11:00 : exception: No such song
+May 08 11:00 : exception: No such song
+May 08 11:00 : update: added 肖邦/Chopin- Four Scherzi/02 Scherzo for piano No. 2 in B flat minor-D flat major, Op. 31, B. 111.mp3
+May 08 11:00 : update: added 肖邦/Chopin- Four Scherzi/03 Scherzo for piano No. 3 in C sharp minor, Op. 39, B. 125.mp3
+May 08 11:00 : update: added 肖邦/Chopin- Four Scherzi/01 Scherzo for piano No. 1 in B minor ('La banquet infernal') Op. 20, B. 65.mp3
+May 08 11:00 : update: added 肖邦/Chopin- Four Scherzi/04 Scherzo for piano No. 4 in E major, Op. 54, B. 148.mp3
+May 08 11:04 : exception: No such song
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/03. NO.3 E-DUR LENTO. MA NON TROPPO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/24. NO.12 C-MOLL ALLEGRO MOLTO CON FUOCO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/18. NO.6 GIS-MOLL ALLEGRO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/08. NO.8 F-DUR ALLEGRO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/16. NO.4 A-MOLL AGITATO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/22. NO.10 H-MOLL ALLEGRO CON FUOCO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/20. NO.8 DES-DUR VIVACE.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/02. NO.2 A-MOLL ALLEGRO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/21. NO.9 GES-DUR ALLEGRO ASSAI.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/17. NO.5 E-MOLL VIVACE.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/23. NO.11 A-MOLL LENTO-ALLEGRO CON BRIO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/10. NO.10 AS-DUR VIVACE ASSAI.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/13. 12 ETUDES. OP.25 NO.1 AS-DUR ALLEGRO SOSTENUTO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/12. NO.12 C-MOLL ALLEGRO CON FUOCO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/04. NO.4 CIS-MOLL PRESTO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/14. NO.2 F-MOLL PRESTO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/07. NO.7 C-DUR VIVACE.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/05. NO.5 GES-DUR VIVACE.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/09. NO.9 F-MOLL ALLEGRO MOLTO AGITATO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/19. NO.7 CIS-MOLL LENTO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/11. NO.11 ES-DUR ALLEGRETTO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/01. 12 ETUDES. OP.10 NO.1 C-DUR ALLEGRO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/15. NO.3 F-DUR ALLEGRO.mp3
+May 08 11:04 : update: added 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/06. NO.6 ES-MOLL ANDANTE.mp3
+May 08 11:07 : player: played "肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/01. 12 ETUDES. OP.10 NO.1 C-DUR ALLEGRO.mp3"
+May 08 11:49 : player: played "肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/02. NO.2 A-MOLL ALLEGRO.mp3"
+May 08 11:55 : player: played "肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/04. NO.4 CIS-MOLL PRESTO.mp3"
+May 08 16:52 : player: played "肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/05. NO.5 GES-DUR VIVACE.mp3"
+May 08 17:22 : client: [0] closed
+Aug 11 10:37 : avahi: Service 'Music Player' successfully established.
+Aug 11 10:37 : client: [0] opened from local
+Aug 11 10:43 : player: played "蔡文姬.mp3"
+Aug 11 10:46 : update: added /梦一场.mp3
+Aug 11 10:46 : update: added /人生何处不相逢.mp3
+Aug 11 10:46 : update: added 肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 51.mp3
+Aug 11 10:46 : update: added 肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 29.mp3
+Aug 11 10:46 : update: added 肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 36.mp3
+Aug 11 10:46 : update: added 肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Fantasie-Impromptu 1835.mp3
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/05 Mazurek- f-moll op 63 nr 2.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/01 Mazurek- cis-moll op 50 nr 3.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/10 Mazurek- g-moll op 24 nr 1.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/04 Mazurek- c-moll op 56 nr 3.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/09 Mazurek- As-dur op 50 nr 2.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/08 Mazurek- c-moll op 30 nr 1.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/18 Mazurek- f-moll op 68 nr 4.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/15 Mazurek- e-moll op 41 nr 1.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/16 Mazurek- a-moll op 59 nr 1.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/12 Mazurek- h-moll op 33 nr 4.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/06 Mazurek- As-dur op 17 nr 3.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/02 Mazurek- gis-moll op 33 nr 1.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/07 Mazurek- b-moll op 24 nr 4.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/14 Mazurek- e-moll op 17 nr 2.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/03 Mazurek- As-dur op 24 nr 3.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/11 Mazurek- G-dur op 50 nr 1.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/17 Mazurek- a-moll op 7 nr 2.wma
+Aug 11 10:46 : update: added 肖邦/Chopin- Mazurki (Erhard 1849)/13 Mazurek- h-moll op 30 nr 2.wma
+Aug 11 10:46 : update: added 肖邦/DTS - Chopin - Polonaises (2CDs)/Polonaises 2.flac
+Aug 11 10:46 : update: added 肖邦/DTS - Chopin - Polonaises (2CDs)/Polonaises 1.flac
+Aug 11 10:46 : update: added 肖邦/Sergio Fiorentino--prelude/Sergio Fiorentino plays Chopin 24 Preludes Op. 28.mp3
+Aug 11 10:46 : update: added 肖邦/Moravec-ballade/Chopin - Ballades & Scherzi (Ivan Moravec).mp3
+Aug 11 10:46 : update: added /The Last of the Mohicans.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Anda Waltz/Chopin - Complete waltzes (G��za Anda).mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Four Scherzi/01 Scherzo for piano No. 1 in B minor ('La banquet infernal') Op. 20, B. 65.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Four Scherzi/02 Scherzo for piano No. 2 in B flat minor-D flat major, Op. 31, B. 111.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Four Scherzi/03 Scherzo for piano No. 3 in C sharp minor, Op. 39, B. 125.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Four Scherzi/04 Scherzo for piano No. 4 in E major, Op. 54, B. 148.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/01 Mazurek- cis-moll op 50 nr 3.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/02 Mazurek- gis-moll op 33 nr 1.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/03 Mazurek- As-dur op 24 nr 3.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/04 Mazurek- c-moll op 56 nr 3.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/05 Mazurek- f-moll op 63 nr 2.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/06 Mazurek- As-dur op 17 nr 3.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/07 Mazurek- b-moll op 24 nr 4.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/08 Mazurek- c-moll op 30 nr 1.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/09 Mazurek- As-dur op 50 nr 2.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/10 Mazurek- g-moll op 24 nr 1.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/11 Mazurek- G-dur op 50 nr 1.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/12 Mazurek- h-moll op 33 nr 4.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/13 Mazurek- h-moll op 30 nr 2.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/14 Mazurek- e-moll op 17 nr 2.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/15 Mazurek- e-moll op 41 nr 1.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/16 Mazurek- a-moll op 59 nr 1.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/17 Mazurek- a-moll op 7 nr 2.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/18 Mazurek- f-moll op 68 nr 4.wma
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/DTS - Chopin - Polonaises (2CDs)/Polonaises 1.flac
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/DTS - Chopin - Polonaises (2CDs)/Polonaises 2.flac
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Moravec-ballade/Chopin - Ballades & Scherzi (Ivan Moravec).mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sergio Fiorentino--prelude/Sergio Fiorentino plays Chopin 24 Preludes Op. 28.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sokolov-Chopin Impromptu/Sokolov - Chopin - Fantasie-Impromptu 1835.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 29.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 36.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 51.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/01. 12 ETUDES. OP.10 NO.1 C-DUR ALLEGRO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/02. NO.2 A-MOLL ALLEGRO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/03. NO.3 E-DUR LENTO. MA NON TROPPO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/04. NO.4 CIS-MOLL PRESTO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/05. NO.5 GES-DUR VIVACE.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/06. NO.6 ES-MOLL ANDANTE.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/07. NO.7 C-DUR VIVACE.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/08. NO.8 F-DUR ALLEGRO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/09. NO.9 F-MOLL ALLEGRO MOLTO AGITATO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/10. NO.10 AS-DUR VIVACE ASSAI.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/11. NO.11 ES-DUR ALLEGRETTO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/12. NO.12 C-MOLL ALLEGRO CON FUOCO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/13. 12 ETUDES. OP.25 NO.1 AS-DUR ALLEGRO SOSTENUTO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/14. NO.2 F-MOLL PRESTO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/15. NO.3 F-DUR ALLEGRO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/16. NO.4 A-MOLL AGITATO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/17. NO.5 E-MOLL VIVACE.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/18. NO.6 GIS-MOLL ALLEGRO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/19. NO.7 CIS-MOLL LENTO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/20. NO.8 DES-DUR VIVACE.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/21. NO.9 GES-DUR ALLEGRO ASSAI.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/22. NO.10 H-MOLL ALLEGRO CON FUOCO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/23. NO.11 A-MOLL LENTO-ALLEGRO CON BRIO.mp3
+Aug 11 10:46 : update: added 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/24. NO.12 C-MOLL ALLEGRO MOLTO CON FUOCO.mp3
+Aug 11 10:46 : update: added /一天到晚游泳的鱼.mp3
+Aug 11 10:49 : player: played "茜さす.mp3"
+Aug 11 10:54 : player: played "never to late.mp3"
+Aug 11 10:59 : player: played "victory.mp3"
+Aug 11 11:05 : player: played "you.mp3"
+Aug 11 11:08 : player: played "浅醉一生.mp3"
+Aug 11 11:14 : player: played "back to the moon and back.mp3"
+Aug 11 11:18 : player: played "before the night end.mp3"
+Aug 11 11:22 : player: played "gates of dawn.mp3"
+Aug 11 11:27 : player: played "it's not to say gool-bye.mp3"
+Aug 11 11:30 : player: played "numb.mp3"
+Aug 11 11:35 : player: played "rember.mp3"
+Aug 11 11:40 : player: played "take my hand.mp3"
+Aug 11 11:44 : player: played "through the arobr.mp3"
+Aug 11 11:49 : player: played "你不是真正的快乐.mp3"
+Aug 11 11:51 : player: played "夜的钢琴曲.mp3"
+Aug 11 11:55 : player: played "张三的歌.mp3"
+Aug 11 12:00 : player: played "take my hand.mp3"
+Aug 11 12:04 : player: played "before the night end.mp3"
+Aug 11 12:06 : player: played "Don't Walk Alone.mp3"
+Aug 11 12:15 : player: played "梦一场.mp3"
+Aug 11 12:16 : exception: No such song
+Aug 11 12:16 : exception: No such song
+Aug 11 12:16 : exception: No such song
+Aug 11 12:25 : player: played "人生何处不相逢.mp3"
+Aug 11 12:28 : exception: No such song
+Aug 11 12:28 : exception: No such song
+Aug 11 12:28 : exception: No such song
+Aug 11 12:33 : player: played "茜さす.mp3"
+Aug 11 12:38 : player: played "never to late.mp3"
+Aug 11 12:44 : player: played "victory.mp3"
+Aug 11 12:50 : player: played "you.mp3"
+Aug 11 12:53 : player: played "浅醉一生.mp3"
+Aug 11 12:58 : player: played "back to the moon and back.mp3"
+Aug 11 13:02 : player: played "before the night end.mp3"
+Aug 11 13:07 : player: played "gates of dawn.mp3"
+Aug 11 13:11 : player: played "it's not to say gool-bye.mp3"
+Aug 11 13:15 : player: played "numb.mp3"
+Aug 11 13:20 : player: played "rember.mp3"
+Aug 11 13:25 : player: played "take my hand.mp3"
+Aug 11 13:29 : player: played "through the arobr.mp3"
+Aug 11 13:34 : player: played "你不是真正的快乐.mp3"
+Aug 11 13:38 : player: played "张三的歌.mp3"
+Aug 11 13:43 : player: played "一天到晚游泳的鱼.mp3"
+Aug 11 13:46 : player: played "夜的钢琴曲.mp3"
+Aug 11 13:49 : player: played "梦一场.mp3"
+Aug 11 13:53 : player: played "人生何处不相逢.mp3"
+Aug 11 13:59 : player: played "rember.mp3"
+Aug 11 14:02 : player: played "numb.mp3"
+Aug 11 14:05 : player: played "浅醉一生.mp3"
+Aug 11 14:17 : player: played "浅醉一生.mp3"
+Aug 11 14:20 : player: played "夜的钢琴曲.mp3"
+Aug 11 14:35 : player: played "月光水岸.mp3"
+Aug 13 08:11 : client: [0] closed

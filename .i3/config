@@ -1,16 +1,8 @@
 # Windows button
 set $mod Mod4
-
+set $psst --no-startup-id
 # Font
-#font pango:System San Francisco Display 11
-font pango:Monospace,FontAwesome 12
-
-# Polybar
-#exec_always --no-startup-id ~/.config/polybar/launch.sh
-#exec_always pkill -9 polybar ; polybar top
-
-# Wallpaper
-#exec_always sh ~/.config/i3/SetWallpaper.sh ~/Downloads/rocky_coastline.png &
+font pango:mono 9
 
 # (No) Title Bars
 for_window [class="^.*"] border pixel 0
@@ -36,27 +28,32 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # Custom KeyBinds
- set $mode_system System (l) lock, (e) exit, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) Shutdown
- mode "$mode_system" {
-     bindsym l exec bash ~/.i3/i3lock.sh, mode "default"
-     bindsym e exec i3-msg exit, mode "default"
-     bindsym s exec i3exit suspend, mode "default"
-     bindsym h exec i3exit hibernate, mode "default"
-     bindsym r exec systemctl reboot, mode "default"
-     bindsym Shift+s exec systemctl poweroff, mode "default"
-            # back to normal: Enter or Escape
-     bindsym Return mode "default"
-    bindsym Escape mode "default"
+# set $mode_system System (l) lock, (e) exit, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) Shutdown
+# mode "$mode_system" {
+#     bindsym l exec bash ~/.i3/i3lock.sh, mode "default"
+#     bindsym e exec i3-msg exit, mode "default"
+#     bindsym s exec i3exit suspend, mode "default"
+#     bindsym h exec i3exit hibernate, mode "default"
+#     bindsym r exec systemctl reboot, mode "default"
+#     bindsym Shift+s exec systemctl poweroff, mode "default"
+#            # back to normal: Enter or Escape
+#     bindsym Return mode "default"
+#    bindsym Escape mode "default"
+#         }
+#  bindsym $mod+Shift+e mode "$mode_system"
+set $mode_system    [L]OCK       LOG[O]UT       [S]USPEND       [R]EBOOT       [P]OWEROFF
+bindsym  $mod+Shift+e mode "$mode_system"
+mode "$mode_system" {
+ bindsym l exec bash ~/.i3/i3exit.sh lock, mode "default"
+ bindsym o exec bash ~/.i3/i3exit.sh logout, mode "default"
+ bindsym s exec bash ~/.i3/i3exit.sh suspend, mode "default"
+ bindsym r exec bash ~/.i3/i3exit.sh reboot, mode "default"
+ bindsym p exec bash ~/.i3/i3exit.sh poweroff, mode "default"
+bindsym Return mode "default"
+ bindsym Escape mode "default"
          }
-  bindsym $mod+Shift+e mode "$mode_system"
 
-
-
-#bindsym Mod1+Control+Delete exec --no-startup-id xfce4-taskmanager
-
-
-
-# Chrome
+# firefox
 bindsym $mod+c exec --no-startup-id firefox
 #bindsym $mod+Shift+BackSpace exec --no-startup-id firefox-nightly -private-window
 
@@ -78,50 +75,6 @@ exec_always xrdb ~/.Xresources
 
 bindsym $mod+d exec --no-startup-id rofi -show drun -display-drun "" -fuzzy -show-icons "true"
 #bindsym $mod+Tab exec --no-startup-id rofi -show window -display-window ""
-
-# lightdm and light-locker
-# exec --no-startup-id lightdm
-# exec --no-startup-id light-locker
-
-# bluetooth
-#exec --no-startup-id /usr/lib/blueberry/blueberry-obex-agent.py
-# exec --no-startup-id blueberry-tray
-
-# audio
-#exec --no-startup-id start-pulseaudio-x11
-# exec --no-startup-id pasystray # --always-notify
-#bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 2%-  
-#bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 2%+
-
-# brightness
-# bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5 
-# bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5
-
-# authentication
-#exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
-
-# power manager
-#exec --no-startup-id xfce4-power-manager
-#exec --no-startup-id xfsettingsd
-
-# spotify 
-#assign [class="(?i)spotify"] 
-
-# thunar
-#bindsym $Mod+e exec --no-startup-id thunar
-
-#steam
-#assign [class="(?i)Steam"] 
-
-# redshift
-# exec --no-startup-id redshift-gtk
-
-# exec --no-startup-id xfce4-panel --disable-wm-check
-
-# Screenshots
-#bindsym $mod+Print exec spectacle
-#bindsym $mod+Ctrl+Print exec spectacle -r
-#bindsym $mod+Shift+Print exec spectacle -a
 
 ################################################################################
 # TILING
@@ -190,42 +143,52 @@ bindsym $mod+p workspace prev
 ################################################################################
 # WORKSPACES
 ################################################################################
+set $ws1  1:
+set $ws2  2:
+set $ws3 3:
+set $ws4 4:
+set $ws5 5:
+set $ws6  6:
+set $ws7 7:
+set $ws8  8:
+set $ws9  9:
+set $ws10 10:
 
-# http://fontawesome.io/cheatsheet/
+# switch to workspace
+ bindsym $mod+1 workspace $ws1
+ bindsym $mod+2 workspace $ws2
+ bindsym $mod+3 workspace $ws3
+ bindsym $mod+4 workspace $ws4
+ bindsym $mod+5 workspace $ws5
+ bindsym $mod+6 workspace $ws6
+ bindsym $mod+7 workspace $ws7
+ bindsym $mod+8 workspace $ws8
+ bindsym $mod+9 workspace $ws9
+ bindsym $mod+0 workspace $ws10
 
-bindsym $mod+1 workspace  
-bindsym $mod+2 workspace  
-bindsym $mod+3 workspace  
-bindsym $mod+4 workspace  
-bindsym $mod+5 workspace  
-bindsym $mod+6 workspace  
-bindsym $mod+7 workspace  
-bindsym $mod+8 workspace  
-bindsym $mod+9 workspace  
-#bindsym $mod+0 workspace  
-bindsym $mod+0 workspace  
+ # move focused container to workspace
+ bindsym $mod+Shift+1 move container to workspace $ws1; workspace $ws1
+ bindsym $mod+Shift+2 move container to workspace $ws2; workspace $ws2
+ bindsym $mod+Shift+3 move container to workspace $ws3; workspace $ws3
+ bindsym $mod+Shift+4 move container to workspace $ws4; workspace $ws4
+ bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
+ bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
+ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
+ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+ bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
+ bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws10
 
-bindsym $mod+Shift+1 move container to workspace  ; workspace  
-bindsym $mod+Shift+2 move container to workspace  ; workspace  
-bindsym $mod+Shift+3 move container to workspace  ; workspace  
-bindsym $mod+Shift+4 move container to workspace  ; workspace  
-bindsym $mod+Shift+5 move container to workspace  ; workspace  
-bindsym $mod+Shift+6 move container to workspace  ; workspace  
-bindsym $mod+Shift+7 move container to workspace  ; workspace  
-bindsym $mod+Shift+8 move container to workspace  ; workspace  
-bindsym $mod+Shift+9 move container to workspace  ; workspace  
-#bindsym $mod+Shift+0 move container to workspace  ; workspace  
-bindsym $mod+Shift+0 move container to workspace  ; workspace  
-
-assign [class="(?i)firefox"] workspace 
-
+assign [class="(?i)firefox"] workspace $ws5
+assign [class="(?i)chromium"] workspace $ws5
 #exec --no-startup-id spotify
 # exec --no-startup-id steam-native
-for_window [class="(?i)mplayer"] move container to workspace 
-for_window [class="(?i)qtox"] move container to workspace 
-for_window [class="(?i)QQ"] move container to workspace 
-for_window [class="(?i)libreoffice"] move container to workspace 
-exec --no-startup-id i3-msg workspace 
+for_window [class="(?i)mplayer"] move container to workspace $ws10
+#for_window [class="(?i)qtox"] move container to workspace 
+#for_window [class="(?i)QQ"] move container to workspace 
+for_window [class="(?i)libreoffice"] move container to workspace $ws9
+for_window [class="(?i)wps"] move container to workspace $ws9
+
+exec --no-startup-id i3-msg 
 
 
 
@@ -257,24 +220,24 @@ bindsym $mod+r mode "resize"
 ################################################################################
 # COLOURS
 ################################################################################
-
-# Colors from Xresources
-set_from_resource $bg  i3wm.color0  #f0f0f0
-set_from_resource $fg  i3wm.color15 #f0f0f0
-set_from_resource $bg2 i3wm.color4  #f0f0f0
-set_from_resource $fg2 i3wm.color7  #f0f0f0
-set_from_resource $bg3 i3wm.color3  #f0f0f0
-set_from_resource $bg4 i3wm.color1  #f0f0f0
-
-# class                 border  backgr. text indicator child_border
-client.focused          $bg      $bla    $fg  $bg   $bg
-client.focused_inactive $bg      $bla    $fg  $bg   $bg
-client.unfocused        $bg      $bla    $fg  $bg   $bg
-client.urgent           $bg      $bg    $fg  $bg   $bg
-client.placeholder      $bg      $bg    $fg  $bg   $bg
-#client.background $bg
-client.background $bla
-
+client.focused #a3be8c $a3be8c #a3be8c #a3be8c #a3be8c
+## Colors from Xresources
+#set_from_resource $bg  i3wm.color0  #f0f0f0
+#set_from_resource $fg  i3wm.color15 #f0f0f0
+#set_from_resource $bg2 i3wm.color4  #f0f0f0
+#set_from_resource $fg2 i3wm.color7  #f0f0f0
+#set_from_resource $bg3 i3wm.color3  #f0f0f0
+#set_from_resource $bg4 i3wm.color1  #f0f0f0
+#
+## class                 border  backgr. text indicator child_border
+#client.focused          $bg      $bla    $fg  $bg   $bg
+#client.focused_inactive $bg      $bla    $fg  $bg   $bg
+#client.unfocused        $bg      $bla    $fg  $bg   $bg
+#client.urgent           $bg      $bg    $fg  $bg   $bg
+#client.placeholder      $bg      $bg    $fg  $bg   $bg
+##client.background $bg
+#client.background $bla
+#
 #set $bg-colour              #2f343f
 #set $inactive-bg-colour     #2f343f
 #set $text-colour            #f3f4f5
@@ -302,31 +265,41 @@ bar {
 	status_command i3blocks -c ~/.i3/i3blocks.conf
    # status_command i3status -c ~/.i3/istatus.conf
     position top 
-  colors {
-    separator #268bd2
-   # separator $transparent
-   # statusline #839496
-   # background #002b36
-#     background #0F2540
-    background #0C4842
-	statusline $accent
-	separator $accent
-   # background $transparent
-   # ---| border | bg | fg |---
-		focused_workspace $accent $accent $black
-       # focused_workspace #0E376F #0E376F $black
+    colors {
+              #  background #09090990
+              #   background #0B1013
+              background #09203f
+              # focused_workspace #09090990 #09090990 #FFFFFB
+               focused_workspace  #09203f #09203f #FFFFFB
 
-	#	active_workspace $black $black $accent
-#		inactive_workspace $black $black $accent
-		urgent_workspace $urgent $urgent $black
-   # focused_workspace #fdf6e3 #6c71c4 #fdf6e3
-   # active_workspace #fdf6e3 #6c71c4 #fdf6e3
-     active_workspace #fdf6e3 #6c71c4 $accent
-   # inactive_workspace #002b36 #586e75 #002b36
-     inactive_workspace #002b36 #586e75 $accent
-  # inactive_workspace $bg $bg $fg
-   # urgent_workspace #d33682 #d33682 #fdf6e3
-  }
+              # focused_workspace #09090990 #09090990 #b37eba
+              inactive_workspace #09203f #09203f #807282
+    }
+#  colors {
+#    separator #268bd2
+#   # separator $transparent
+#   # statusline #839496
+#   # background #002b36
+##     background #0F2540
+#    background #0C4842
+#	statusline $accent
+#	separator $accent
+#   # background $transparent
+#   # ---| border | bg | fg |---
+#		focused_workspace $accent $accent $black
+#       # focused_workspace #0E376F #0E376F $black
+#
+#	#	active_workspace $black $black $accent
+##		inactive_workspace $black $black $accent
+#		urgent_workspace $urgent $urgent $black
+#   # focused_workspace #fdf6e3 #6c71c4 #fdf6e3
+#   # active_workspace #fdf6e3 #6c71c4 #fdf6e3
+#     active_workspace #fdf6e3 #6c71c4 $accent
+#   # inactive_workspace #002b36 #586e75 #002b36
+#     inactive_workspace #002b36 #586e75 $accent
+#  # inactive_workspace $bg $bg $fg
+#   # urgent_workspace #d33682 #d33682 #fdf6e3
+#  }
 }
 ################################################################################
 # TASKBAR
@@ -384,11 +357,11 @@ for_window [title="Terminator Preferences"] floating enable
 
 
 # Compton
-exec_always pkill -9 compton ; compton -cCFb --config ~/.compton.conf 
-exec --no-startup-id feh --bg-fill ~/picture/w2.jpg
+#exec_always pkill -9 compton ; compton -cCFb --config ~/.compton.conf 
+exec --no-startup-id feh --bg-fill ~/picture/wa1.jpg
 exec --no-startup-id fcitx&
 exec --no-startup-id dunst&
 exec --no-startup-id volumeicon&
-#exec --no-startup-id compton -b # --config ~/.config/compton.conf
+exec --no-startup-id compton -b # --config ~/.config/compton.conf
 exec --no-startup-id termite -e tmux 
 

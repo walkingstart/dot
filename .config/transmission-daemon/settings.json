@@ -43,6 +43,8 @@
     "rpc-authentication-required": false,
     "rpc-bind-address": "0.0.0.0",
     "rpc-enabled": true,
+    "rpc-host-whitelist": "",
+    "rpc-host-whitelist-enabled": true,
     "rpc-password": "{c2aa6a0f4fc887fbf251b99786a156d3cbb47f3eKl7JTDee",
     "rpc-port": 9091,
     "rpc-url": "/transmission/",
