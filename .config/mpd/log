@@ -2635,3 +2635,11 @@ Sep 19 12:23 : exception: nested: Failed to open ALSA device "default": Device o
 Sep 19 12:24 : player: played "夜想曲-渡边雄一.mp3"
 Sep 19 12:27 : player: played "夜想曲-渡边雄一.mp3"
 Sep 19 12:27 : client: [1] closed
+Sep 25 12:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 25 12:07 : avahi: Service 'Music Player' successfully established.
+Sep 25 12:07 : client: [0] opened from local
+Sep 25 12:12 : player: played "乌兰巴托的夜.mp3"
+Sep 25 12:13 : player: played "夜想曲-渡边雄一.mp3"
+Sep 25 12:14 : client: [0] closed
+Sep 25 15:04 : avahi: Client Disconnected, will reconnect shortly
+Sep 25 15:04 : avahi: Could not reconnect: An unexpected D-Bus error occurred

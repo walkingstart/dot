@@ -13,12 +13,43 @@ gaps inner 15
 gaps outer 15
 smart_gaps on
 
+################################################################################
+# COLOURS
+################################################################################
+# Set Xresources colors:
+ set_from_resource $darkblack  color0  #000000
+ set_from_resource $black  color8  #000000
+ set_from_resource $darkred    color1  #000000
+ set_from_resource $red        color9  #000000
+ set_from_resource $darkgreen  color2  #000000
+ set_from_resource $green  color10 #000000
+ set_from_resource $darkyellow color3  #000000
+ set_from_resource $yellow color11 #000000
+ set_from_resource $darkblue   color4  #000000
+ set_from_resource $blue       color12 #000000
+ set_from_resource $darkmagenta    color5  #000000
+ set_from_resource $magenta    color13 #000000
+ set_from_resource $darkcyan   color6  #000000
+ set_from_resource $cyan       color14 #000000
+ set_from_resource $darkwhite  color7  #000000
+ set_from_resource $white  color15 #000000
+ set $transparent      #00000000
+
+ #                       BORDER        BACKGROUND  TEXT        INDICATOR   CHILD_BORDER
+ client.focused        $red        $red        $magenta    $darkmagenta        $darkblue
+ client.unfocused  $transparent    $blue       $white      $darkblue       $darkblack
+ client.focused_inactive   $transparent    $blue       $white      $darkblue       $darkblack
+ client.urgent     $darkred    $darkred    $black      $darkred        $darkred
+ client.background $black
+#client.focused #a3be8c $a3be8c #a3be8c #a3be8c #a3be8c
+
 # Colors
 #set $black #010101
 #set $gray #585756
 #set $accent #c6ff00
 #set $urgent #DF6418
 #set $bla    #282828
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -62,7 +93,7 @@ bindsym $mod+c exec --no-startup-id firefox
 # exec --no-startup-id nm-applet
 
 # Terminal
-bindsym $mod+Return exec --no-startup-id termite
+bindsym $mod+Return exec --no-startup-id urxvt
 
 # Lock screen
 #bindsym $mod+Escape exec --no-startup-id sh ~/.i3/i3lock.sh
@@ -73,17 +104,17 @@ bindsym $mod+Shift+q kill
 # rofi
 exec_always xrdb ~/.Xresources
 #bindsym $mod+d exec --no-startup-id rofi -show drun -lines 10 -padding 50 -opacity "85" -font "Roboto Mono 40" -width 65 -show-icons "true"
-
-bindsym $mod+d exec --no-startup-id rofi -show drun -display-drun "" -fuzzy -show-icons "true"
+#bindsym $mod+d exec --no-startup-id rofi -show drun -display-drun "" -fuzzy -show-icons "true"
+bindsym $mod+d exec --no-startup-id rofi -show drun -display-drun "" -fuzzy -show-icons "true"
 #bindsym $mod+Tab exec --no-startup-id rofi -show window -display-window ""
 
 ################################################################################
 # TILING
 ################################################################################
 
-set $up l
-set $down k
-set $left j
+set $up k
+set $down j
+set $left l
 set $right semicolon
 
 # change focus
@@ -190,6 +221,7 @@ for_window [class="(?i)mplayer"] move container to workspace $ws10
 #for_window [class="(?i)QQ"] move container to workspace 
 for_window [class="(?i)libreoffice"] move container to workspace $ws9
 for_window [class="(?i)WPS"] move container to workspace $ws9
+for_window [class="(?i)palemoon"] move container to workspace $ws5
 
 exec --no-startup-id i3-msg 
 
@@ -220,41 +252,12 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-################################################################################
-# COLOURS
-################################################################################
-# Set Xresources colors:
- set_from_resource $darkblack  color0  #000000
- set_from_resource $black  color8  #000000
- set_from_resource $darkred    color1  #000000
- set_from_resource $red        color9  #000000
- set_from_resource $darkgreen  color2  #000000
- set_from_resource $green  color10 #000000
- set_from_resource $darkyellow color3  #000000
- set_from_resource $yellow color11 #000000
- set_from_resource $darkblue   color4  #000000
- set_from_resource $blue       color12 #000000
- set_from_resource $darkmagenta    color5  #000000
- set_from_resource $magenta    color13 #000000
- set_from_resource $darkcyan   color6  #000000
- set_from_resource $cyan       color14 #000000
- set_from_resource $darkwhite  color7  #000000
- set_from_resource $white  color15 #000000
- set $transparent      #00000000
-
- #                       BORDER        BACKGROUND  TEXT        INDICATOR   CHILD_BORDER
- client.focused        $red        $red        $magenta    $darkmagenta        $darkblue
- client.unfocused  $transparent    $blue       $white      $darkblue       $darkblack
- client.focused_inactive   $transparent    $blue       $white      $darkblue       $darkblack
- client.urgent     $darkred    $darkred    $black      $darkred        $darkred
- client.background $black
-#client.focused #a3be8c $a3be8c #a3be8c #a3be8c #a3be8c
 ##################
 #bar
 ###################
 bar {
   	font pango:Source Sans Pro-10 11
-    height 25
+    height 23
     strip_workspace_numbers yes
    # workspace_buttons yes
     i3bar_command i3bar -t
@@ -272,6 +275,7 @@ bar {
             # inactive_workspace $darkblack $darkblack $white
              urgent_workspace   $darkblack $darkblack $white
              }
+}
 #    colors {
 #              #  background #09090990
 #              #   background #0B1013
@@ -307,11 +311,8 @@ bar {
 #  # inactive_workspace $bg $bg $fg
 #   # urgent_workspace #d33682 #d33682 #fdf6e3
 #  }
-}
+#}
 
-################################################################################
-# KDE PLASMA INTEGRATION
-################################################################################
 
 # Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everything)
 # exec --no-startup-id wmctrl -c Plasma
@@ -334,20 +335,36 @@ for_window [class="(?i)anki"] floating enable
 for_window [class="(?i)anki"] resize set 800 600
 for_window [class="(?i)xfce4-taskmanager"] floating enable
 for_window [class="(?i)xfce4-taskmanager"] resize set 1000 800
-for_window [class="(?i)xfrun"] floating enable
-for_window [class="(?i)xfrun"] resize set 800 600
+#for_window [class="(?i)urxvt"] floating enable
+#for_window [class="(?i)urxvt"] resize set 1300 800
 for_window [title="Settings for Task Manager"] resize set 600 400
 for_window [title="About Task Manager"] resize set 600 400
 for_window [title="Terminator Preferences"] floating enable
 
+for_window [class="Pinentry"] sticky enable
+for_window [class="sent"] border pixel 0px
+for_window [class="Blender"] move to workspace $ws6
+for_window [class="marble"] move to workspace $ws7
+for_window [title="GIMP Startup"] move workspace $ws5
+for_window [class="Gimp"] move workspace $ws5
+for_window [window_role="GtkFileChooserDialog"] resize shrink height 10 px
+for_window [title="Default - Wine desktop"] floating enable
+
+# First I have a tmux window used for background scripts.
+# I'll later bind this to mod+u.
+for_window [instance="dropdown"] floating enable
+for_window [instance="dropdown"] resize set 625 400
+for_window [instance="dropdown"] move scratchpad
+for_window [instance="dropdown"] border pixel 3
 
 
 # Compton
 #exec_always pkill -9 compton ; compton -cCFb --config ~/.compton.conf 
-exec --no-startup-id feh --bg-fill ~/picture/john.jpg
+exec --no-startup-id feh --bg-fill ~/picture/arch10.jpg
 exec --no-startup-id fcitx&
 exec --no-startup-id dunst&
 #exec --no-startup-id volumeicon&
 exec --no-startup-id compton -b # --config ~/.config/compton.conf
-exec --no-startup-id termite -e tmux 
+#exec --no-startup-id termite -e tmux 
+#exec --no-startup-id urxvt -e tmux
 
