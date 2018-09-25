@@ -322,12 +322,12 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
-alias empty='gvfs-trash --empty'			# empty trash globally (all partitions)
+#alias empty='gvfs-trash --empty'			# empty trash globally (all partitions)
 #alias garbage='gvfs-trash -f'
 #alias garbage-list='gvfs-ls -h trash://'
 #alias garbage-empty='gvfs-trash --empty'		# empty trash globally (all partitions)
 #alias t="todo.sh"                                       # todotxt.sh program
-alias trash='trash-put -v'
+#alias trash='trash-put -v'
 #alias vless="/usr/share/vim/vim74/macros/less.sh"       # vim as a pager
 #alias vradio="vim ~/.pyradio.csv && killall mpg123"    # vim as radio player using pyradio.csv
 #alias wttr='curl wttr.in'                               # wego weather forcast using only curl
@@ -443,10 +443,164 @@ m-ip() {
   echo "---------------------------------------------------"
 }
 #}}
+#}}}
+#-------- Garbage - Manage Trash-can {{{
+#------------------------------------------------------
+# DESC: manage trash-can from the commandline
+# REFF: https://askubuntu.com/questions/499523/what-is-the-difference-between-gvfs-commands-and-common-commands-like-cat-ls-c
+#       https://askubuntu.com/questions/213533/command-to-move-a-file-to-trash-via-terminal
 
-####################
-##### GRAPHICS #####
-####################
+# empty trash-can
+empty() {
+  if which gio &>/dev/null; then
+    gio trash --empty
+  elif which gvfs-trash &>/dev/null; then
+    gvfs-trash --empty
+  else
+    echo "Requires glib2 (gio) or gvfs (gvfs-trash) package"
+  fi
+}
+
+garbage-empty() {
+  if which gio &>/dev/null; then
+    gio trash --empty
+  elif which gvfs-trash &>/dev/null; then
+    gvfs-trash --empty
+  else
+    echo "Requires glib2 (gio) or gvfs (gvfs-trash) package"
+  fi
+}
+
+# put file in trash-can
+garbage() {
+  if which gio &>/dev/null; then
+    gio trash -f $@
+  elif which gvfs-trash &>/dev/null; then
+    gvfs-trash -f $@
+  else
+    echo "Requires glib2 (gio) or gvfs (gvfs-trash) package"
+  fi
+}
+
+garbage-list() {
+  if which gio &>/dev/null; then
+    gio list -h trash://
+  elif which gvfs-ls &>/dev/null; then
+    gvfs-ls -h trash://
+  else
+    echo "Requires glib2 (gio) or gvfs (gvfs-trash) package"
+  fi
+}
+
+garbage-restore() {
+  if which trash-restore &>/dev/null; then
+    trash-restore
+  else
+    echo "Requires trash-cli package"
+  fi
+}
+# }}}
+#-------- Archive Integrity Check {{{
+#------------------------------------------------------
+# DEMO: https://www.youtube.com
+# DESC: Check if archive is corrupted
+# REFF: https://unix.stackexchange.com/questions/42287/terminating-an-infinite-loop
+
+archive-integrity-zip() {
+  if [ $# -lt 1 ]; then
+    echo -e "check zip file if it is corrupted or has bad errors"
+    echo -e "Usage: $0 <filename>"
+    echo -e "\nExample:\n$0 file.zip"
+    echo -e "$0 file1.zip file2.zip file3.zip"
+    echo -e "$0 *.zip"
+    return 1
+  fi
+  NOSPACES=$(basename "$PWD" | sed 's/ /_/g')
+  LOGFILE=_errorcheck_"$NOSPACES".log
+  echo "${Red}>>>Log File Saved To: $LOGFILE ${Color_Off}"
+  echo "${Red}>>>Check for Bad or Invalid errors ${Color_Off}"
+  echo "${Red}>>>=============================== ${Color_Off}"
+  myArray=( "$@" )
+  for arg in "${myArray[@]}"; do
+    echo "${Green}Testing File: $arg ${Color_Off}"
+    unzip -tq "$arg" >> "$LOGFILE" || break
+  done
+}
+
+archive-integrity-rar() {
+  if [ $# -lt 1 ]; then
+    echo -e "check zip file if it is corrupted or has bad errors"
+    echo -e "Usage: $0 <filename>"
+    echo -e "\nExample:\n$0 file.zip"
+    echo -e "$0 file1.zip file2.zip file3.zip"
+    echo -e "$0 *.zip"
+    return 1
+  fi
+  NOSPACES=$(basename "$PWD" | sed 's/ /_/g')
+  LOGFILE=_errorcheck_"$NOSPACES".log
+  echo "${Red}>>>Log File Saved To: $LOGFILE ${Color_Off}"
+  echo "${Red}>>>Check for errors ${Color_Off}"
+  echo "${Red}>>>================ ${Color_Off}"
+  myArray=( "$@" )
+  for arg in "${myArray[@]}"; do
+    echo "${Green}Testing File: $arg ${Color_Off}"
+    unrar t "$arg" >> "$LOGFILE" || break
+  done
+}
+
+archive-integrity-7z() {
+  if [ $# -lt 1 ]; then
+    echo -e "check zip file if it is corrupted or has bad errors"
+    echo -e "Usage: $0 <filename>"
+    echo -e "\nExample:\n$0 file.zip"
+    echo -e "$0 file1.zip file2.zip file3.zip"
+    echo -e "$0 *.zip"
+    return 1
+  fi
+  NOSPACES=$(basename "$PWD" | sed 's/ /_/g')
+  LOGFILE=_errorcheck_"$NOSPACES".log
+  echo "${Red}>>>Log File Saved To: $LOGFILE ${Color_Off}"
+  echo "${Red}>>>Check for Sub items Errors ${Color_Off}"
+  echo "${Red}>>>========================== ${Color_Off}"
+  myArray=( "$@" )
+  for arg in "${myArray[@]}"; do
+    echo "${Green}Testing File: $arg ${Color_Off}"
+    7z t "$arg" >> "$LOGFILE" || break
+  done
+}
+
+#}}}
+#-------- Screenshot {{{
+#------------------------------------------------------
+# DEMO: http://www.youtube.com/watch?v=Hh8G1aBp8gc
+# DESC: take screenshot fullscreen, single window or draw a box
+export PATH_SCREENSHOT=~/pictures/screenshots
+pix() { scrot -d 5 "$PATH_SCREENSHOT/fullscr_`date +'%F_%Hh%Ms%S'`.png" ;}
+pix-area() { sleep 2 && scrot -s "$PATH_SCREENSHOT/windowed_`date +'%F_%Hh%Ms%S'`.png" ;}
+
+
+
+# archive-integrity-7z() {
+#   NOSPACES=$(basename "$PWD" | sed 's/ /_/g')
+#   LOGFILE=~/Downloads/_errorcheck_"$NOSPACES".log
+#   echo "${Red}>>>Log File Saved To: $LOGFILE ${Color_Off}"
+#   echo "${Red}>>>Check for Sub items Errors ${Color_Off}"
+#   ls -1 *.7z | while read line
+#   do
+#     7z t $line >> "$LOGFILE" || break
+#   done
+# }
+#
+# archive-integrity-rar() {
+#   NOSPACES=$(basename "$PWD" | sed 's/ /_/g')
+#   LOGFILE=~/Downloads/_errorcheck_"$NOSPACES".log
+#   echo "${Red}>>>Log File Saved To: $LOGFILE ${Color_Off}"
+#   ls -1 *.rar | while read line
+#   do
+#     unrar t $line >> "$LOGFILE" || break
+#   done
+# }
+
 
 #-------- Image Resizer (32|96|128|480|600|768|720|960|1080) {{{
 #------------------------------------------------------

@@ -1847,3 +1847,791 @@ Aug 11 14:17 : player: played "浅醉一生.mp3"
 Aug 11 14:20 : player: played "夜的钢琴曲.mp3"
 Aug 11 14:35 : player: played "月光水岸.mp3"
 Aug 13 08:11 : client: [0] closed
+Aug 13 13:04 : client: [1] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Aug 13 13:04 : exception: Failed to open "My ALSA Device" [alsa]
+Aug 13 13:04 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Aug 13 13:04 : exception: Failed to open "My ALSA Device" [alsa]
+Aug 13 13:04 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Aug 13 13:04 : player: problems opening audio device while playing "梦一场.mp3"
+Aug 13 13:09 : player: played "梦一场.mp3"
+Aug 13 13:15 : player: played "茜さす.mp3"
+Aug 13 13:20 : player: played "never to late.mp3"
+Aug 13 13:25 : player: played "victory.mp3"
+Aug 13 13:31 : player: played "you.mp3"
+Aug 13 13:34 : player: played "浅醉一生.mp3"
+Aug 13 13:40 : player: played "back to the moon and back.mp3"
+Aug 13 13:44 : player: played "before the night end.mp3"
+Aug 13 13:48 : player: played "gates of dawn.mp3"
+Aug 13 13:53 : player: played "it's not to say gool-bye.mp3"
+Aug 13 13:56 : player: played "numb.mp3"
+Aug 13 14:02 : player: played "rember.mp3"
+Aug 13 14:06 : player: played "take my hand.mp3"
+Aug 13 14:10 : player: played "through the arobr.mp3"
+Aug 13 14:15 : player: played "你不是真正的快乐.mp3"
+Aug 13 14:19 : player: played "张三的歌.mp3"
+Aug 13 14:25 : player: played "一天到晚游泳的鱼.mp3"
+Aug 13 14:27 : player: played "夜的钢琴曲.mp3"
+Aug 13 14:31 : player: played "梦一场.mp3"
+Aug 13 14:32 : client: [1] closed
+Aug 13 14:33 : client: [2] opened from local
+Aug 13 14:33 : client: [2] closed
+Aug 13 14:33 : client: [3] opened from local
+Aug 13 14:33 : player: played "人生何处不相逢.mp3"
+Aug 13 14:33 : client: [3] closed
+Aug 14 10:53 : client: [4] opened from local
+Aug 14 10:58 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Aug 14 11:03 : player: played "茜さす.mp3"
+Aug 14 11:08 : player: played "it's not to say gool-bye.mp3"
+Aug 14 11:14 : player: played "you.mp3"
+Aug 14 11:17 : player: played "through the arobr.mp3"
+Aug 14 11:21 : player: played "张三的歌.mp3"
+Aug 14 11:26 : player: played "never to late.mp3"
+Aug 14 11:28 : player: played "夜的钢琴曲.mp3"
+Aug 14 11:33 : player: played "你不是真正的快乐.mp3"
+Aug 14 11:38 : player: played "gates of dawn.mp3"
+Aug 14 11:41 : player: played "numb.mp3"
+Aug 14 11:45 : player: played "梦一场.mp3"
+Aug 14 11:49 : player: played "人生何处不相逢.mp3"
+Aug 14 11:54 : player: played "肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Fantasie-Impromptu 1835.mp3"
+Aug 14 11:58 : player: played "肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 29.mp3"
+Aug 14 12:05 : player: played "肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 36.mp3"
+Aug 14 12:13 : player: played "肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 51.mp3"
+Aug 14 12:19 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/01 Mazurek- cis-moll op 50 nr 3.wma"
+Aug 14 12:21 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/02 Mazurek- gis-moll op 33 nr 1.wma"
+Aug 14 12:23 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/03 Mazurek- As-dur op 24 nr 3.wma"
+Aug 14 12:30 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/04 Mazurek- c-moll op 56 nr 3.wma"
+Aug 14 12:31 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/05 Mazurek- f-moll op 63 nr 2.wma"
+Aug 14 12:36 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/06 Mazurek- As-dur op 17 nr 3.wma"
+Aug 14 12:41 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/07 Mazurek- b-moll op 24 nr 4.wma"
+Aug 14 12:43 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/08 Mazurek- c-moll op 30 nr 1.wma"
+Aug 14 12:46 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/09 Mazurek- As-dur op 50 nr 2.wma"
+Aug 14 12:49 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/10 Mazurek- g-moll op 24 nr 1.wma"
+Aug 14 12:51 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/11 Mazurek- G-dur op 50 nr 1.wma"
+Aug 14 12:57 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/12 Mazurek- h-moll op 33 nr 4.wma"
+Aug 14 12:58 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/13 Mazurek- h-moll op 30 nr 2.wma"
+Aug 14 13:01 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/14 Mazurek- e-moll op 17 nr 2.wma"
+Aug 14 13:03 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/15 Mazurek- e-moll op 41 nr 1.wma"
+Aug 14 13:07 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/16 Mazurek- a-moll op 59 nr 1.wma"
+Aug 14 13:11 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/17 Mazurek- a-moll op 7 nr 2.wma"
+Aug 14 13:11 : player: played "肖邦/Chopin- Mazurki (Erhard 1849)/18 Mazurek- f-moll op 68 nr 4.wma"
+Aug 14 13:11 : client: [4] closed
+Aug 14 13:36 : client: [5] opened from local
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/24. NO.12 C-MOLL ALLEGRO MOLTO CON FUOCO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/23. NO.11 A-MOLL LENTO-ALLEGRO CON BRIO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/22. NO.10 H-MOLL ALLEGRO CON FUOCO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/21. NO.9 GES-DUR ALLEGRO ASSAI.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/20. NO.8 DES-DUR VIVACE.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/19. NO.7 CIS-MOLL LENTO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/18. NO.6 GIS-MOLL ALLEGRO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/17. NO.5 E-MOLL VIVACE.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/16. NO.4 A-MOLL AGITATO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/15. NO.3 F-DUR ALLEGRO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/14. NO.2 F-MOLL PRESTO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/13. 12 ETUDES. OP.25 NO.1 AS-DUR ALLEGRO SOSTENUTO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/12. NO.12 C-MOLL ALLEGRO CON FUOCO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/11. NO.11 ES-DUR ALLEGRETTO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/10. NO.10 AS-DUR VIVACE ASSAI.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/09. NO.9 F-MOLL ALLEGRO MOLTO AGITATO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/08. NO.8 F-DUR ALLEGRO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/07. NO.7 C-DUR VIVACE.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/06. NO.6 ES-MOLL ANDANTE.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/05. NO.5 GES-DUR VIVACE.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/04. NO.4 CIS-MOLL PRESTO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/03. NO.3 E-DUR LENTO. MA NON TROPPO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/02. NO.2 A-MOLL ALLEGRO.mp3
+Aug 14 13:37 : update: removing 肖邦/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/01. 12 ETUDES. OP.10 NO.1 C-DUR ALLEGRO.mp3
+Aug 14 13:37 : update: removing 肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 51.mp3
+Aug 14 13:37 : update: removing 肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 36.mp3
+Aug 14 13:37 : update: removing 肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 29.mp3
+Aug 14 13:37 : update: removing 肖邦/Sokolov-Chopin Impromptu/Sokolov - Chopin - Fantasie-Impromptu 1835.mp3
+Aug 14 13:37 : update: removing 肖邦/Sergio Fiorentino--prelude/Sergio Fiorentino plays Chopin 24 Preludes Op. 28.mp3
+Aug 14 13:37 : update: removing 肖邦/Moravec-ballade/Chopin - Ballades & Scherzi (Ivan Moravec).mp3
+Aug 14 13:37 : update: removing 肖邦/DTS - Chopin - Polonaises (2CDs)/Polonaises 2.flac
+Aug 14 13:37 : update: removing 肖邦/DTS - Chopin - Polonaises (2CDs)/Polonaises 1.flac
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/18 Mazurek- f-moll op 68 nr 4.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/17 Mazurek- a-moll op 7 nr 2.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/16 Mazurek- a-moll op 59 nr 1.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/15 Mazurek- e-moll op 41 nr 1.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/14 Mazurek- e-moll op 17 nr 2.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/13 Mazurek- h-moll op 30 nr 2.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/12 Mazurek- h-moll op 33 nr 4.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/11 Mazurek- G-dur op 50 nr 1.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/10 Mazurek- g-moll op 24 nr 1.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/09 Mazurek- As-dur op 50 nr 2.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/08 Mazurek- c-moll op 30 nr 1.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/07 Mazurek- b-moll op 24 nr 4.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/06 Mazurek- As-dur op 17 nr 3.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/05 Mazurek- f-moll op 63 nr 2.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/04 Mazurek- c-moll op 56 nr 3.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/03 Mazurek- As-dur op 24 nr 3.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/02 Mazurek- gis-moll op 33 nr 1.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Mazurki (Erhard 1849)/01 Mazurek- cis-moll op 50 nr 3.wma
+Aug 14 13:37 : update: removing 肖邦/Chopin- Four Scherzi/04 Scherzo for piano No. 4 in E major, Op. 54, B. 148.mp3
+Aug 14 13:37 : update: removing 肖邦/Chopin- Four Scherzi/03 Scherzo for piano No. 3 in C sharp minor, Op. 39, B. 125.mp3
+Aug 14 13:37 : update: removing 肖邦/Chopin- Four Scherzi/02 Scherzo for piano No. 2 in B flat minor-D flat major, Op. 31, B. 111.mp3
+Aug 14 13:37 : update: removing 肖邦/Chopin- Four Scherzi/01 Scherzo for piano No. 1 in B minor ('La banquet infernal') Op. 20, B. 65.mp3
+Aug 14 13:37 : update: removing 肖邦/Anda Waltz/Chopin - Complete waltzes (G��za Anda).mp3
+Aug 14 13:42 : player: played "蔡文姬.mp3"
+Aug 14 13:44 : player: played "孤独的巡礼.mp3"
+Aug 14 13:47 : player: played "浅醉一生.mp3"
+Aug 14 13:52 : player: played "一天到晚游泳的鱼.mp3"
+Aug 14 14:27 : client: [5] closed
+Aug 15 12:18 : client: [6] opened from local
+Aug 15 12:22 : player: played "人生何处不相逢.mp3"
+Aug 15 12:28 : player: played "蔡文姬.mp3"
+Aug 15 12:30 : player: played "孤独的巡礼.mp3"
+Aug 15 12:33 : player: played "浅醉一生.mp3"
+Aug 15 12:39 : player: played "一天到晚游泳的鱼.mp3"
+Aug 15 12:40 : player: played "月光水岸.mp3"
+Aug 15 12:46 : player: played "back to the moon and back.mp3"
+Aug 15 12:50 : player: played "before the night end.mp3"
+Aug 15 12:52 : player: played "Don't Walk Alone.mp3"
+Aug 15 12:57 : player: played "never too late.mp3"
+Aug 15 13:02 : player: played "rember.mp3"
+Aug 15 13:07 : player: played "take my hand.mp3"
+Aug 15 13:12 : player: played "The Last of the Mohicans.mp3"
+Aug 15 13:17 : player: played "victory.mp3"
+Aug 15 13:19 : player: played "孤独的巡礼.mp3"
+Aug 15 13:22 : player: played "浅醉一生.mp3"
+Aug 15 13:28 : player: played "茜さす.mp3"
+Aug 15 13:29 : player: played "月光水岸.mp3"
+Aug 15 13:33 : player: played "张三的歌.mp3"
+Aug 15 13:39 : player: played "back to the moon and back.mp3"
+Aug 15 13:42 : player: played "before the night end.mp3"
+Aug 15 13:45 : player: played "Don't Walk Alone.mp3"
+Aug 15 13:49 : player: played "gates of dawn.mp3"
+Aug 15 13:54 : player: played "it's not to say gool-bye.mp3"
+Aug 15 13:59 : player: played "never to late.mp3"
+Aug 15 14:04 : player: played "never too late.mp3"
+Aug 15 14:07 : player: played "numb.mp3"
+Aug 15 14:12 : player: played "rember.mp3"
+Aug 15 14:14 : player: played "take my hand.mp3"
+Aug 15 14:14 : client: [6] closed
+Aug 16 09:22 : client: [7] opened from local
+Aug 16 09:27 : player: played "梦一场.mp3"
+Aug 16 09:32 : player: played "你不是真正的快乐.mp3"
+Aug 16 09:37 : player: played "一天到晚游泳的鱼.mp3"
+Aug 16 09:43 : player: played "一天到晚游泳的鱼.mp3"
+Aug 16 09:49 : player: played "茜さす.mp3"
+Aug 16 09:54 : player: played "never to late.mp3"
+Aug 16 09:59 : player: played "victory.mp3"
+Aug 16 10:05 : player: played "you.mp3"
+Aug 16 10:08 : player: played "浅醉一生.mp3"
+Aug 16 10:14 : player: played "back to the moon and back.mp3"
+Aug 16 10:18 : player: played "before the night end.mp3"
+Aug 16 10:18 : player: played "gates of dawn.mp3"
+Aug 16 10:18 : client: [7] closed
+Aug 16 12:07 : client: [8] opened from local
+Aug 16 12:08 : player: played "月光水岸.mp3"
+Aug 16 12:12 : player: played "梦一场.mp3"
+Aug 16 12:16 : player: played "梦一场.mp3"
+Aug 16 12:21 : player: played "你不是真正的快乐.mp3"
+Aug 16 12:26 : player: played "一天到晚游泳的鱼.mp3"
+Aug 16 12:32 : player: played "一天到晚游泳的鱼.mp3"
+Aug 16 12:38 : player: played "茜さす.mp3"
+Aug 16 12:43 : player: played "never to late.mp3"
+Aug 16 12:48 : player: played "victory.mp3"
+Aug 16 12:54 : player: played "you.mp3"
+Aug 16 12:57 : player: played "浅醉一生.mp3"
+Aug 16 13:03 : player: played "back to the moon and back.mp3"
+Aug 16 13:07 : player: played "before the night end.mp3"
+Aug 16 13:11 : player: played "gates of dawn.mp3"
+Aug 16 13:16 : player: played "it's not to say gool-bye.mp3"
+Aug 16 13:19 : player: played "numb.mp3"
+Aug 16 13:25 : player: played "rember.mp3"
+Aug 16 13:29 : player: played "take my hand.mp3"
+Aug 16 13:33 : player: played "through the arobr.mp3"
+Aug 16 13:39 : player: played "一天到晚游泳的鱼.mp3"
+Aug 16 13:43 : player: played "人生何处不相逢.mp3"
+Aug 16 13:48 : player: played "茜さす.mp3"
+Aug 16 13:53 : player: played "never to late.mp3"
+Aug 16 13:59 : player: played "victory.mp3"
+Aug 16 14:05 : player: played "you.mp3"
+Aug 16 14:08 : player: played "浅醉一生.mp3"
+Aug 16 14:13 : player: played "back to the moon and back.mp3"
+Aug 16 14:17 : player: played "before the night end.mp3"
+Aug 16 14:22 : player: played "gates of dawn.mp3"
+Aug 16 14:26 : player: played "it's not to say gool-bye.mp3"
+Aug 16 14:27 : player: played "numb.mp3"
+Aug 16 14:27 : client: [8] closed
+Aug 17 16:21 : avahi: Client Disconnected, will reconnect shortly
+Aug 17 16:21 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Aug 18 09:01 : avahi: Service 'Music Player' successfully established.
+Aug 18 09:01 : client: [0] opened from local
+Aug 18 09:03 : player: played "numb.mp3"
+Aug 18 09:03 : client: [0] closed
+Aug 18 11:18 : client: [1] opened from local
+Aug 18 11:22 : player: played "人生何处不相逢.mp3"
+Aug 18 11:27 : player: played "茜さす.mp3"
+Aug 18 11:32 : player: played "never to late.mp3"
+Aug 18 11:38 : player: played "victory.mp3"
+Aug 18 11:43 : player: played "you.mp3"
+Aug 18 11:47 : player: played "浅醉一生.mp3"
+Aug 18 11:52 : player: played "back to the moon and back.mp3"
+Aug 18 11:56 : player: played "before the night end.mp3"
+Aug 18 12:01 : player: played "gates of dawn.mp3"
+Aug 18 12:05 : player: played "it's not to say gool-bye.mp3"
+Aug 18 12:08 : player: played "numb.mp3"
+Aug 18 12:14 : player: played "rember.mp3"
+Aug 18 12:19 : player: played "take my hand.mp3"
+Aug 18 12:23 : player: played "through the arobr.mp3"
+Aug 18 12:28 : player: played "你不是真正的快乐.mp3"
+Aug 18 12:32 : player: played "张三的歌.mp3"
+Aug 18 12:37 : player: played "一天到晚游泳的鱼.mp3"
+Aug 18 12:39 : player: played "夜的钢琴曲.mp3"
+Aug 18 12:43 : player: played "梦一场.mp3"
+Aug 18 12:47 : player: played "人生何处不相逢.mp3"
+Aug 18 12:53 : player: played "rember.mp3"
+Aug 18 12:56 : player: played "numb.mp3"
+Aug 18 12:59 : player: played "浅醉一生.mp3"
+Aug 18 13:02 : player: played "浅醉一生.mp3"
+Aug 18 13:04 : player: played "夜的钢琴曲.mp3"
+Aug 18 13:05 : player: played "月光水岸.mp3"
+Aug 18 13:11 : player: played "茜さす.mp3"
+Aug 18 13:16 : player: played "never to late.mp3"
+Aug 18 13:21 : player: played "victory.mp3"
+Aug 18 13:27 : player: played "you.mp3"
+Aug 18 13:30 : player: played "浅醉一生.mp3"
+Aug 18 13:36 : player: played "back to the moon and back.mp3"
+Aug 18 13:40 : player: played "before the night end.mp3"
+Aug 18 13:44 : player: played "gates of dawn.mp3"
+Aug 18 13:49 : player: played "it's not to say gool-bye.mp3"
+Aug 18 13:52 : player: played "numb.mp3"
+Aug 18 13:58 : player: played "rember.mp3"
+Aug 18 14:03 : player: played "take my hand.mp3"
+Aug 18 14:06 : player: played "through the arobr.mp3"
+Aug 18 14:11 : player: played "你不是真正的快乐.mp3"
+Aug 18 14:15 : player: played "张三的歌.mp3"
+Aug 18 14:21 : player: played "一天到晚游泳的鱼.mp3"
+Aug 18 14:23 : player: played "夜的钢琴曲.mp3"
+Aug 18 14:27 : player: played "梦一场.mp3"
+Aug 18 14:31 : player: played "人生何处不相逢.mp3"
+Aug 18 14:37 : player: played "rember.mp3"
+Aug 18 14:40 : player: played "numb.mp3"
+Aug 18 14:43 : player: played "浅醉一生.mp3"
+Aug 21 13:09 : avahi: Service 'Music Player' successfully established.
+Aug 21 13:09 : client: [0] opened from local
+Aug 21 13:15 : player: played "茜さす.mp3"
+Aug 21 13:20 : player: played "it's not to say gool-bye.mp3"
+Aug 21 13:25 : player: played "you.mp3"
+Aug 21 13:29 : player: played "through the arobr.mp3"
+Aug 21 13:33 : player: played "张三的歌.mp3"
+Aug 21 13:38 : player: played "never to late.mp3"
+Aug 21 13:40 : player: played "夜的钢琴曲.mp3"
+Aug 21 13:45 : player: played "你不是真正的快乐.mp3"
+Aug 21 13:50 : player: played "gates of dawn.mp3"
+Aug 21 13:53 : player: played "numb.mp3"
+Aug 21 13:57 : player: played "梦一场.mp3"
+Aug 21 14:01 : player: played "人生何处不相逢.mp3"
+Aug 21 14:07 : player: played "蔡文姬.mp3"
+Aug 21 14:09 : player: played "孤独的巡礼.mp3"
+Aug 21 14:12 : player: played "浅醉一生.mp3"
+Aug 21 14:17 : player: played "一天到晚游泳的鱼.mp3"
+Aug 21 14:19 : player: played "月光水岸.mp3"
+Aug 21 14:21 : player: played "back to the moon and back.mp3"
+Aug 21 14:21 : client: [0] closed
+Aug 22 13:25 : client: [1] opened from local
+Aug 22 13:29 : player: played "back to the moon and back.mp3"
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/07 Mazurek- b-moll op 24 nr 4.wma
+Aug 22 13:38 : update: added /moonglow.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/06 Mazurek- As-dur op 17 nr 3.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/05 Mazurek- f-moll op 63 nr 2.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/04 Mazurek- c-moll op 56 nr 3.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/03 Mazurek- As-dur op 24 nr 3.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/02 Mazurek- gis-moll op 33 nr 1.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/01 Mazurek- cis-moll op 50 nr 3.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Four Scherzi/04 Scherzo for piano No. 4 in E major, Op. 54, B. 148.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Four Scherzi/03 Scherzo for piano No. 3 in C sharp minor, Op. 39, B. 125.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Four Scherzi/02 Scherzo for piano No. 2 in B flat minor-D flat major, Op. 31, B. 111.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Four Scherzi/01 Scherzo for piano No. 1 in B minor ('La banquet infernal') Op. 20, B. 65.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Anda Waltz/Chopin - Complete waltzes (G��za Anda).mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/24. NO.12 C-MOLL ALLEGRO MOLTO CON FUOCO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/23. NO.11 A-MOLL LENTO-ALLEGRO CON BRIO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/22. NO.10 H-MOLL ALLEGRO CON FUOCO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/21. NO.9 GES-DUR ALLEGRO ASSAI.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/20. NO.8 DES-DUR VIVACE.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/19. NO.7 CIS-MOLL LENTO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/18. NO.6 GIS-MOLL ALLEGRO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/17. NO.5 E-MOLL VIVACE.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/16. NO.4 A-MOLL AGITATO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/15. NO.3 F-DUR ALLEGRO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/14. NO.2 F-MOLL PRESTO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/13. 12 ETUDES. OP.25 NO.1 AS-DUR ALLEGRO SOSTENUTO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/12. NO.12 C-MOLL ALLEGRO CON FUOCO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/11. NO.11 ES-DUR ALLEGRETTO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/10. NO.10 AS-DUR VIVACE ASSAI.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/09. NO.9 F-MOLL ALLEGRO MOLTO AGITATO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/08. NO.8 F-DUR ALLEGRO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/07. NO.7 C-DUR VIVACE.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/06. NO.6 ES-MOLL ANDANTE.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/05. NO.5 GES-DUR VIVACE.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/04. NO.4 CIS-MOLL PRESTO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/03. NO.3 E-DUR LENTO. MA NON TROPPO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/02. NO.2 A-MOLL ALLEGRO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Stanislav_Bunin_-_Chopin.24.Etudes-TBTJ/01. 12 ETUDES. OP.10 NO.1 C-DUR ALLEGRO.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 51.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 36.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sokolov-Chopin Impromptu/Sokolov - Chopin - Impromptu Op. 29.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sokolov-Chopin Impromptu/Sokolov - Chopin - Fantasie-Impromptu 1835.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Sergio Fiorentino--prelude/Sergio Fiorentino plays Chopin 24 Preludes Op. 28.mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Moravec-ballade/Chopin - Ballades & Scherzi (Ivan Moravec).mp3
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/DTS - Chopin - Polonaises (2CDs)/Polonaises 2.flac
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/DTS - Chopin - Polonaises (2CDs)/Polonaises 1.flac
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/18 Mazurek- f-moll op 68 nr 4.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/17 Mazurek- a-moll op 7 nr 2.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/16 Mazurek- a-moll op 59 nr 1.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/15 Mazurek- e-moll op 41 nr 1.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/14 Mazurek- e-moll op 17 nr 2.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/13 Mazurek- h-moll op 30 nr 2.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/12 Mazurek- h-moll op 33 nr 4.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/11 Mazurek- G-dur op 50 nr 1.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/10 Mazurek- g-moll op 24 nr 1.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/09 Mazurek- As-dur op 50 nr 2.wma
+Aug 22 13:38 : update: removing 【新版】神一样的肖邦专辑.zip/���°桿��һ����Ф��ר��/Chopin- Mazurki (Erhard 1849)/08 Mazurek- c-moll op 30 nr 1.wma
+Aug 22 13:39 : update: removing 月光水岸.mp3
+Aug 22 13:41 : player: played "before the night end.mp3"
+Aug 22 13:43 : player: played "Don't Walk Alone.mp3"
+Aug 22 13:46 : player: played "gates of dawn.mp3"
+Aug 23 08:15 : client: [1] closed
+Aug 23 12:24 : client: [2] opened from local
+Aug 23 12:28 : player: played "it's not to say gool-bye.mp3"
+Aug 23 12:33 : player: played "never to late.mp3"
+Aug 23 12:38 : player: played "never too late.mp3"
+Aug 23 12:41 : player: played "numb.mp3"
+Aug 23 12:47 : player: played "rember.mp3"
+Aug 23 12:52 : player: played "take my hand.mp3"
+Aug 23 12:56 : player: played "through the arobr.mp3"
+Aug 23 13:01 : player: played "victory.mp3"
+Aug 23 13:04 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Aug 23 13:10 : player: played "you.mp3"
+Aug 23 13:16 : player: played "back to the moon and back.mp3"
+Aug 23 13:18 : player: played "before the night end.mp3"
+Aug 23 14:52 : client: [2] closed
+Aug 24 12:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 24 12:26 : avahi: Service 'Music Player' successfully established.
+Aug 24 12:26 : client: [0] opened from local
+Aug 24 12:30 : player: played "浅醉一生.mp3"
+Aug 24 12:32 : player: played "夜的钢琴曲.mp3"
+Aug 24 12:37 : player: played "茜さす.mp3"
+Aug 24 12:42 : player: played "never to late.mp3"
+Aug 24 12:47 : player: played "victory.mp3"
+Aug 24 12:54 : player: played "never to late.mp3"
+Aug 24 14:18 : client: [0] closed
+Aug 27 12:08 : client: [1] opened from local
+Aug 27 12:14 : player: played "you.mp3"
+Aug 27 12:17 : player: played "浅醉一生.mp3"
+Aug 27 12:19 : player: played "back to the moon and back.mp3"
+Aug 27 12:19 : client: [1] closed
+Aug 28 13:39 : client: [2] opened from local
+Aug 28 13:44 : player: played "你不是真正的快乐.mp3"
+Aug 28 13:48 : player: played "张三的歌.mp3"
+Aug 28 13:54 : player: played "一天到晚游泳的鱼.mp3"
+Aug 28 13:56 : player: played "夜的钢琴曲.mp3"
+Aug 28 14:00 : player: played "梦一场.mp3"
+Aug 28 14:04 : player: played "人生何处不相逢.mp3"
+Aug 28 14:10 : player: played "rember.mp3"
+Aug 28 14:13 : player: played "numb.mp3"
+Aug 28 14:16 : player: played "浅醉一生.mp3"
+Aug 28 14:22 : player: played "back to the moon and back.mp3"
+Aug 28 14:26 : player: played "before the night end.mp3"
+Aug 28 14:31 : player: played "gates of dawn.mp3"
+Aug 28 14:33 : player: played "it's not to say gool-bye.mp3"
+Aug 28 14:33 : client: [2] closed
+Aug 28 15:12 : client: [3] opened from local
+Aug 28 15:16 : exception: No such directory
+Aug 28 15:17 : exception: No such song
+Aug 28 15:17 : exception: No such song
+Aug 28 15:17 : exception: No such directory
+Aug 28 15:18 : exception: No such directory
+Aug 28 15:24 : player: played "victory.mp3"
+Aug 28 15:24 : exception: No such song
+Aug 28 15:24 : exception: No such song
+Aug 28 15:24 : exception: No such song
+Aug 28 15:24 : exception: No such song
+Aug 28 15:24 : exception: No such song
+Aug 28 15:24 : exception: No such song
+Aug 28 15:25 : player: played "you.mp3"
+Aug 28 15:29 : player: played "before the night end.mp3"
+Aug 28 15:31 : player: played "Don't Walk Alone.mp3"
+Aug 28 15:35 : player: played "moonglow.mp3"
+Aug 28 15:40 : player: played "take my hand.mp3"
+Aug 28 15:45 : player: played "The Last of the Mohicans.mp3"
+Aug 28 15:50 : player: played "victory.mp3"
+Aug 28 15:53 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Aug 28 15:55 : player: played "孤独的巡礼.mp3"
+Aug 28 15:59 : player: played "茜さす.mp3"
+Aug 28 15:59 : client: [3] closed
+Aug 28 16:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 28 16:03 : avahi: Service 'Music Player' successfully established.
+Aug 28 16:03 : client: [0] opened from local
+Aug 28 16:09 : player: played "never to late.mp3"
+Aug 28 16:11 : player: played "夜的钢琴曲.mp3"
+Aug 28 16:11 : client: [0] closed
+Aug 28 17:13 : client: [1] opened from local
+Aug 28 17:17 : player: played "人生何处不相逢.mp3"
+Aug 28 17:23 : player: played "蔡文姬.mp3"
+Aug 28 17:25 : player: played "孤独的巡礼.mp3"
+Aug 28 17:28 : player: played "浅醉一生.mp3"
+Aug 28 17:34 : player: played "一天到晚游泳的鱼.mp3"
+Aug 28 17:40 : player: played "back to the moon and back.mp3"
+Aug 28 17:44 : player: played "before the night end.mp3"
+Aug 28 17:45 : player: played "Don't Walk Alone.mp3"
+Aug 28 17:45 : client: [1] closed
+Aug 29 12:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 29 12:07 : avahi: Service 'Music Player' successfully established.
+Aug 29 12:07 : client: [0] opened from local
+Aug 29 12:11 : player: played "before the night end.mp3"
+Aug 29 12:13 : player: played "Don't Walk Alone.mp3"
+Aug 29 12:17 : player: played "moonglow.mp3"
+Aug 29 12:22 : player: played "take my hand.mp3"
+Aug 29 12:26 : player: played "The Last of the Mohicans.mp3"
+Aug 29 12:31 : player: played "victory.mp3"
+Aug 29 12:35 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Aug 29 12:37 : player: played "孤独的巡礼.mp3"
+Aug 29 12:42 : player: played "茜さす.mp3"
+Aug 29 12:48 : player: played "蔡文姬.mp3"
+Aug 29 12:54 : player: played "you.mp3"
+Aug 29 12:59 : player: played "never to late.mp3"
+Aug 29 13:04 : player: played "never too late.mp3"
+Aug 29 13:09 : player: played "it's not to say gool-bye.mp3"
+Aug 29 13:12 : player: played "numb.mp3"
+Aug 29 13:16 : player: played "through the arobr.mp3"
+Aug 29 13:20 : player: played "gates of dawn.mp3"
+Aug 29 13:25 : player: played "你不是真正的快乐.mp3"
+Aug 29 13:31 : player: played "rember.mp3"
+Aug 29 13:36 : player: played "back to the moon and back.mp3"
+Aug 29 13:42 : player: played "一天到晚游泳的鱼.mp3"
+Aug 29 13:46 : player: played "人生何处不相逢.mp3"
+Aug 29 13:48 : player: played "夜的钢琴曲.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Aug 29 13:57 : exception: Failed to open "My ALSA Device" [alsa]
+Aug 29 13:57 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Aug 29 13:57 : exception: Failed to open "My ALSA Device" [alsa]
+Aug 29 13:57 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Aug 29 13:57 : exception: Failed to open "My ALSA Device" [alsa]
+Aug 29 13:57 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Aug 29 13:57 : exception: Failed to open "My ALSA Device" [alsa]
+Aug 29 13:57 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Aug 29 14:01 : player: played "梦一场.mp3"
+Aug 29 14:05 : player: played "人生何处不相逢.mp3"
+Aug 29 14:11 : player: played "蔡文姬.mp3"
+Aug 29 14:13 : player: played "孤独的巡礼.mp3"
+Aug 29 14:16 : player: played "浅醉一生.mp3"
+Aug 29 14:22 : player: played "一天到晚游泳的鱼.mp3"
+Aug 29 14:22 : player: played "back to the moon and back.mp3"
+Aug 29 14:22 : client: [0] closed
+Aug 30 13:34 : client: [1] opened from local
+Aug 30 13:38 : player: played "before the night end.mp3"
+Aug 30 13:40 : player: played "Don't Walk Alone.mp3"
+Aug 30 13:44 : player: played "moonglow.mp3"
+Aug 30 13:49 : player: played "take my hand.mp3"
+Aug 30 13:53 : player: played "The Last of the Mohicans.mp3"
+Aug 30 13:59 : player: played "victory.mp3"
+Aug 30 14:02 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Aug 30 14:04 : player: played "孤独的巡礼.mp3"
+Aug 30 14:09 : player: played "茜さす.mp3"
+Aug 30 14:16 : player: played "蔡文姬.mp3"
+Aug 30 14:21 : player: played "you.mp3"
+Aug 30 14:26 : player: played "never to late.mp3"
+Aug 30 14:31 : player: played "never too late.mp3"
+Aug 30 14:35 : client: [1] closed
+Aug 31 12:35 : client: [2] opened from local
+Aug 31 12:39 : player: played "before the night end.mp3"
+Aug 31 12:41 : player: played "Don't Walk Alone.mp3"
+Aug 31 12:45 : player: played "moonglow.mp3"
+Aug 31 12:50 : player: played "take my hand.mp3"
+Aug 31 12:54 : player: played "The Last of the Mohicans.mp3"
+Aug 31 13:00 : player: played "victory.mp3"
+Aug 31 13:03 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Aug 31 13:05 : player: played "孤独的巡礼.mp3"
+Aug 31 13:11 : player: played "茜さす.mp3"
+Aug 31 13:17 : player: played "蔡文姬.mp3"
+Aug 31 13:22 : player: played "you.mp3"
+Aug 31 13:27 : player: played "never to late.mp3"
+Aug 31 13:33 : player: played "never too late.mp3"
+Aug 31 13:37 : player: played "it's not to say gool-bye.mp3"
+Aug 31 13:40 : player: played "numb.mp3"
+Aug 31 13:44 : player: played "through the arobr.mp3"
+Aug 31 13:48 : player: played "gates of dawn.mp3"
+Aug 31 13:53 : player: played "你不是真正的快乐.mp3"
+Aug 31 13:59 : player: played "rember.mp3"
+Aug 31 14:05 : player: played "back to the moon and back.mp3"
+Aug 31 14:11 : player: played "一天到晚游泳的鱼.mp3"
+Aug 31 14:14 : player: played "人生何处不相逢.mp3"
+Aug 31 14:17 : player: played "夜的钢琴曲.mp3"
+Aug 31 14:20 : player: played "梦一场.mp3"
+Aug 31 14:24 : player: played "张三的歌.mp3"
+Aug 31 14:28 : player: played "浅醉一生.mp3"
+Aug 31 15:36 : client: [2] closed
+Sep 03 12:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 03 12:14 : avahi: Service 'Music Player' successfully established.
+Sep 03 12:14 : client: [0] opened from local
+Sep 03 12:16 : player: played "before the night end.mp3"
+Sep 03 13:09 : client: [0] closed
+Sep 04 09:27 : client: [1] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 04 09:27 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 04 09:27 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 04 09:27 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 04 09:27 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 04 09:27 : player: problems opening audio device while playing "before the night end.mp3"
+Sep 04 09:28 : player: played "before the night end.mp3"
+Sep 04 09:28 : client: [1] closed
+Sep 04 12:11 : client: [2] opened from local
+Sep 04 12:15 : player: played "before the night end.mp3"
+Sep 04 12:18 : player: played "Don't Walk Alone.mp3"
+Sep 04 12:21 : player: played "moonglow.mp3"
+Sep 04 12:26 : player: played "take my hand.mp3"
+Sep 04 12:31 : player: played "The Last of the Mohicans.mp3"
+Sep 04 12:36 : player: played "victory.mp3"
+Sep 04 12:39 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Sep 04 12:41 : player: played "孤独的巡礼.mp3"
+Sep 04 12:47 : player: played "茜さす.mp3"
+Sep 04 12:53 : player: played "蔡文姬.mp3"
+Sep 04 12:59 : player: played "you.mp3"
+Sep 04 13:04 : player: played "never to late.mp3"
+Sep 04 13:09 : player: played "never too late.mp3"
+Sep 04 13:13 : player: played "it's not to say gool-bye.mp3"
+Sep 04 13:17 : player: played "numb.mp3"
+Sep 04 13:20 : player: played "through the arobr.mp3"
+Sep 04 13:25 : player: played "gates of dawn.mp3"
+Sep 04 13:30 : player: played "你不是真正的快乐.mp3"
+Sep 04 13:35 : player: played "rember.mp3"
+Sep 04 13:41 : player: played "back to the moon and back.mp3"
+Sep 04 13:47 : player: played "一天到晚游泳的鱼.mp3"
+Sep 04 13:51 : player: played "人生何处不相逢.mp3"
+Sep 04 13:53 : player: played "夜的钢琴曲.mp3"
+Sep 04 13:57 : player: played "梦一场.mp3"
+Sep 04 14:01 : player: played "张三的歌.mp3"
+Sep 04 14:04 : player: played "浅醉一生.mp3"
+Sep 04 14:12 : player: played "一天到晚游泳的鱼.mp3"
+Sep 04 14:17 : player: played "back to the moon and back.mp3"
+Sep 04 14:21 : player: played "before the night end.mp3"
+Sep 04 14:23 : player: played "Don't Walk Alone.mp3"
+Sep 04 14:25 : player: played "never too late.mp3"
+Sep 04 14:25 : client: [2] closed
+Sep 05 12:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 05 12:11 : avahi: Service 'Music Player' successfully established.
+Sep 05 12:11 : client: [0] opened from local
+Sep 05 12:13 : update: added /乌兰巴托的夜.mp3
+Sep 05 12:14 : exception: No such directory
+Sep 05 12:15 : player: played "before the night end.mp3"
+Sep 05 12:17 : player: played "Don't Walk Alone.mp3"
+Sep 05 12:21 : player: played "moonglow.mp3"
+Sep 05 12:26 : player: played "take my hand.mp3"
+Sep 05 12:30 : player: played "The Last of the Mohicans.mp3"
+Sep 05 12:36 : player: played "victory.mp3"
+Sep 05 12:39 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Sep 05 12:41 : player: played "孤独的巡礼.mp3"
+Sep 05 12:46 : player: played "茜さす.mp3"
+Sep 05 12:52 : player: played "蔡文姬.mp3"
+Sep 05 12:58 : player: played "you.mp3"
+Sep 05 13:03 : player: played "never to late.mp3"
+Sep 05 13:08 : player: played "never too late.mp3"
+Sep 05 13:13 : player: played "it's not to say gool-bye.mp3"
+Sep 05 13:16 : player: played "numb.mp3"
+Sep 05 13:20 : player: played "through the arobr.mp3"
+Sep 05 13:24 : player: played "gates of dawn.mp3"
+Sep 05 13:29 : player: played "你不是真正的快乐.mp3"
+Sep 05 13:35 : player: played "rember.mp3"
+Sep 05 13:41 : player: played "back to the moon and back.mp3"
+Sep 05 13:46 : player: played "一天到晚游泳的鱼.mp3"
+Sep 05 13:50 : player: played "人生何处不相逢.mp3"
+Sep 05 13:52 : player: played "夜的钢琴曲.mp3"
+Sep 05 13:56 : player: played "梦一场.mp3"
+Sep 05 14:00 : player: played "张三的歌.mp3"
+Sep 05 14:03 : player: played "浅醉一生.mp3"
+Sep 05 14:07 : player: played "before the night end.mp3"
+Sep 05 14:09 : player: played "Don't Walk Alone.mp3"
+Sep 05 14:13 : player: played "moonglow.mp3"
+Sep 05 14:18 : player: played "take my hand.mp3"
+Sep 05 14:24 : player: played "乌兰巴托的夜.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 05 14:24 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 05 14:24 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 05 14:24 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 05 14:24 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 05 14:24 : player: problems opening audio device while playing "浅醉一生.mp3"
+Sep 05 14:28 : player: played "浅醉一生.mp3"
+Sep 05 14:28 : client: [0] closed
+Sep 06 12:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 06 12:01 : avahi: Service 'Music Player' successfully established.
+Sep 06 12:01 : client: [0] opened from local
+Sep 06 12:05 : player: played "before the night end.mp3"
+Sep 06 12:07 : player: played "Don't Walk Alone.mp3"
+Sep 06 12:11 : player: played "moonglow.mp3"
+Sep 06 12:13 : player: played "take my hand.mp3"
+Sep 06 13:30 : client: [0] closed
+Sep 08 12:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 08 12:29 : avahi: Service 'Music Player' successfully established.
+Sep 08 12:30 : client: [0] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 08 12:31 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 08 12:31 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 08 12:31 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 08 12:31 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 08 12:31 : player: problems opening audio device while playing "Don't Walk Alone.mp3"
+Sep 08 12:32 : player: played "never too late.mp3"
+Sep 08 12:32 : client: [0] closed
+Sep 10 12:13 : client: [1] opened from local
+Sep 10 12:16 : player: played "take my hand.mp3"
+Sep 10 12:47 : player: played "victory.mp3"
+Sep 10 12:49 : player: played "孤独的巡礼.mp3"
+Sep 10 12:52 : player: played "浅醉一生.mp3"
+Sep 10 12:57 : player: played "茜さす.mp3"
+Sep 10 13:01 : player: played "张三的歌.mp3"
+Sep 10 13:07 : player: played "back to the moon and back.mp3"
+Sep 10 13:11 : player: played "before the night end.mp3"
+Sep 10 13:13 : player: played "Don't Walk Alone.mp3"
+Sep 10 13:18 : player: played "gates of dawn.mp3"
+Sep 10 13:22 : player: played "it's not to say gool-bye.mp3"
+Sep 10 13:27 : player: played "never to late.mp3"
+Sep 10 13:32 : player: played "never too late.mp3"
+Sep 10 13:35 : player: played "numb.mp3"
+Sep 10 13:41 : player: played "rember.mp3"
+Sep 10 13:46 : player: played "take my hand.mp3"
+Sep 10 13:50 : player: played "through the arobr.mp3"
+Sep 10 13:55 : player: played "victory.mp3"
+Sep 10 13:58 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Sep 10 14:04 : player: played "you.mp3"
+Sep 10 14:10 : player: played "back to the moon and back.mp3"
+Sep 10 14:14 : player: played "before the night end.mp3"
+Sep 10 14:18 : player: played "gates of dawn.mp3"
+Sep 10 14:23 : player: played "it's not to say gool-bye.mp3"
+Sep 10 14:28 : player: played "never to late.mp3"
+Sep 10 14:33 : player: played "never too late.mp3"
+Sep 10 14:33 : player: played "numb.mp3"
+Sep 10 14:33 : client: [1] closed
+Sep 11 12:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 11 12:27 : avahi: Service 'Music Player' successfully established.
+Sep 11 12:27 : client: [0] opened from local
+Sep 11 12:32 : player: played "never too late.mp3"
+Sep 11 12:35 : player: played "numb.mp3"
+Sep 11 12:41 : player: played "rember.mp3"
+Sep 11 12:45 : player: played "take my hand.mp3"
+Sep 11 12:49 : player: played "through the arobr.mp3"
+Sep 11 12:55 : player: played "victory.mp3"
+Sep 11 13:00 : player: played "you.mp3"
+Sep 11 13:06 : player: played "you.mp3"
+Sep 11 13:11 : player: played "never to late.mp3"
+Sep 11 13:17 : player: played "victory.mp3"
+Sep 11 13:21 : player: played "before the night end.mp3"
+Sep 11 13:26 : player: played "never to late.mp3"
+Sep 11 13:31 : player: played "victory.mp3"
+Sep 11 13:33 : player: played "you.mp3"
+Sep 11 13:33 : client: [0] closed
+Sep 12 12:10 : update: added /夜想曲-渡边雄一.mp3
+Sep 12 12:10 : client: [1] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 12 12:11 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 12 12:11 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 12 12:11 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 12 12:11 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 12 12:11 : player: problems opening audio device while playing "before the night end.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 12 12:11 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 12 12:11 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 12 12:11 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 12 12:11 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 12 12:17 : player: played "蔡文姬.mp3"
+Sep 12 12:19 : player: played "孤独的巡礼.mp3"
+Sep 12 12:22 : player: played "浅醉一生.mp3"
+Sep 12 12:28 : player: played "一天到晚游泳的鱼.mp3"
+Sep 12 12:34 : player: played "back to the moon and back.mp3"
+Sep 12 12:38 : player: played "before the night end.mp3"
+Sep 12 12:40 : player: played "Don't Walk Alone.mp3"
+Sep 12 12:45 : player: played "never too late.mp3"
+Sep 12 12:51 : player: played "rember.mp3"
+Sep 12 12:55 : player: played "take my hand.mp3"
+Sep 12 13:00 : player: played "The Last of the Mohicans.mp3"
+Sep 12 13:05 : player: played "victory.mp3"
+Sep 12 13:07 : player: played "孤独的巡礼.mp3"
+Sep 12 13:10 : player: played "浅醉一生.mp3"
+Sep 12 13:16 : player: played "茜さす.mp3"
+Sep 12 13:20 : player: played "张三的歌.mp3"
+Sep 12 13:26 : player: played "back to the moon and back.mp3"
+Sep 12 13:30 : player: played "before the night end.mp3"
+Sep 12 13:32 : player: played "Don't Walk Alone.mp3"
+Sep 12 13:36 : player: played "gates of dawn.mp3"
+Sep 12 13:41 : player: played "it's not to say gool-bye.mp3"
+Sep 12 13:46 : player: played "never to late.mp3"
+Sep 12 13:51 : player: played "never too late.mp3"
+Sep 12 13:54 : player: played "numb.mp3"
+Sep 12 14:00 : player: played "rember.mp3"
+Sep 12 14:04 : player: played "take my hand.mp3"
+Sep 12 14:08 : player: played "through the arobr.mp3"
+Sep 12 14:13 : player: played "victory.mp3"
+Sep 12 14:17 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Sep 12 14:23 : player: played "you.mp3"
+Sep 12 14:27 : player: played "back to the moon and back.mp3"
+Sep 12 14:27 : client: [1] closed
+Sep 13 12:08 : client: [2] opened from local
+Sep 13 12:13 : player: played "it's not to say gool-bye.mp3"
+Sep 13 12:18 : player: played "never to late.mp3"
+Sep 13 12:23 : player: played "never too late.mp3"
+Sep 13 12:26 : player: played "numb.mp3"
+Sep 13 12:32 : player: played "rember.mp3"
+Sep 13 12:37 : player: played "take my hand.mp3"
+Sep 13 12:40 : player: played "through the arobr.mp3"
+Sep 13 12:46 : player: played "victory.mp3"
+Sep 13 12:51 : player: played "you.mp3"
+Sep 13 12:57 : player: played "you.mp3"
+Sep 13 13:02 : player: played "never to late.mp3"
+Sep 13 13:08 : player: played "victory.mp3"
+Sep 13 13:12 : player: played "before the night end.mp3"
+Sep 13 13:17 : player: played "never to late.mp3"
+Sep 13 13:22 : player: played "victory.mp3"
+Sep 13 13:28 : player: played "you.mp3"
+Sep 13 13:34 : player: played "back to the moon and back.mp3"
+Sep 13 13:37 : player: played "before the night end.mp3"
+Sep 13 13:42 : player: played "gates of dawn.mp3"
+Sep 13 13:43 : player: played "it's not to say gool-bye.mp3"
+Sep 13 13:44 : client: [2] closed
+Sep 14 12:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 14 12:14 : avahi: Service 'Music Player' successfully established.
+Sep 14 12:14 : client: [0] opened from local
+Sep 14 12:19 : player: played "乌兰巴托的夜.mp3"
+Sep 14 12:23 : player: played "before the night end.mp3"
+Sep 14 12:25 : player: played "Don't Walk Alone.mp3"
+Sep 14 12:29 : player: played "moonglow.mp3"
+Sep 14 12:34 : player: played "take my hand.mp3"
+Sep 14 12:39 : player: played "The Last of the Mohicans.mp3"
+Sep 14 12:44 : player: played "victory.mp3"
+Sep 14 12:47 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Sep 14 12:49 : player: played "孤独的巡礼.mp3"
+Sep 14 12:55 : player: played "茜さす.mp3"
+Sep 14 13:01 : player: played "蔡文姬.mp3"
+Sep 14 13:07 : player: played "you.mp3"
+Sep 14 13:12 : player: played "never to late.mp3"
+Sep 14 13:17 : player: played "never too late.mp3"
+Sep 14 13:21 : player: played "it's not to say gool-bye.mp3"
+Sep 14 13:24 : player: played "numb.mp3"
+Sep 14 13:28 : player: played "through the arobr.mp3"
+Sep 14 13:33 : player: played "gates of dawn.mp3"
+Sep 14 13:38 : player: played "你不是真正的快乐.mp3"
+Sep 14 13:43 : player: played "rember.mp3"
+Sep 14 13:49 : player: played "back to the moon and back.mp3"
+Sep 14 13:51 : player: played "一天到晚游泳的鱼.mp3"
+Sep 14 13:51 : client: [0] closed
+Sep 19 12:23 : client: [1] opened from local
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 19 12:23 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 19 12:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 19 12:23 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 19 12:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 19 12:23 : player: problems opening audio device while playing "夜想曲-渡边雄一.mp3"
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 19 12:23 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 19 12:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 19 12:23 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 19 12:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Sep 19 12:23 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 19 12:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 19 12:23 : exception: Failed to open "My ALSA Device" [alsa]
+Sep 19 12:23 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Sep 19 12:24 : player: played "夜想曲-渡边雄一.mp3"
+Sep 19 12:27 : player: played "夜想曲-渡边雄一.mp3"
+Sep 19 12:27 : client: [1] closed

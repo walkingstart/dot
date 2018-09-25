@@ -5,19 +5,20 @@ set $psst --no-startup-id
 font pango:mono 9
 
 # (No) Title Bars
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 2
+
 
 # Gaps
-gaps inner 10
-gaps outer 0
+gaps inner 15
+gaps outer 15
 smart_gaps on
 
 # Colors
-set $black #010101
-set $gray #585756
-set $accent #c6ff00
-set $urgent #DF6418
-set $bla    #282828
+#set $black #010101
+#set $gray #585756
+#set $accent #c6ff00
+#set $urgent #DF6418
+#set $bla    #282828
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -64,7 +65,7 @@ bindsym $mod+c exec --no-startup-id firefox
 bindsym $mod+Return exec --no-startup-id termite
 
 # Lock screen
-bindsym $mod+Escape exec --no-startup-id sh ~/.i3/i3lock.sh
+#bindsym $mod+Escape exec --no-startup-id sh ~/.i3/i3lock.sh
 
 # Kill focused window
 bindsym $mod+Shift+q kill
@@ -131,6 +132,7 @@ bindsym $mod+shift+t focus mode_toggle
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+focus_follows_mouse no
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -180,13 +182,14 @@ set $ws10 10:
 
 assign [class="(?i)firefox"] workspace $ws5
 assign [class="(?i)chromium"] workspace $ws5
+assign [class="(?i)palemoon"] workspace $ws5
 #exec --no-startup-id spotify
 # exec --no-startup-id steam-native
 for_window [class="(?i)mplayer"] move container to workspace $ws10
 #for_window [class="(?i)qtox"] move container to workspace 
 #for_window [class="(?i)QQ"] move container to workspace 
 for_window [class="(?i)libreoffice"] move container to workspace $ws9
-for_window [class="(?i)wps"] move container to workspace $ws9
+for_window [class="(?i)WPS"] move container to workspace $ws9
 
 exec --no-startup-id i3-msg 
 
@@ -220,42 +223,35 @@ bindsym $mod+r mode "resize"
 ################################################################################
 # COLOURS
 ################################################################################
-client.focused #a3be8c $a3be8c #a3be8c #a3be8c #a3be8c
-## Colors from Xresources
-#set_from_resource $bg  i3wm.color0  #f0f0f0
-#set_from_resource $fg  i3wm.color15 #f0f0f0
-#set_from_resource $bg2 i3wm.color4  #f0f0f0
-#set_from_resource $fg2 i3wm.color7  #f0f0f0
-#set_from_resource $bg3 i3wm.color3  #f0f0f0
-#set_from_resource $bg4 i3wm.color1  #f0f0f0
-#
-## class                 border  backgr. text indicator child_border
-#client.focused          $bg      $bla    $fg  $bg   $bg
-#client.focused_inactive $bg      $bla    $fg  $bg   $bg
-#client.unfocused        $bg      $bla    $fg  $bg   $bg
-#client.urgent           $bg      $bg    $fg  $bg   $bg
-#client.placeholder      $bg      $bg    $fg  $bg   $bg
-##client.background $bg
-#client.background $bla
-#
-#set $bg-colour              #2f343f
-#set $inactive-bg-colour     #2f343f
-#set $text-colour            #f3f4f5
-#set $inactive-text-colour   #676e7d
-#set $urgent-bg-colour       #e53935
-#
-## Window Colours            Border                  Background                  Text                    Indicator
-#client.focused              $bg-colour              $bg-colour                  $text-colour            #00ff00
-#client.focused_inactive     $inactive-bg-colour     $inactive-bg-colour         $inactive-text-colour   #00ff00
-#client.unfocused            $inactive-bg-colour     $inactive-bg-colour         $inactive-text-colour   #00ff00
-#client.urgent               $urgent-bg-colour       $urgent-bg-colour           $text-colour            #00ff00
+# Set Xresources colors:
+ set_from_resource $darkblack  color0  #000000
+ set_from_resource $black  color8  #000000
+ set_from_resource $darkred    color1  #000000
+ set_from_resource $red        color9  #000000
+ set_from_resource $darkgreen  color2  #000000
+ set_from_resource $green  color10 #000000
+ set_from_resource $darkyellow color3  #000000
+ set_from_resource $yellow color11 #000000
+ set_from_resource $darkblue   color4  #000000
+ set_from_resource $blue       color12 #000000
+ set_from_resource $darkmagenta    color5  #000000
+ set_from_resource $magenta    color13 #000000
+ set_from_resource $darkcyan   color6  #000000
+ set_from_resource $cyan       color14 #000000
+ set_from_resource $darkwhite  color7  #000000
+ set_from_resource $white  color15 #000000
+ set $transparent      #00000000
 
+ #                       BORDER        BACKGROUND  TEXT        INDICATOR   CHILD_BORDER
+ client.focused        $red        $red        $magenta    $darkmagenta        $darkblue
+ client.unfocused  $transparent    $blue       $white      $darkblue       $darkblack
+ client.focused_inactive   $transparent    $blue       $white      $darkblue       $darkblack
+ client.urgent     $darkred    $darkred    $black      $darkred        $darkred
+ client.background $black
+#client.focused #a3be8c $a3be8c #a3be8c #a3be8c #a3be8c
 ##################
 #bar
 ###################
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-#exec_always pkill -9 polybar ; polybar top
-#exec_always --no-startup-id ~/.i3/polybar.sh 
 bar {
   	font pango:Source Sans Pro-10 11
     height 25
@@ -266,15 +262,26 @@ bar {
    # status_command i3status -c ~/.i3/istatus.conf
     position top 
     colors {
-              #  background #09090990
-              #   background #0B1013
-              background #09203f
-              # focused_workspace #09090990 #09090990 #FFFFFB
-               focused_workspace  #09203f #09203f #FFFFFB
-
-              # focused_workspace #09090990 #09090990 #b37eba
-              inactive_workspace #09203f #09203f #807282
-    }
+             background #09203f
+             statusline $darkwhite
+             separator $cyan
+            # focused_workspace  $blue $darkblue $darkblack
+             focused_workspace  #09203f #09203f #FFFFFB
+            active_workspace   $blue $blue $darkwhite
+            inactive_workspace #09203f #09203f #807282
+            # inactive_workspace $darkblack $darkblack $white
+             urgent_workspace   $darkblack $darkblack $white
+             }
+#    colors {
+#              #  background #09090990
+#              #   background #0B1013
+#              background #09203f
+#              # focused_workspace #09090990 #09090990 #FFFFFB
+#               focused_workspace  #09203f #09203f #FFFFFB
+#
+#              # focused_workspace #09090990 #09090990 #b37eba
+#              inactive_workspace #09203f #09203f #807282
+#    }
 #  colors {
 #    separator #268bd2
 #   # separator $transparent
@@ -301,28 +308,6 @@ bar {
 #   # urgent_workspace #d33682 #d33682 #fdf6e3
 #  }
 }
-################################################################################
-# TASKBAR
-################################################################################
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-# bar {
-# 	    font pango: System San Francisco Display, FontAwesome 11
-#         #position top
-#         #strip_workspace_numbers yes
-#         colors {
-#               separator  $inactive-text-colour
-#               background $bg-colour
-#               statusline $text-colour
-#               #                     Border                  Background                  Text
-#               focused_workspace     $bg-colour              $bg-colour                  $text-colour
-#               active_workspace      #0000ff                 #ff0000                     #00ff00
-#               inactive_workspace    $inactive-bg-colour     $inactive-bg-colour         $inactive-text-colour
-#               urgent_workspace      $urgent-bg-colour       $urgent-bg-colour           $text-colour
-#     }
-# }
-
 
 ################################################################################
 # KDE PLASMA INTEGRATION
@@ -335,17 +320,18 @@ bar {
 ## Avoid tiling popups, dropdown windows from plasma
 # for the first time, manually resize them, i3 will remember the setting for floating windows
 # for_window [class="plasmashell"] floating enable;
-# for_window [class="Plasma"] floating enable; border none
-# for_window [title="plasma-desktop"] floating enable; border none
+#  for_window [class="Chromium"] floating enable; border none
+#  for_window [class="Firefox"] floating enable; border none
+#  for_window [title="gimp"] floating enable; border none
 # for_window [title="win7"] floating enable; border none
 # for_window [class="krunner"] floating enable; border none
 # for_window [class="Kmix"] floating enable; border none
 # for_window [class="Klipper"] floating enable; border none
 # for_window [class="Plasmoidviewer"] floating enable; border none
-for_window [class="(?i)pavucontrol"] floating enable
-for_window [class="(?i)pavucontrol"] resize set 800 600 
-for_window [class="(?i)blueberry.py"] floating enable
-for_window [class="(?i)blueberry.py"] resize set 800 600
+for_window [class="(?i)Pcmanfm"] floating enable
+for_window [class="(?i)Pcmanfm"] resize set 800 600 
+for_window [class="(?i)anki"] floating enable
+for_window [class="(?i)anki"] resize set 800 600
 for_window [class="(?i)xfce4-taskmanager"] floating enable
 for_window [class="(?i)xfce4-taskmanager"] resize set 1000 800
 for_window [class="(?i)xfrun"] floating enable
@@ -358,10 +344,10 @@ for_window [title="Terminator Preferences"] floating enable
 
 # Compton
 #exec_always pkill -9 compton ; compton -cCFb --config ~/.compton.conf 
-exec --no-startup-id feh --bg-fill ~/picture/wa1.jpg
+exec --no-startup-id feh --bg-fill ~/picture/john.jpg
 exec --no-startup-id fcitx&
 exec --no-startup-id dunst&
-exec --no-startup-id volumeicon&
+#exec --no-startup-id volumeicon&
 exec --no-startup-id compton -b # --config ~/.config/compton.conf
 exec --no-startup-id termite -e tmux 
 
