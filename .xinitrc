@@ -15,6 +15,7 @@ xset -dpms  &
 setterm -blank 0 &
 xblacklight -set 10 &
 export LC_CTYPE="zh_CN.UTF-8"
+urxvtd -q -o -f
 # volumeicon &
 # fcitx &
 #exec awesome

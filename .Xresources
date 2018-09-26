@@ -37,7 +37,7 @@ URxvt.scrollBar:	false
 URxvt.cursorColor:	white
 
 !! Extensions
-URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select,clipboard
 URxvt.colorUL:		#4682B4
 !! url-select
 URxvt.keysym.M-u:	perl:url-select:select_next
@@ -51,7 +51,9 @@ URxvt.resize-font.bigger:	C-Up
 !! Matcher
 URxvt.url-launcher:	linkhandler
 URxvt.matcher.button:	1
-
+!!clipboard
+URxvt.deysym.M-c: perl:clipboard:copy
+URxvt.deysym.M-v: perl:keyboard:paste
 
 
 
