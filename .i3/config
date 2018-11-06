@@ -360,7 +360,7 @@ for_window [instance="dropdown"] border pixel 3
 
 # Compton
 #exec_always pkill -9 compton ; compton -cCFb --config ~/.compton.conf 
-exec --no-startup-id feh --bg-fill ~/picture/arch10.jpg
+exec --no-startup-id feh --bg-fill ~/picture/p10.jpeg
 exec --no-startup-id fcitx&
 exec --no-startup-id dunst&
 #exec --no-startup-id volumeicon&

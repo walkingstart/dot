@@ -2643,3 +2643,120 @@ Sep 25 12:13 : player: played "夜想曲-渡边雄一.mp3"
 Sep 25 12:14 : client: [0] closed
 Sep 25 15:04 : avahi: Client Disconnected, will reconnect shortly
 Sep 25 15:04 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Sep 26 12:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 12:12 : avahi: Service 'Music Player' successfully established.
+Sep 26 12:12 : client: [0] opened from local
+Sep 26 12:13 : player: played "never too late.mp3"
+Sep 26 13:35 : client: [0] closed
+Sep 27 11:25 : update: added /Saturn - Sleeping at Last.mp3
+Sep 28 12:14 : client: [1] opened from local
+Sep 28 12:19 : player: played "gates of dawn.mp3"
+Sep 28 12:24 : player: played "你不是真正的快乐.mp3"
+Sep 28 12:29 : player: played "rember.mp3"
+Sep 28 12:35 : player: played "back to the moon and back.mp3"
+Sep 28 12:40 : player: played "一天到晚游泳的鱼.mp3"
+Sep 28 12:44 : player: played "人生何处不相逢.mp3"
+Sep 28 12:46 : player: played "夜的钢琴曲.mp3"
+Sep 28 12:50 : player: played "梦一场.mp3"
+Sep 28 12:54 : player: played "张三的歌.mp3"
+Sep 28 12:57 : player: played "浅醉一生.mp3"
+Sep 28 13:02 : player: played "乌兰巴托的夜.mp3"
+Sep 28 13:06 : player: played "夜想曲-渡边雄一.mp3"
+Sep 28 13:12 : player: played "before the night end.mp3"
+Sep 28 13:14 : player: played "Don't Walk Alone.mp3"
+Sep 28 13:18 : player: played "moonglow.mp3"
+Sep 28 13:23 : player: played "take my hand.mp3"
+Sep 28 13:27 : player: played "The Last of the Mohicans.mp3"
+Sep 28 13:32 : player: played "victory.mp3"
+Sep 28 13:36 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Sep 28 13:38 : player: played "孤独的巡礼.mp3"
+Sep 28 13:43 : player: played "茜さす.mp3"
+Sep 28 13:49 : player: played "蔡文姬.mp3"
+Sep 28 13:55 : player: played "you.mp3"
+Sep 28 14:00 : player: played "never to late.mp3"
+Sep 28 14:05 : player: played "never too late.mp3"
+Sep 28 14:09 : player: played "it's not to say gool-bye.mp3"
+Sep 28 14:12 : player: played "numb.mp3"
+Sep 28 14:16 : player: played "through the arobr.mp3"
+Sep 28 14:20 : player: played "gates of dawn.mp3"
+Sep 28 14:25 : player: played "你不是真正的快乐.mp3"
+Sep 28 14:31 : player: played "rember.mp3"
+Sep 28 14:36 : player: played "back to the moon and back.mp3"
+Sep 28 14:40 : player: played "一天到晚游泳的鱼.mp3"
+Sep 28 14:40 : client: [1] closed
+Oct 11 12:12 : client: [2] opened from local
+Oct 11 12:14 : player: played "夜的钢琴曲.mp3"
+Oct 11 12:17 : player: played "梦一场.mp3"
+Oct 11 12:21 : player: played "张三的歌.mp3"
+Oct 11 12:24 : player: played "浅醉一生.mp3"
+Oct 11 12:29 : player: played "乌兰巴托的夜.mp3"
+Oct 11 12:33 : player: played "夜想曲-渡边雄一.mp3"
+Oct 11 12:34 : client: [2] closed
+Oct 17 12:12 : client: [3] opened from local
+Oct 17 12:18 : player: played "茜さす.mp3"
+Oct 17 12:20 : player: played "it's not to say gool-bye.mp3"
+Oct 17 12:55 : client: [3] closed
+Oct 17 13:57 : update: added /saturn.mp3
+Oct 20 13:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 20 13:22 : avahi: Service 'Music Player' successfully established.
+Oct 20 13:22 : client: [0] opened from local
+Oct 20 13:28 : player: played "saturn.mp3"
+Oct 20 13:33 : player: played "before the night end.mp3"
+Oct 20 13:35 : player: played "Don't Walk Alone.mp3"
+Oct 20 13:38 : player: played "moonglow.mp3"
+Oct 20 13:43 : player: played "take my hand.mp3"
+Oct 20 13:47 : player: played "The Last of the Mohicans.mp3"
+Oct 20 13:53 : player: played "victory.mp3"
+Oct 20 13:56 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Oct 20 13:58 : player: played "孤独的巡礼.mp3"
+Oct 20 14:03 : player: played "茜さす.mp3"
+Oct 20 14:09 : player: played "蔡文姬.mp3"
+Oct 20 14:15 : player: played "you.mp3"
+Oct 20 14:20 : player: played "never to late.mp3"
+Oct 20 14:25 : player: played "never too late.mp3"
+Oct 20 14:29 : player: played "it's not to say gool-bye.mp3"
+Oct 20 14:32 : player: played "numb.mp3"
+Oct 20 14:36 : player: played "through the arobr.mp3"
+Oct 20 14:40 : player: played "gates of dawn.mp3"
+Oct 20 14:45 : player: played "你不是真正的快乐.mp3"
+Oct 20 14:51 : player: played "rember.mp3"
+Oct 20 14:57 : player: played "back to the moon and back.mp3"
+Oct 20 15:02 : player: played "一天到晚游泳的鱼.mp3"
+Oct 20 15:06 : player: played "人生何处不相逢.mp3"
+Oct 20 15:08 : player: played "夜的钢琴曲.mp3"
+Oct 20 15:12 : player: played "梦一场.mp3"
+Oct 20 15:16 : player: played "张三的歌.mp3"
+Oct 20 15:19 : player: played "浅醉一生.mp3"
+Oct 20 15:24 : player: played "乌兰巴托的夜.mp3"
+Oct 20 15:28 : player: played "夜想曲-渡边雄一.mp3"
+Oct 22 08:06 : client: [0] closed
+Oct 23 12:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 23 12:20 : avahi: Service 'Music Player' successfully established.
+Oct 23 12:20 : client: [0] opened from local
+Oct 23 12:24 : player: played "before the night end.mp3"
+Oct 23 12:26 : client: [0] closed
+Oct 23 12:26 : player: played "Don't Walk Alone.mp3"
+Oct 23 12:30 : player: played "moonglow.mp3"
+Oct 23 12:35 : player: played "take my hand.mp3"
+Oct 23 12:39 : player: played "The Last of the Mohicans.mp3"
+Oct 23 12:44 : player: played "victory.mp3"
+Oct 23 12:47 : player: played "x-ray dog - Hope Always Extended Version by M4 United.mp3"
+Oct 23 12:49 : player: played "孤独的巡礼.mp3"
+Oct 23 12:55 : player: played "茜さす.mp3"
+Oct 23 13:01 : player: played "蔡文姬.mp3"
+Oct 23 13:06 : player: played "you.mp3"
+Oct 23 13:11 : player: played "never to late.mp3"
+Oct 23 13:16 : player: played "never too late.mp3"
+Oct 23 13:21 : player: played "it's not to say gool-bye.mp3"
+Oct 23 13:24 : player: played "numb.mp3"
+Oct 23 13:28 : player: played "through the arobr.mp3"
+Oct 23 13:32 : player: played "gates of dawn.mp3"
+Oct 23 13:37 : player: played "你不是真正的快乐.mp3"
+Oct 23 13:42 : player: played "rember.mp3"
+Oct 23 13:48 : player: played "back to the moon and back.mp3"
+Oct 23 13:54 : player: played "一天到晚游泳的鱼.mp3"
+Oct 23 13:57 : player: played "人生何处不相逢.mp3"
+Oct 23 14:00 : player: played "夜的钢琴曲.mp3"
+Oct 23 14:01 : client: [1] opened from local
+Oct 23 14:01 : player: played "梦一场.mp3"
+Oct 23 14:01 : client: [1] closed

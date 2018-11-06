@@ -87,6 +87,8 @@ set ruler
 " Height of the command bar
 set cmdheight=2
 
+set number
+set relativenumber
 " A buffer becomes hidden when it is abandoned
 set hid
 

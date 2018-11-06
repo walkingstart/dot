@@ -1,0 +1,60 @@
+# Unix {{{
+      http://blog.sanctum.geek.nz/feed/ "Unix"
+        https://michaelheap.com/category/unix-toolbox/feed/ "Unix"
+# }}}
+# URLs
+        https://news.ycombinator.com/rss tech "!Hacker News"
+        http://n-gate.com/hackernews/index.rss tech "!Webshit Weekly"
+        http://lifehacker.com/rss tech "!Lifehacker"
+        https://hackaday.com/blog/feed/ tech "!Hackaday"
+        http://www.anandtech.com/rss/ tech "!Anandtech"
+        http://feeds.arstechnica.com/arstechnica/index tech "!Ars Technica"
+        http://feeds.feedburner.com/FreeBSDNewscom tech freebsd "!FreeBSDnews.com"
+        http://feeds.feedburner.com/realclearpolitics/qlMj politics "!Real Clear Politics"
+        https://blog.shiftyjelly.com/feed/ tech apps podcast "!Podcasts"
+        https://www.freebsd.org/news/rss.xml tech freebsd "!FreeBSD.org"
+        https://blog.pfsense.org/?cat=57&feed=rss2 tech freebsd "!PFSense.org"
+        http://feeds.feedburner.com/FreebsdFoundation tech freebsd "!FreeBSD Foundation"
+        https://www.trueos.org/feed/ tech freebsd "!TrueOS.org"
+        https://discoverbsd.com/feeds/posts/default tech freebsd "!DiscoverBSD"
+        https://aws.amazon.com/new/feed/ tech aws "!AWS"
+        https://cloudblog.withgoogle.com/rss/ tech gcp "!GCP"
+        https://www.hashicorp.com/feed.xml tech hashicorp "!Hashicorp"
+        http://xkcd.com/rss.xml comics "!xkcd"
+        http://feed.dilbert.com/dilbert/daily_strip comics "!Dilbert"
+        http://www.phdcomics.com/gradfeed.php comics "!PHD"
+        http://feeds.feedburner.com/GeekAndPoke comics "!Geek&Poke"
+        http://www.commitstrip.com/en/feed/ comics "!CommitStrip"
+        https://www.monkeyuser.com/feed.xml comics "!MonkeyUser"
+        http://m.angels.mlb.com/partnerxml/gen/news/rss/ana.xml sports baseball "!Angels Baseball"
+        http://m.padres.mlb.com/partnerxml/gen/news/rss/sd.xml sports baseball "!Padres Baseball"
+https://www.romanzolotarev.com/rss.xml
+
+http://bitcannon.net/index.xml
+http://blather.michaelwlucas.com/feed http://blog.tintagel.pl/feed.xml
+http://bsdly.blogspot.com/feeds/posts/default
+http://matt.might.net/articles/feed.rss http://n-gate.com/index.rss
+http://rss.slashdot.org/Slashdot/slashdotBsd http://sivers.org/en.atom
+http://steve-yegge.blogspot.com/feeds/posts/default?alt=rss
+http://theorangeduck.com/feeds/pages http://undeadly.org/cgi?action=rss
+http://tmp.marmaro.de/www.ioexception.de/feed/index.html
+http://tonsky.me/blog/atom.xml
+http://vincentdelft.be/rss http://www.daemonology.net/blog/index.rss
+http://www.feyrer.de/NetBSD/bx/blosxom.cgi/index.rss
+http://www.joelonsoftware.com/rss.xml
+http://www.magicreadalong.com/episode?format=rss
+http://www.tedunangst.com/flak/rss
+http://www.wezm.net/feed/
+https://dataswamp.org/~solene/rss.xml
+https://feeds.feedburner.com/WaitingForTheJobsToFinish
+https://feeds.feedburner.com/codinghorror/
+https://feeds.feedburner.com/planet-openbsd
+https://kristaps.bsd.lv/sblg/atom.xml http://akpoff.com/rss.xml
+https://l33tsource.com/atom.xml https://reykfloeter.com/atom.xml
+https://solar.lowtechmagazine.com/feeds/all.rss.xml
+https://threema.ch/en/blog/feeds/rss https://wildauer.io/atom.xml
+https://utcc.utoronto.ca/~cks/space/blog/?atom
+https://www.bsdhowto.ch/feed.atom
+https://www.cyberciti.biz/atom/atom.xml
+https://www.geeklan.co.uk/?feed=rss2 https://www.reykfloeter.com/atom.xml
+
