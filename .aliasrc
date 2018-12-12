@@ -264,6 +264,7 @@ rld-zshrc() { source ~/.zshrc ;}
 #------------------------------------------------------
 # DESC: alias for mainly for existing commands
 
+alias weather='curl http://wttr.in/Yancheng'
 alias bc='bc -q -l'					# dont show opening msg, use math library
 alias cal='cal -3'					# show 3 months
 alias cp='cp -aiv'					# cp prompt confirmation
