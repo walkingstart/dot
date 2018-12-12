@@ -100,7 +100,7 @@
       usermod –a –G video,audio,lp,log,wheel,optical,scanner,games,users,storage,power 新用户
 
 17、 一些必备的软件 
-     firefox firefox-i18n-zh-cn flashplugin pcmanfm  gpicview wqy-microhei ttf-arphic-ukai ttf-arphic-uming file-roller unrar zip unzip p8zip  feh lxappearance  ntfs-3g fcitx termite ttf-hack  arc-gtk-theme 
+     firefox firefox-i18n-zh-cn flashplugin pcmanfm  gpicview wqy-microhei ttf-arphic-ukai ttf-arphic-uming file-roller unrar zip unzip p8zip  feh lxappearance  ntfs-3g fcitx termite ttf-hack  arc-gtk-theme  ttf-inconsolata
 
 18、  ttf-font-awesome ttf-font-icons (i3-gaps 状态栏显示图标）
       yaourt:/etc/pacman.d/ 
